@@ -3,4 +3,4 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(leetcode Fibonacci.cpp DivisorGame_1025.cpp Longest_Palindromic_Substring_5.cpp Longest_Valid_Parentheses_32.cpp test.cpp Wildcard_Matching_44.cpp)
+add_executable(leetcode Fibonacci.cpp 1025_DivisorGame.cpp 5_Longest_Palindromic_Substring.cpp 32_Longest_Valid_Parentheses.cpp test.cpp 44_Wildcard_Matching.cpp 53_Maximum_Subarray.cpp 62_Unique_Paths.cpp)

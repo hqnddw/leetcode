@@ -59,8 +59,8 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    bool b = s.isMatch("aa", "a");
-    cout << b << endl;
-}
+//int main() {
+//    Solution s;
+//    bool b = s.isMatch("aa", "a");
+//    cout << b << endl;
+//}
