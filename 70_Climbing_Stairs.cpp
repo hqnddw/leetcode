@@ -24,7 +24,7 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    cout << s.climbStairs(4) << endl;
-}
+//int main() {
+//    Solution s;
+//    cout << s.climbStairs(4) << endl;
+//}
