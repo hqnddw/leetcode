@@ -3,4 +3,4 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(leetcode Fibonacci.cpp 1025_DivisorGame.cpp accepted/5_Longest_Palindromic_Substring.cpp accepted/32_Longest_Valid_Parentheses.cpp test.cpp accepted/44_Wildcard_Matching.cpp accepted/53_Maximum_Subarray.cpp accepted/62_Unique_Paths.cpp accepted/63_Unique_Paths_II.cpp accepted/70_Climbing_Stairs.cpp accepted/64_Minimum_Path_Sum.cpp "accepted/72_Edit_Distance.cpp" accepted/61_Rotate_List.cpp accepted/83_Remove_Duplicates_from_Sorted_List.cpp 206_Reverse_Linked_List.cpp 622_Design_Circular_Queue.cpp 200_Number_of_Islands.cpp 752_Open_the_Lock.cpp)
+add_executable(leetcode Fibonacci.cpp 1025_DivisorGame.cpp 5_Longest_Palindromic_Substring.cpp 32_Longest_Valid_Parentheses.cpp test.cpp 44_Wildcard_Matching.cpp 53_Maximum_Subarray.cpp 62_Unique_Paths.cpp 63_Unique_Paths_II.cpp 70_Climbing_Stairs.cpp 64_Minimum_Path_Sum.cpp "72_Edit_Distance.cpp" 61_Rotate_List.cpp 83_Remove_Duplicates_from_Sorted_List.cpp 206_Reverse_Linked_List.cpp 622_Design_Circular_Queue.cpp 200_Number_of_Islands.cpp 752_Open_the_Lock.cpp 279_Perfect_Squares.cpp)
