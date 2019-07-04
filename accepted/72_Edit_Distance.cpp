@@ -31,7 +31,7 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    cout << s.minDistance("intention", "execution") << endl;
-}
+//int main() {
+//    Solution s;
+//    cout << s.minDistance("intention", "execution") << endl;
+//}

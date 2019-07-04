@@ -4,12 +4,12 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
+//using namespace std;
+//
 //int main() {
-//    string s = "sfdfddf";
-//    const char *p = s.c_str();
+//    string s = "0000";
 //    for (int i = 0; i < s.length(); ++i) {
-//        cout << (p[i] == 's') << endl;
+//        s[i] += 1;
 //    }
+//    cout << s << endl;
 //}
