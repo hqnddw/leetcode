@@ -47,7 +47,7 @@ public:
 //};
 
 
-int main() {
-    Solution s;
-    cout << s.numSquares(7) << endl;
-}
+//int main() {
+//    Solution s;
+//    cout << s.numSquares(7) << endl;
+//}
