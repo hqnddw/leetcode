@@ -8,17 +8,80 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+//迭代
+class Solution1 {
 public:
     ListNode *reverseList(ListNode *head) {
-        ListNode *prev = nullptr;
+        ListNode *pred = nullptr;
+        ListNode *cur = head;
+        while (cur) {
+            ListNode *temp_next = cur->next;
+            cur->next = pred;
+            pred = cur;
+            cur = temp_next;
+        }
+        return pred;
+    }
+};
+
+//递归
+class Solution2 {
+public:
+    ListNode *reverseList(ListNode *head) {
+        if (!head || !head->next)
+            return head;
+        ListNode *res = reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return res;
+    }
+};
+
+//第二次
+class Solution3 {
+public:
+    ListNode *reverseList(ListNode *head) {
+        ListNode *pre = nullptr;
         ListNode *cur = head;
         while (cur) {
             ListNode *temp = cur->next;
-            cur->next = prev;
-            prev = cur;
+            cur->next = pre;
+            pre = cur;
             cur = temp;
         }
-        return prev;
+        return pre;
+    }
+};
+
+//第二次
+class Solution4 {
+public:
+    ListNode *reverseList(ListNode *head) {
+        if (!head)
+            return nullptr;
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        ListNode *cur = pre->next;
+        while (cur->next) {
+            ListNode *temp = pre->next;
+            pre->next = cur->next;
+            cur->next = cur->next->next;
+            pre->next->next = temp;
+        }
+        return dummy.next;
+    }
+};
+
+//第二次
+class Solution {
+public:
+    ListNode *reverseList(ListNode *head) {
+        if (!head || !head->next)
+            return head;
+        ListNode *res = reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return res;
     }
 };
