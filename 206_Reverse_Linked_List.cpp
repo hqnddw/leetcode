@@ -74,7 +74,7 @@ public:
 };
 
 //第二次
-class Solution {
+class Solution5 {
 public:
     ListNode *reverseList(ListNode *head) {
         if (!head || !head->next)
@@ -83,5 +83,24 @@ public:
         head->next->next = head;
         head->next = nullptr;
         return res;
+    }
+};
+
+
+//第三次
+class Solution {
+public:
+    ListNode *reverseList(ListNode *head) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        ListNode *cur = head;
+        while (cur && cur->next) {
+            ListNode *temp = pre->next;
+            pre->next = cur->next;
+            cur->next = cur->next->next;
+            pre->next->next = temp;
+        }
+        return dummy.next;
     }
 };
