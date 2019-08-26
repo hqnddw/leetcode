@@ -8,7 +8,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     ListNode *reverseBetween(ListNode *head, int m, int n) {
         ListNode dummy(-1);
@@ -25,5 +25,14 @@ public:
             prev->next->next = temp;
         }
         return dummy.next;
+    }
+};
+
+
+//第二次
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int m, int n) {
+
     }
 };
