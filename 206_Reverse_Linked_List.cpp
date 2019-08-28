@@ -88,7 +88,7 @@ public:
 
 
 //第三次
-class Solution {
+class Solution6 {
 public:
     ListNode *reverseList(ListNode *head) {
         ListNode dummy(-1);
@@ -102,5 +102,18 @@ public:
             pre->next->next = temp;
         }
         return dummy.next;
+    }
+};
+
+
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        if (!head || !head->next)
+            return head;
+        ListNode *res = reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return res;
     }
 };

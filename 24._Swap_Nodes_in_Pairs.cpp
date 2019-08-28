@@ -23,3 +23,34 @@ public:
         return temp;
     }
 };
+
+
+class Solution2 {
+public:
+    ListNode *swapPairs(ListNode *head) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        ListNode *cur = head;
+        while (cur && cur->next) {
+            ListNode *temp = pre->next;
+            pre->next = cur->next;
+            cur->next = cur->next->next;
+            pre->next->next = cur;
+            pre = cur;
+            cur = cur->next;
+        }
+        return dummy.next;
+    }
+};
+
+class Solution3 {
+public:
+    ListNode *swapPairs(ListNode *head) {
+        if (!head || !(head->next)) return head;
+        ListNode *n = head->next;
+        head->next = swapPairs(head->next->next);
+        n->next = head;
+        return n;
+    }
+};
