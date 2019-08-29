@@ -108,7 +108,7 @@ public:
 
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
+    ListNode *reverseList(ListNode *head) {
         if (!head || !head->next)
             return head;
         ListNode *res = reverseList(head->next);

@@ -23,11 +23,11 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    char str[] = "hello";
-    vector<char> s1(str, str + 5);
-    s.reverseString(s1);
-    for (auto c: s1)
-        cout << c << " ";
-}
+//int main() {
+//    Solution s;
+//    char str[] = "hello";
+//    vector<char> s1(str, str + 5);
+//    s.reverseString(s1);
+//    for (auto c: s1)
+//        cout << c << " ";
+//}
