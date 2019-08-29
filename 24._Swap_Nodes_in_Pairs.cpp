@@ -1,6 +1,7 @@
 //
 // Created by hqnddw on 2019/7/7.
 //
+
 struct ListNode {
     int val;
     ListNode *next;
