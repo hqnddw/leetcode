@@ -37,18 +37,57 @@ public:
 };
 
 //中序遍历递归
-class Solution {
+class Solution2 {
 public:
-    bool isValidBST(TreeNode* root) {
+    bool isValidBST(TreeNode *root) {
         TreeNode *pre = nullptr;
         return valid(root, pre);
     }
-    bool valid(TreeNode *root, TreeNode *pre){
+
+    bool valid(TreeNode *root, TreeNode *pre) {
         if (!root) return true;
         if (!valid(root->left, pre)) return false;
         if (pre && pre->val >= root->val) return false;
         pre = root;
         root = root->right;
         return valid(root->right, pre);
+    }
+};
+
+
+//第二次
+class Solution3 {
+public:
+    bool isValidBST(TreeNode *root) {
+        TreeNode *pre = nullptr;
+        return valid(root, pre);
+    }
+
+    bool valid(TreeNode *root, TreeNode *pre) {
+        if (!root) return true;
+        if (!valid(root, pre)) return false;
+        if (pre && pre->val >= root->val) return false;
+        pre = root;
+        return valid(root->right, pre);
+    }
+};
+
+class Solution {
+public:
+    bool isValidBST(TreeNode *root) {
+        stack<TreeNode *> s;
+        TreeNode *pre = nullptr;
+        while (root || !s.empty()) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            root = s.top();
+            s.pop();
+            if (pre && pre->val > root->val) return false;
+            pre = root;
+            root = root->right;
+        }
+        return true;
     }
 };
