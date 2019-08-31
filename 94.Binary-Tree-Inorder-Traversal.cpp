@@ -105,7 +105,7 @@ public:
 
 
 //第二次
-class Solution {
+class Solution5 {
 public:
     vector<int> inorderTraversal(TreeNode *root) {
         vector<int> v;
@@ -118,5 +118,71 @@ public:
         inorder(root->left, v);
         v.push_back(root->val);
         inorder(root->right, v);
+    }
+};
+
+
+//第三次
+//递归
+class Solution6 {
+public:
+    vector<int> inorderTraversal(TreeNode *root) {
+        vector<int> v;
+        traversal(root, v);
+        return v;
+    }
+
+    void traversal(TreeNode *root, vector<int> &v) {
+        if (!root) return;
+        traversal(root->left, v);
+        v.push_back(root->val);
+        traversal(root->right, v);
+    }
+};
+
+//迭代
+class Solution7 {
+public:
+    vector<int> inorderTraversal(TreeNode *root) {
+        vector<int> v;
+        stack<TreeNode *> s;
+        while (true) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            if (s.empty()) break;
+            root = s.top();
+            s.pop();
+            v.push_back(root->val);
+            root = root->right;
+        }
+        return v;
+    }
+};
+
+//莫里斯遍历
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode *root) {
+        vector<int> v;
+        TreeNode *cur = root;
+        TreeNode *pre = nullptr;
+        while (cur) {
+            if (!cur->left) {
+                v.push_back(cur->val);
+                cur = cur->right;
+            } else {
+                pre = cur->left;
+                while (pre->right)
+                    pre = pre->right;
+
+                pre->right = cur;
+                TreeNode *temp = cur;
+                cur = cur->left;
+                temp->left = nullptr;
+            }
+        }
+        return v;
     }
 };

@@ -9,7 +9,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     ListNode *swapPairs(ListNode *head) {
         if (head == nullptr)
@@ -50,6 +50,40 @@ public:
     ListNode *swapPairs(ListNode *head) {
         if (!head || !(head->next)) return head;
         ListNode *n = head->next;
+        head->next = swapPairs(head->next->next);
+        n->next = head;
+        return n;
+    }
+};
+
+
+//第二次迭代
+class Solution4 {
+public:
+    ListNode *swapPairs(ListNode *head) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        while (pre->next && pre->next->next) {
+            ListNode *cur = pre->next;
+            ListNode *temp = pre->next;
+            pre->next = cur->next;
+            cur->next = cur->next->next;
+            pre->next->next = temp;
+            pre = cur;
+        }
+        return dummy.next;
+    }
+};
+
+//第二次递归
+class Solution {
+public:
+    ListNode *swapPairs(ListNode *head) {
+        if (!head->next)
+            return nullptr;
+        ListNode *n = head->next;
+
         head->next = swapPairs(head->next->next);
         n->next = head;
         return n;

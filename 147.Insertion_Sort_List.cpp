@@ -8,7 +8,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     ListNode *insertionSortList(ListNode *head) {
         ListNode dummy(-1);
@@ -21,6 +21,28 @@ public:
             head->next = pre->next;
             pre->next = head;
             head = temp;
+        }
+        return dummy.next;
+    }
+};
+
+
+//第二次
+class Solution {
+public:
+    ListNode *insertionSortList(ListNode *head) {
+        ListNode dummy(-1);
+        ListNode *pre = &dummy;
+        ListNode *cur = head;
+        while (cur) {
+            ListNode *temp = cur->next;
+            if (pre->next && pre->next->val > cur->val)
+                pre = temp;
+            while (pre->next && pre->next->val < cur->val)
+                pre = pre->next;
+            cur->next = pre->next;
+            pre->next = cur;
+            cur = temp;
         }
         return dummy.next;
     }

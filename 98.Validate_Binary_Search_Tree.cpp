@@ -44,12 +44,11 @@ public:
         return valid(root, pre);
     }
 
-    bool valid(TreeNode *root, TreeNode *pre) {
+    bool valid(TreeNode *root, TreeNode *&pre) {
         if (!root) return true;
         if (!valid(root->left, pre)) return false;
         if (pre && pre->val >= root->val) return false;
         pre = root;
-        root = root->right;
         return valid(root->right, pre);
     }
 };
@@ -63,7 +62,7 @@ public:
         return valid(root, pre);
     }
 
-    bool valid(TreeNode *root, TreeNode *pre) {
+    bool valid(TreeNode *root, TreeNode *&pre) {
         if (!root) return true;
         if (!valid(root, pre)) return false;
         if (pre && pre->val >= root->val) return false;
@@ -72,7 +71,7 @@ public:
     }
 };
 
-class Solution {
+class Solution4 {
 public:
     bool isValidBST(TreeNode *root) {
         stack<TreeNode *> s;
@@ -84,10 +83,49 @@ public:
             }
             root = s.top();
             s.pop();
-            if (pre && pre->val > root->val) return false;
+            if (pre && pre->val >= root->val) return false;
             pre = root;
             root = root->right;
         }
         return true;
+    }
+};
+
+//第三次
+class Solution5 {
+public:
+    bool isValidBST(TreeNode *root) {
+        stack<TreeNode *> s;
+        TreeNode *pre = nullptr;
+        if (!root) return true;
+        while (true) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            if (s.empty()) break;
+            root = s.top();
+            s.pop();
+            if (pre && pre->val >= root->val) return false;
+            pre = root;
+            root = root->right;
+        }
+        return true;
+    }
+};
+
+class Solution {
+public:
+    bool isValidBST(TreeNode *root) {
+        TreeNode *pre = nullptr;
+        return valid(root, pre);
+    }
+
+    bool valid(TreeNode *root, TreeNode *&pre) {
+        if (!root) return true;
+        if (!valid(root->left, pre)) return false;
+        if (pre && pre->val >= root->val) return false;
+        pre = root;
+        return valid(root->right, pre);
     }
 };
