@@ -88,7 +88,7 @@ public:
     vector<int> inorderTraversal(TreeNode *root) {
         vector<int> v;
         stack<TreeNode *> s;
-        while (true) {
+        while (root || !s.empty()) {
             while (root) {
                 s.push(root);
                 root = root->left;

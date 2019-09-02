@@ -8,20 +8,24 @@
 
 using namespace std;
 
-int main() {
-    std::string str = "Hello";
-    std::vector<std::string> v;
-    //调用常规的拷贝构造函数，新建字符数组，拷贝数据
-    v.push_back(str);
-    std::cout << "After copy, str is \"" << str << "\"\n";
-    //调用移动构造函数，掏空str，掏空后，最好不要使用str
-    v.push_back(std::move(str));
-    std::cout << "After move, str is \"" << str << "\"\n";
-    std::cout << "The contents of the vector are \"" << v[0]
-              << "\", \"" << v[1] << "\"\n";
-    vector<int> v1;
-    vector<int> v2;
-    if (v1 == v2) {
 
-    }
+// reverse algorithm example
+#include <iostream>
+// std::cout
+#include <algorithm>
+// std::reverse
+#include <vector>
+// std::vector
+
+int main() {
+    std::vector<int> myvector;
+    // set some values:
+    for (int i = 1; i < 10; ++i) myvector.push_back(i);   // 1 2 3 4 5 6 7 8 9
+    std::reverse(myvector.begin(), myvector.end());    // 9 8 7 6 5 4 3 2 1
+    // print out content:
+    std::cout << "myvector contains:";
+    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+        std::cout << ' ' << *it;
+    std::cout << '\n';
+    return 0;
 }

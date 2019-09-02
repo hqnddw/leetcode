@@ -32,7 +32,7 @@ public:
 };
 
 //迭代
-class Solution {
+class Solution2 {
 public:
     vector<int> postorderTraversal(TreeNode *root) {
         TreeNode *pre = nullptr;
@@ -50,6 +50,54 @@ public:
                     root = root->left;
                 } else {
                     root = s.top();
+                    s.pop();
+                    v.push_back(root->val);
+                    pre = root;
+                    root = nullptr;
+                }
+            }
+        }
+        return v;
+    }
+};
+
+
+//第二次
+class Solution3 {
+public:
+    vector<int> postorderTraversal(TreeNode *root) {
+        vector<int> v;
+        if (!root) return v;
+        postOrder(root, v);
+        return v;
+    }
+
+    void postOrder(TreeNode *root, vector<int> &v) {
+        if (!root) return;
+        postOrder(root->left, v);
+        postOrder(root->right, v);
+        v.push_back(root->val);
+    }
+};
+
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode *root) {
+        stack<TreeNode *> s;
+        vector<int> v;
+        if (!root) return v;
+        TreeNode *pre = nullptr;
+        while (root || !s.empty()) {
+            if (root) {
+                s.push(root);
+                root = root->left;
+            } else {
+                root = s.top();
+                if (root->right && root->right != pre) {
+                    root = root->right;
+                    s.push(root);
+                    root = root->left;
+                } else {
                     s.pop();
                     v.push_back(root->val);
                     pre = root;
