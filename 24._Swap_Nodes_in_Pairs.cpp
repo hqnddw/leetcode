@@ -77,13 +77,46 @@ public:
 };
 
 //第二次递归
-class Solution {
+class Solution5 {
 public:
     ListNode *swapPairs(ListNode *head) {
         if (!head->next)
             return nullptr;
         ListNode *n = head->next;
 
+        head->next = swapPairs(head->next->next);
+        n->next = head;
+        return n;
+    }
+};
+
+
+//第三次
+class Solution6 {
+public:
+    ListNode *swapPairs(ListNode *head) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        ListNode *cur = pre->next;
+        while (cur && cur->next) {
+            ListNode *temp = pre->next;
+            pre->next = cur->next;
+            cur->next = cur->next->next;
+            pre->next->next = temp;
+            pre = cur;
+            cur = cur->next;
+        }
+        return dummy.next;
+    }
+};
+
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        if (!head || !head->next)
+            return nullptr;
+        ListNode *n = head->next;
         head->next = swapPairs(head->next->next);
         n->next = head;
         return n;
