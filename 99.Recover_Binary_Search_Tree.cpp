@@ -42,7 +42,7 @@ public:
 };
 
 //迭代
-class Solution {
+class Solution2 {
 public:
     void recoverTree(TreeNode *root) {
         if (!root)
@@ -66,5 +66,67 @@ public:
             root = root->right;
         }
         swap(first->val, second->val);
+    }
+};
+
+
+class Solution3 {
+public:
+    TreeNode *first = nullptr;
+    TreeNode *second = nullptr;
+    TreeNode *pre = nullptr;
+
+    void recoverTree(TreeNode *root) {
+        if (!root)
+            return;
+        inOrder(root);
+        swap(first->val, second->val);
+    }
+
+    void inOrder(TreeNode *&root) {
+        stack<TreeNode *> s;
+        while (!s.empty() || root) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            root = s.top();
+            s.pop();
+            if (pre && pre->val >= root->val) {
+                if (!first) first = pre;
+                second = root;
+            }
+            pre = root;
+            root = root->right;
+        }
+    }
+};
+
+
+
+
+
+
+
+
+
+class Solution {
+public:
+    TreeNode *first = nullptr;
+    TreeNode *second = nullptr;
+    TreeNode *pre = nullptr;
+    void recoverTree(TreeNode* root) {
+        inOrder(root);
+        swap(first->val, second->val);
+    }
+    void inOrder(TreeNode *root){
+        if (!root) return;
+        inOrder(root->left);
+        if (pre && pre->val >= root->val){
+            if (!first) first = pre;
+            second = root;
+        }
+        pre = root;
+        inOrder(root->right);
     }
 };

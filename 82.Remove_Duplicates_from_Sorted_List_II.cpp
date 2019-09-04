@@ -9,7 +9,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     ListNode *deleteDuplicates(ListNode *head) {
         ListNode dummy(-1);
@@ -21,6 +21,25 @@ public:
                 while (cur->next && cur->next->val == temp_value)
                     cur->next = cur->next->next;
             } else cur = cur->next;
+        }
+        return dummy.next;
+    }
+};
+
+
+class Solution {
+public:
+    ListNode *deleteDuplicates(ListNode *head) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        int temp;
+        while (pre->next && pre->next->next) {
+            if (pre->next->val == pre->next->next->val) {
+                temp = pre->next->val;
+                while (pre->next && pre->next->val == temp)
+                    pre->next = pre->next->next;
+            } else pre = pre->next;
         }
         return dummy.next;
     }

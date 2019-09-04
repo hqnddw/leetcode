@@ -46,9 +46,50 @@ public:
         return isMirror(root, root);
     }
 
-    bool isMirror(TreeNode* t1, TreeNode *t2){
+    bool isMirror(TreeNode *t1, TreeNode *t2) {
         if (!t1 && !t2) return true;
         if (!t1 || !t2) return false;
         return t1->val == t2->val && isMirror(t1->left, t2->right) && isMirror(t1->right, t2->left);
+    }
+};
+
+
+class Solution3 {
+public:
+    bool isSymmetric(TreeNode *root) {
+        return vaild(root, root);
+    }
+
+    bool vaild(TreeNode *root1, TreeNode *root2) {
+        if (!root1 || !root2) return root1 == root2;
+        return root1->val == root2->val &&
+               vaild(root1->left, root2->right) && vaild(root1->right, root2->left);
+    }
+};
+
+
+
+class Solution4 {
+public:
+    bool isSymmetric(TreeNode* root) {
+        queue<TreeNode*> q;
+        q.push(root);
+        q.push(root);
+        TreeNode *t1 = nullptr;
+        TreeNode *t2 = nullptr;
+        while (!q.empty()){
+            t1 = q.front();
+            q.pop();
+            t2 = q.front();
+            q.pop();
+            if (!t1 && !t2) continue;
+            if (!t1 || !t2) return false;
+            if (t1->val != t2->val) return false;
+            q.push(t1->left);
+            q.push(t2->right);
+            q.push(t1->right);
+            q.push(t2->left);
+        }
+        return true;
     }
 };

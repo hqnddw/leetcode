@@ -25,22 +25,13 @@ public:
 };
 
 
-
-
-
-
-
-
-
-
-
 //第三次
 class Solution2 {
 public:
     bool hasCycle(ListNode *head) {
         ListNode *slow = head;
         ListNode *fast = head;
-        while (fast && fast->next){
+        while (fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
             if (slow == fast)

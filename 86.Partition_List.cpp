@@ -9,7 +9,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     ListNode *partition(ListNode *head, int x) {
         ListNode *node1 = new ListNode(-1);
@@ -31,3 +31,33 @@ public:
         return dummy1->next;
     }
 };
+
+
+class Solution {
+public:
+    ListNode *partition(ListNode *head, int x) {
+        ListNode small(-1);
+        ListNode *node1 = &small;
+        ListNode big(-1);
+        ListNode *node2 = &big;
+        while (head) {
+            if (head->val < x) {
+                node1->next = head;
+                node1 = node1->next;
+            } else {
+                node2->next = head;
+                node2 = node2->next;
+            }
+            head = head->next;
+        }
+        node2->next = nullptr;
+        node1->next = big.next;
+        return small.next;
+    }
+};
+
+
+
+
+
+
