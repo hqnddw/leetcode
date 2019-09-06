@@ -70,11 +70,37 @@ public:
     }
 };
 
-class Solution {
+class Solution4 {
 public:
     vector<int> preorderTraversal(TreeNode *root) {
         vector<int> v;
         stack<TreeNode *> s;
+        if (!root) return v;
+        s.push(root);
+        while (!s.empty()) {
+            root = s.top();
+            s.pop();
+            v.push_back(root->val);
+            if (root->right) s.push(root->right);
+            if (root->left) s.push(root->left);
+        }
+        return v;
+    }
+};
+
+
+
+
+
+
+
+
+
+class Solution {
+public:
+    vector<int> preorderTraversal(TreeNode *root) {
+        stack<TreeNode *> s;
+        vector<int> v;
         if (!root) return v;
         s.push(root);
         while (!s.empty()) {

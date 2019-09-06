@@ -16,7 +16,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     TreeNode *sortedArrayToBST(vector<int> &nums) {
         if (nums.empty()) return nullptr;
@@ -30,6 +30,25 @@ public:
         TreeNode *root = new TreeNode(*mid);
         root->left = buildBST(nums, start, mid);
         root->right = buildBST(nums, mid + 1, end);
+        return root;
+    }
+};
+
+
+//记得对数组引用，会加快程序运行速度
+class Solution2 {
+public:
+    TreeNode *sortedArrayToBST(vector<int> &nums) {
+        if (nums.empty()) return nullptr;
+        return divide(nums, 0, nums.size());
+    }
+
+    TreeNode *divide(vector<int> &nums, int start, int end) {
+        if (start >= end) return nullptr;
+        int mid = (start + end) / 2;
+        TreeNode *root = new TreeNode(nums[mid]);
+        root->left = divide(nums, start, mid);
+        root->right = divide(nums, mid + 1, end);
         return root;
     }
 };
