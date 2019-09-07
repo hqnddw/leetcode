@@ -1,7 +1,10 @@
 //
 // Created by hqnddw on 2019/7/7.
 //
+#include <vector>
+#include <algorithm>
 
+using namespace std;
 struct ListNode {
     int val;
     ListNode *next;
@@ -111,7 +114,7 @@ public:
     }
 };
 
-class Solution {
+class Solution7 {
 public:
     ListNode* swapPairs(ListNode* head) {
         if (!head || !head->next)
@@ -120,5 +123,19 @@ public:
         head->next = swapPairs(head->next->next);
         n->next = head;
         return n;
+    }
+};
+
+
+class Solution {
+public:
+    vector<int> printListFromTailToHead(ListNode *head) {
+        vector<int> v;
+        while (head) {
+            v.push_back(head->val);
+            head = head->next;
+        }
+        reverse(v.begin(), v.end());
+        return v;
     }
 };

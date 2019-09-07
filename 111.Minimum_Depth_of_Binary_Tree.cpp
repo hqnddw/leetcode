@@ -26,7 +26,7 @@ public:
     }
 };
 
-class Solution {
+class Solution2 {
 public:
     int minDepth(TreeNode *root) {
         if (!root)
@@ -47,5 +47,42 @@ public:
             n++;
         }
         return n;
+    }
+};
+
+
+class Solution3 {
+public:
+    int minDepth(TreeNode *root) {
+        if (!root) return 0;
+        queue<TreeNode *> q;
+        q.push(root);
+        int count = 1;
+        while (!q.empty()) {
+            int n = q.size();
+            for (int i = 0; i < n; ++i) {
+                root = q.front();
+                q.pop();
+                if (!root->left && !root->right)
+                    return count;
+                if (root->left) q.push(root->left);
+                if (root->right) q.push(root->right);
+            }
+            count++;
+        }
+        return count;
+    }
+};
+
+
+class Solution {
+public:
+    int minDepth(TreeNode *root) {
+        if (!root) return 0;
+        int left = 0;
+        int right = 0;
+        if (root->left) left = 1 + minDepth(root->left);
+        if (root->right) right = 1 + minDepth(root->right);
+        return
     }
 };

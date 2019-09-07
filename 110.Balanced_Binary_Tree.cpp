@@ -37,7 +37,7 @@ public:
 
 //自下而上
 //利用DFS进入树的底部，向上开始验证
-class Solution {
+class Solution2 {
 public:
     bool isBalanced(TreeNode *root) {
         return getHeight(root) != -1;
@@ -53,3 +53,21 @@ public:
         return 1 + max(leftHeight, rightHeight);
     }
 };
+
+
+class Solution3 {
+public:
+    bool isBalanced(TreeNode *root) {
+        if (!root) return true;
+        int left = depth(root->left);
+        int right = depth(root->right);
+        return abs(left - right) <= 1 && isBalanced(root->left) && isBalanced(root->right);
+    }
+
+    int depth(TreeNode *root) {
+        if (!root) return 0;
+        return 1 + max(depth(root->left), depth(root->right));
+    }
+};
+
+

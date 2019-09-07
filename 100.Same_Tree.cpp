@@ -91,7 +91,7 @@ public:
 };
 
 //一个队列
-class Solution {
+class Solution1 {
 public:
     bool isSameTree(TreeNode *p, TreeNode *q) {
         queue<TreeNode *> queue;
@@ -104,6 +104,46 @@ public:
             queue.pop();
             if (!p && !q) continue;
             if (!p || !q || p->val != q->val) return false;
+            queue.push(p->left);
+            queue.push(q->left);
+            queue.push(p->right);
+            queue.push(q->right);
+        }
+        return true;
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution {
+public:
+    bool isSameTree(TreeNode *p, TreeNode *q) {
+        queue<TreeNode *> queue;
+        if (!p || !q) return p == q;
+        queue.push(p);
+        queue.push(q);
+        while (!queue.empty()) {
+            p = queue.front();
+            queue.pop();
+            q = queue.front();
+            queue.pop();
+            if (!p && !q) continue;
+            if (!p || !q) return false;
+            if (p->val != q->val) return false;
             queue.push(p->left);
             queue.push(q->left);
             queue.push(p->right);

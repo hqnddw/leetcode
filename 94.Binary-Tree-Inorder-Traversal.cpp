@@ -162,10 +162,59 @@ public:
 };
 
 //莫里斯遍历
+class Solution8 {
+public:
+    vector<int> inorderTraversal(TreeNode *root) {
+        vector<int> v;
+        TreeNode *cur = root;
+        TreeNode *pre = nullptr;
+        while (cur) {
+            if (!cur->left) {
+                v.push_back(cur->val);
+                cur = cur->right;
+            } else {
+                pre = cur->left;
+                while (pre->right)
+                    pre = pre->right;
+
+                pre->right = cur;
+                TreeNode *temp = cur;
+                cur = cur->left;
+                temp->left = nullptr;
+            }
+        }
+        return v;
+    }
+};
+
+
+//第四次
+class Solution9 {
+public:
+    vector<int> inorderTraversal(TreeNode *root) {
+        stack<TreeNode *> s;
+        vector<int> v;
+        if (!root) return v;
+        while (!s.empty() || root) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            root = s.top();
+            s.pop();
+            v.push_back(root->val);
+            root = root->right;
+        }
+        return v;
+    }
+};
+
+
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode *root) {
         vector<int> v;
+        if (!root) return v;
         TreeNode *cur = root;
         TreeNode *pre = nullptr;
         while (cur) {
