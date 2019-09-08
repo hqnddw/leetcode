@@ -83,7 +83,7 @@ public:
     }
 };
 
-class Solution {
+class Solution4 {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode *node1 = headA;
@@ -93,5 +93,21 @@ public:
             headB = (!headB) ? node1:headB->next;
         }
         return headA;
+    }
+};
+
+
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *slow1 = headA;
+        ListNode *slow2 = headB;
+        while (slow1 != slow2) {
+            if (!slow1) slow1 = headB;
+            else slow1 = slow1->next;
+            if (!slow2) slow2 = headA;
+            else slow2 = slow2->next;
+        }
+        return slow1;
     }
 };

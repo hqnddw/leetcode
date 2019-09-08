@@ -41,16 +41,16 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<vector<int>> v;
-    vector<int> nums{0, 0, 0, 0};
-    int target = 0;
-    v = s.fourSum(nums, target);
-    for (auto i:v) {
-        cout << "[";
-        for (auto j :i)
-            cout << j << ", ";
-        cout << "]" << endl;
-    }
-}
+//int main() {
+//    Solution s;
+//    vector<vector<int>> v;
+//    vector<int> nums{0, 0, 0, 0};
+//    int target = 0;
+//    v = s.fourSum(nums, target);
+//    for (auto i:v) {
+//        cout << "[";
+//        for (auto j :i)
+//            cout << j << ", ";
+//        cout << "]" << endl;
+//    }
+//}

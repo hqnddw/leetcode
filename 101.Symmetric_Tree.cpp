@@ -68,16 +68,15 @@ public:
 };
 
 
-
 class Solution4 {
 public:
-    bool isSymmetric(TreeNode* root) {
-        queue<TreeNode*> q;
+    bool isSymmetric(TreeNode *root) {
+        queue<TreeNode *> q;
         q.push(root);
         q.push(root);
         TreeNode *t1 = nullptr;
         TreeNode *t2 = nullptr;
-        while (!q.empty()){
+        while (!q.empty()) {
             t1 = q.front();
             q.pop();
             t2 = q.front();
@@ -91,5 +90,19 @@ public:
             q.push(t2->left);
         }
         return true;
+    }
+};
+
+
+class Solution {
+public:
+    bool isSymmetric(TreeNode *root) {
+        return valid(root, root);
+    }
+
+    bool valid(TreeNode *root1, TreeNode *root2) {
+        if (!root1 || !root2) return root1 == root2;
+        return (root1->val == root2->val) && valid(root1->left, root2->right)
+               && valid(root1->right, root2->left);
     }
 };

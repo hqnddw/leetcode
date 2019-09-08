@@ -103,14 +103,7 @@ public:
 };
 
 
-
-
-
-
-
-
-
-class Solution {
+class Solution4 {
 public:
     TreeNode *first = nullptr;
     TreeNode *second = nullptr;
@@ -123,6 +116,30 @@ public:
         if (!root) return;
         inOrder(root->left);
         if (pre && pre->val >= root->val){
+            if (!first) first = pre;
+            second = root;
+        }
+        pre = root;
+        inOrder(root->right);
+    }
+};
+
+
+class Solution {
+public:
+    TreeNode *first = nullptr;
+    TreeNode *second = nullptr;
+    TreeNode *pre = nullptr;
+
+    void recoverTree(TreeNode *root) {
+        inOrder(root);
+        swap(first->val, second->val);
+    }
+
+    void inOrder(TreeNode *root) {
+        if (!root) return;
+        inOrder(root->left);
+        if (pre && pre->val >= root->val) {
             if (!first) first = pre;
             second = root;
         }

@@ -32,7 +32,7 @@ public:
 
 
 //第三次
-class Solution {
+class Solution2 {
 public:
     int numTrees(int n) {
         vector<int> v;
@@ -42,7 +42,25 @@ public:
         for (int i = 2; i <= n; ++i) {
             temp = 0;
             for (int j = 1; j <= i; ++j) {
-                temp+= v[j - 1] * v[i - j];
+                temp += v[j - 1] * v[i - j];
+            }
+            v.push_back(temp);
+        }
+        return v[n];
+    }
+};
+
+
+class Solution {
+public:
+    int numTrees(int n) {
+        vector<int> v;
+        v.push_back(1);
+        v.push_back(1);
+        for (int i = 2; i <= n; ++i) {
+            int temp = 0;
+            for (int j = 1; j <= i; ++j) {
+                temp += v[j - 1] * v[i - j];
             }
             v.push_back(temp);
         }

@@ -2,7 +2,7 @@
 // Created by hqnddw on 2019/8/26.
 //
 #include <stack>
-
+#include <queue>
 using namespace std;
 
 struct TreeNode {
@@ -114,7 +114,7 @@ public:
     }
 };
 
-class Solution {
+class Solution6 {
 public:
     bool isValidBST(TreeNode *root) {
         TreeNode *pre = nullptr;
@@ -127,5 +127,62 @@ public:
         if (pre && pre->val >= root->val) return false;
         pre = root;
         return valid(root->right, pre);
+    }
+};
+
+
+class Solution8 {
+public:
+    bool isValidBST(TreeNode *root) {
+        TreeNode *pre = nullptr;
+        return inOrder(root, pre);
+    }
+
+    bool inOrder(TreeNode *root, TreeNode *pre) {
+        if (!root) return false;
+        if (!inOrder(root->left, pre)) return false;
+        if (pre && pre->val >= root->val) return false;
+        return inOrder(root->right, pre);
+    }
+};
+
+
+//BFS
+class Solution {
+public:
+    bool isValidBST(TreeNode *root) {
+        if (!root || (!root->right && !root->left))
+            return true;
+        queue<TreeNode *> q;
+        queue<TreeNode *> max;
+        queue<TreeNode *> min;
+        TreeNode *maxvalue = nullptr;
+        TreeNode *minvalue = nullptr;
+        q.push(root);
+        max.push(maxvalue);
+        min.push(minvalue);
+        while (!q.empty()) {
+            root = q.front();
+            q.pop();
+            maxvalue = max.front();
+            max.pop();
+            minvalue = min.front();
+            min.pop();
+            if (maxvalue && root->val >= maxvalue->val)
+                return false;
+            if (minvalue && root->val <= minvalue->val)
+                return false;
+            if (root->left) {
+                q.push(root->left);
+                min.push(minvalue);
+                max.push(root);
+            }
+            if (root->right) {
+                q.push(root->right);
+                min.push(root);
+                max.push(maxvalue);
+            }
+        }
+        return true;
     }
 };
