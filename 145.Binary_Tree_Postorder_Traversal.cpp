@@ -110,7 +110,7 @@ public:
 };
 
 
-class Solution {
+class Solution5 {
 public:
     vector<int> postorderTraversal(TreeNode *root) {
         stack<TreeNode *> s;
@@ -124,6 +124,38 @@ public:
             } else {
                 root = s.top();
                 if (root->right && pre != root->right) {
+                    root = root->right;
+                    s.push(root);
+                    root = root->left;
+                } else {
+                    s.pop();
+                    v.push_back(root->val);
+                    pre = root;
+                    root = nullptr;
+                }
+            }
+        }
+        return v;
+    }
+};
+
+
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode *root) {
+        vector<int> v;
+        if (!root)
+            return v;
+        TreeNode *pre = nullptr;
+        stack<TreeNode *> s;
+        int sum = 0;
+        while (root || !s.empty()) {
+            if (root) {
+                s.push(root);
+                root = root->left;
+            } else {
+                root = s.top();
+                if (root->right && root->right != pre) {
                     root = root->right;
                     s.push(root);
                     root = root->left;

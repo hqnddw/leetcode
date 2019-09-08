@@ -74,15 +74,3 @@ public:
     }
 };
 
-
-class Solution {
-public:
-    int minDepth(TreeNode *root) {
-        if (!root) return 0;
-        int left = 0;
-        int right = 0;
-        if (root->left) left = 1 + minDepth(root->left);
-        if (root->right) right = 1 + minDepth(root->right);
-        return
-    }
-};

@@ -91,7 +91,7 @@ public:
 };
 
 //一个队列
-class Solution1 {
+class Solution5 {
 public:
     bool isSameTree(TreeNode *p, TreeNode *q) {
         queue<TreeNode *> queue;
