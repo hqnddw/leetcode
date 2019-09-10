@@ -49,7 +49,7 @@ public:
         if (leftHeight == -1) return -1;
         int rightHeight = getHeight(root->right);
         if (rightHeight == -1) return -1;
-        if (abs(leftHeight - rightHeight) > 1) return false;
+        if (abs(leftHeight - rightHeight) > 1) return -1;
         return 1 + max(leftHeight, rightHeight);
     }
 };
@@ -70,4 +70,35 @@ public:
     }
 };
 
+class Solution16 {
+public:
+    bool isBalanced(TreeNode *root) {
+        if (!root) return true;
+        int left = maxDepth(root->left);
+        int right = maxDepth(root->right);
+        return abs(left - right) <= 1 && isBalanced(root->right) && isBalanced(root->left);
+    }
+
+    int maxDepth(TreeNode *root) {
+        if (!root) return 0;
+        return 1 + max(maxDepth(root->right), maxDepth(root->left));
+    }
+};
+
+class Solution4 {
+public:
+    bool isBalanced(TreeNode *root) {
+        return depth(root) != -1;
+    }
+
+    int depth(TreeNode *root) {
+        if (!root) return 0;
+        int left = depth(root->left);
+        if (left == -1) return -1;
+        int right = depth(root->right);
+        if (right == -1) return -1;
+        if (abs(left - right) > 1) return -1;
+        return max(right, left) + 1;
+    }
+};
 

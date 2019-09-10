@@ -2,6 +2,7 @@
 // Created by hqnddw on 2019/9/6.
 //
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -29,7 +30,7 @@ public:
 };
 
 
-class Solution {
+class Solution2 {
 public:
     int maxArea(vector<int> &height) {
         int i = 0;
@@ -42,3 +43,26 @@ public:
         return re;
     }
 };
+
+
+class Solution {
+public:
+    int maxArea(vector<int> &height) {
+        int i = 0;
+        int j = height.size() - 1;
+        int maxvalue = 0;
+        while (i <= j) {
+            maxvalue = max(maxvalue, min(height[i], height[j]) * (j - i));
+            if (height[i] < height[j])
+                i++;
+            else j--;
+        }
+        return maxvalue;
+    }
+};
+
+//int main() {
+//    Solution s;
+//    vector<int> nums{1, 8, 6, 2, 5, 4, 8, 3, 7};
+//    cout << s.maxArea(nums) << endl;
+//}

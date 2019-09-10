@@ -13,7 +13,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     int max_sum = INT_MIN;
 
@@ -28,5 +28,24 @@ public:
         int right = max(helper(root->right), 0);
         max_sum = max(max_sum, left + right + root->val);
         return max(left, right) + root->val;
+    }
+};
+
+
+class Solution {
+public:
+    int maxvalue = INT_MIN;
+
+    int maxPathSum(TreeNode *root) {
+        helper(root);
+        return maxvalue;
+    }
+
+    int helper(TreeNode *root) {
+        if (!root) return 0;
+        int left = max(helper(root->left), 0);
+        int right = max(helper(root->right), 0);
+        maxvalue = max(maxvalue, root->val + right + left);
+        return root->val + max(right, left);
     }
 };

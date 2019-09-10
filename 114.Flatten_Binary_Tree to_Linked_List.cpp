@@ -33,7 +33,7 @@ public:
 };
 
 
-class Solution {
+class Solution2 {
 public:
     void flatten(TreeNode *root) {
         if (!root) return;
@@ -50,6 +50,42 @@ public:
                 cur->left = nullptr;
             }
             cur = cur->right;
+        }
+    }
+};
+
+
+class Solution3 {
+public:
+    void flatten(TreeNode *root) {
+        helper(root, nullptr);
+    }
+
+    TreeNode *helper(TreeNode *root, TreeNode *pre) {
+        if (!root) return nullptr;
+        pre = helper(root->right, pre);
+        pre = helper(root->left, pre);
+        root->right = pre;
+        root->left = nullptr;
+        pre = root;
+        return pre;
+    }
+};
+
+class Solution {
+public:
+    void flatten(TreeNode *root) {
+        while (root) {
+            if (root->left) {
+                TreeNode *pre = root->left;
+                while (pre->right)
+                    pre = pre->right;
+
+                pre->right = root->right;
+                root->right = root->left;
+                root->left = nullptr;
+                root = root->right;
+            } else root = root->right;
         }
     }
 };

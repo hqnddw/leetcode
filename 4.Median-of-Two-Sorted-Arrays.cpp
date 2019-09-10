@@ -135,9 +135,9 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<int> nums1{1, 5};
-    vector<int> nums2{2, 3, 4, 6};
-    cout << s.findMedianSortedArrays(nums1, nums2);
-}
+//int main() {
+//    Solution s;
+//    vector<int> nums1{1, 5};
+//    vector<int> nums2{2, 3, 4, 6};
+//    cout << s.findMedianSortedArrays(nums1, nums2);
+//}

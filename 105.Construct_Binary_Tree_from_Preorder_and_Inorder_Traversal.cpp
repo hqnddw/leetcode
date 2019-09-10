@@ -107,3 +107,30 @@ public:
         return root;
     }
 };
+
+
+class Solution {
+public:
+    TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
+        return buildTree(preorder, 0,
+                         inorder, 0, inorder.size() - 1);
+    }
+
+    TreeNode *buildTree(vector<int> &preorder, int pre_start,
+                        vector<int> &inorder, int in_start, int in_end) {
+        if (pre_start > preorder.size() - 1 || in_start > in_end)
+            return nullptr;
+        TreeNode *root = new TreeNode(preorder[pre_start]);
+        int index = 0;
+        for (int i = in_start; i <= in_end; ++i) {
+            if (inorder[i] == preorder[pre_start]) {
+                index = i;
+                break;
+            }
+        }
+        int len = index - in_start;
+        root->left = buildTree(preorder, pre_start + 1, inorder, in_start, index - 1);
+        root->right = buildTree(preorder, pre_start + 1 + len, inorder, index + 1, in_end);
+        return root;
+    }
+};
