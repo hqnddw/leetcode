@@ -18,11 +18,11 @@ public:
                 i++;
             }
         }
-        return i + 1;
+        return i;
     }
 };
 
-class Solution {
+class Solution2 {
 public:
     int removeElement(vector<int> &nums, int val) {
         int i = 0;

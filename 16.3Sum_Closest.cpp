@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     int threeSumClosest(vector<int> &nums, int target) {
         sort(nums.begin(), nums.end());
@@ -52,3 +52,30 @@ public:
 //    int target = -1;
 //    cout << s.threeSumClosest(nums, target) << endl;
 //}
+
+
+
+
+class Solution {
+public:
+    int threeSumClosest(vector<int> &nums, int target) {
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        int re = nums[0] + nums[1] + nums[n - 1];
+        for (int i = 0; i < n; ++i) {
+            int lo = i + 1;
+            int hi = n - 1;
+            while (lo < hi) {
+                int cursum = nums[i] + nums[lo] + nums[hi];
+                if (cursum == target) return target;
+                else {
+                    if (abs(cursum - target) < abs(re - target))
+                        re = cursum;
+                    if (cursum > target) hi--;
+                    else lo++;
+                }
+            }
+        }
+        return re;
+    }
+};
