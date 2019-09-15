@@ -3,6 +3,7 @@
 //
 #include <vector>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
 
@@ -140,7 +141,7 @@ public:
 };
 
 
-class Solution {
+class Solution6 {
 public:
     vector<int> postorderTraversal(TreeNode *root) {
         vector<int> v;
@@ -170,3 +171,33 @@ public:
         return v;
     }
 };
+
+class Solution7 {
+public:
+    vector<int> postorderTraversal(TreeNode *root) {
+        stack<TreeNode *> s;
+        vector<int> v;
+        TreeNode *pre = nullptr;
+        while (root || !s.empty()) {
+            if (root) {
+                s.push(root);
+                root = root->left;
+            } else {
+                root = s.top();
+                if (root->right && root->right != pre) {
+                    root = root->right;
+                    s.push(root);
+                    root = root->left;
+                } else {
+                    s.pop();
+                    v.push_back(root->val);
+                    pre = root;
+                    root = nullptr;
+                }
+            }
+        }
+        return v;
+    }
+};
+
+

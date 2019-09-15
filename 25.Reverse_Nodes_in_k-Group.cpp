@@ -99,7 +99,7 @@ public:
 };
 
 
-class Solution {
+class Solution4 {
 public:
     ListNode *reverseKGroup(ListNode *head, int k) {
         if (!head || !head->next || k == 1)
@@ -114,6 +114,33 @@ public:
             count++;
         }
         cur = pre->next;
+        for (; count >= k; count -= k) {
+            for (int i = 1; i < k; ++i) {
+                ListNode *temp = pre->next;
+                pre->next = cur->next;
+                cur->next = cur->next->next;
+                pre->next->next = temp;
+            }
+            pre = cur;
+            cur = cur->next;
+        }
+        return dummy.next;
+    }
+};
+
+
+class Solution5 {
+public:
+    ListNode *reverseKGroup(ListNode *head, int k) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        int count = 0;
+        while (head) {
+            head = head->next;
+            count++;
+        }
+        ListNode *cur = pre->next;
         for (; count >= k; count -= k) {
             for (int i = 1; i < k; ++i) {
                 ListNode *temp = pre->next;

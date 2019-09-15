@@ -32,7 +32,7 @@ public:
 };
 
 
-class Solution {
+class Solution2 {
 public:
     int maxvalue = INT_MIN;
 
@@ -47,5 +47,25 @@ public:
         int right = max(helper(root->right), 0);
         maxvalue = max(maxvalue, root->val + right + left);
         return root->val + max(right, left);
+    }
+};
+
+
+class Solution3 {
+public:
+    int maxvalue = INT_MIN;
+
+    int maxPathSum(TreeNode *root) {
+        if (!root) return 0;
+        helper(root);
+        return maxvalue;
+    }
+
+    int helper(TreeNode *root) {
+        if (!root) return 0;
+        int left = max(helper(root->left), 0);
+        int right = max(helper(root->right), 0);
+        maxvalue = max(maxvalue, root->val + left + right);
+        return root->val + max(left, right);
     }
 };

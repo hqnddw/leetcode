@@ -3,6 +3,7 @@
 //
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 using namespace std;
 
@@ -32,3 +33,30 @@ public:
         }
     }
 };
+
+
+class Solution2 {
+public:
+    vector<vector<int>> combinationSum2(vector<int> &candidates, int target) {
+        sort(candidates.begin(), candidates.end());
+        vector<vector<int>> res;
+        vector<int> v;
+        backtrack(res, v, candidates, target, 0);
+        return res;
+    }
+
+    void backtrack(vector<vector<int>> &res, vector<int> &v,
+                   vector<int> &nums, int remain, int index) {
+        if (remain < 0) return;
+        else if (remain == 0) res.push_back(v);
+        else {
+            for (int i = index; i < nums.size(); ++i) {
+                v.push_back(nums[i]);
+
+                backtrack(res, v, nums, remain - nums[i], i + 1);
+                v.pop_back();
+            }
+        }
+    }
+};
+

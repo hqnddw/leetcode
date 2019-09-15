@@ -43,7 +43,7 @@ public:
     }
 };
 
-class Solution {
+class Solution2 {
 public:
     TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
         return buildTree(inorder, 0, inorder.size() - 1,
@@ -70,3 +70,32 @@ public:
         return root;
     }
 };
+
+
+class Solution3 {
+public:
+    TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
+        return buildTree(postorder, 0, postorder.size() - 1,
+                         inorder, 0, inorder.size() - 1);
+    }
+
+    TreeNode *buildTree(vector<int> &postorder, int post_start, int post_end,
+                        vector<int> &inorder, int in_start, int in_end) {
+        if (in_start > in_end || post_start > post_end) return nullptr;
+        TreeNode *root = new TreeNode(postorder[post_end]);
+        int index = 0;
+        for (int i = in_start; i <= in_end; ++i) {
+            if (inorder[i] == postorder[post_end]) {
+                index = i;
+                break;
+            }
+        }
+        int len = index - in_start;
+        root->left = buildTree(postorder, post_start, post_start + len - 1,
+                               inorder, in_start, index - 1);
+        root->right = buildTree(postorder, post_start + len, post_end - 1,
+                                inorder, index + 1, in_end);
+        return root;
+    }
+};
+

@@ -45,7 +45,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     int maxArea(vector<int> &height) {
         int i = 0;
@@ -61,8 +61,20 @@ public:
     }
 };
 
-//int main() {
-//    Solution s;
-//    vector<int> nums{1, 8, 6, 2, 5, 4, 8, 3, 7};
-//    cout << s.maxArea(nums) << endl;
-//}
+
+class Solution4 {
+public:
+    int maxArea(vector<int> &height) {
+        int l = 0;
+        int r = height.size() - 1;
+        int maxvalue = 0;
+        while (l <= r) {
+            maxvalue = max(maxvalue, min(height[l], height[r]) * (r - l));
+            if (height[l] < height[r])
+                l++;
+            else r--;
+        }
+        return maxvalue;
+    }
+};
+

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     vector<vector<int>> combinationSum(vector<int> &candidates, int target) {
         vector<vector<int>> re;
@@ -29,3 +29,29 @@ public:
         }
     }
 };
+
+class Solution {
+public:
+    vector<vector<int>> combinationSum(vector<int> &candidates, int target) {
+        sort(candidates.begin(), candidates.end());
+        vector<vector<int>> res;
+        vector<int> v;
+        backtrack(res, candidates, v, target, 0);
+        return res;
+    }
+
+    void backtrack(vector<vector<int>> &res, vector<int> &nums,
+                   vector<int> &v, int remain, int index) {
+        if (remain < 0) return;
+        else if (remain == 0) {
+            res.push_back(v);
+        } else {
+            for (int i = index; i < nums.size(); ++i) {
+                v.push_back(nums[i]);
+                backtrack(res, nums, v, remain - nums[i], i);
+                v.pop_back();
+            }
+        }
+    }
+};
+

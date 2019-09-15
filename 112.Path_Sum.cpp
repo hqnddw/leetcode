@@ -71,7 +71,7 @@ public:
 
 
 //后序遍历
-class Solution {
+class Solution4 {
 public:
     bool hasPathSum(TreeNode *root, int sum) {
         if (!root)
@@ -98,6 +98,52 @@ public:
                     cursum -= root->val;
                     pre = root;
                     root = nullptr;
+                }
+            }
+        }
+        return false;
+    }
+};
+
+class Solution5 {
+public:
+    bool hasPathSum(TreeNode *root, int sum) {
+        if (!root) return false;
+        if (!root->left && !root->right && root->val == sum) return true;
+        return hasPathSum(root->left, sum - root->val)
+               || hasPathSum(root->right, sum - root->val);
+    }
+};
+
+
+class Solution {
+public:
+    bool hasPathSum(TreeNode *root, int sum) {
+        if (!root)
+            return false;
+        stack<TreeNode *> s;
+        TreeNode *pre = nullptr;
+        int cursum = 0;
+        while (root || !s.empty()) {
+            if (root) {
+                s.push(root);
+                cursum += root->val;
+                root = root->left;
+            } else {
+                root = s.top();
+                if (root->right && root->right != pre) {
+                    root = root->right;
+                    s.push(root);
+                    cursum += root->val;
+                    root = root->left;
+                } else {
+                    if (cursum == sum && !root->left && !root->right)
+                        return true;
+                    s.pop();
+                    cursum -= root->val;
+                    pre = root;
+                    root = nullptr;
+
                 }
             }
         }

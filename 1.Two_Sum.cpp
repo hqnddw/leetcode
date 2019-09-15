@@ -24,7 +24,7 @@ public:
 };
 
 
-class Solution {
+class Solution2 {
 public:
     vector<int> twoSum(vector<int> &nums, int target) {
         unordered_map<int, int> dict;
@@ -35,6 +35,23 @@ public:
                 v.push_back(dict[key]);
                 v.push_back(i);
                 return v;
+            } else dict[nums[i]] = i;
+        }
+        return v;
+    }
+};
+
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int> &nums, int target) {
+        unordered_map<int, int> dict;
+        vector<int> v;
+        for (int i = 0; i < nums.size(); ++i) {
+            int key = target - nums[i];
+            if (dict.find(key) != dict.end()) {
+                v.push_back(dict[key]);
+                v.push_back(i);
             } else dict[nums[i]] = i;
         }
         return v;

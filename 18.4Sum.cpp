@@ -55,7 +55,7 @@ public:
 //    }
 //}
 
-class Solution {
+class Solution2 {
 public:
     vector<vector<int>> fourSum(vector<int> &nums, int target) {
         sort(nums.begin(), nums.end());
@@ -80,6 +80,39 @@ public:
                         while (lo < hi && nums[hi] == nums[hi - 1]) hi--;
                         lo++, hi--;
                     } else if (cursum > target) hi--;
+                    else lo++;
+                }
+            }
+        }
+        return v;
+    }
+};
+
+
+class Solution3 {
+public:
+    vector<vector<int>> fourSum(vector<int> &nums, int target) {
+        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        vector<vector<int>> v;
+        for (int i = 0; i < n - 3; ++i) {
+            if (nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target) break;
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            if (nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target) continue;
+            for (int j = i + 1; j < n - 2; ++j) {
+                if (nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target) break;
+                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
+                if (nums[i] + nums[j] + nums[n - 1] + nums[n - 2] < target) continue;
+                int lo = j + 1;
+                int hi = n - 1;
+                while (lo < hi) {
+                    int sum = nums[i] + nums[j] + nums[lo] + nums[hi];
+                    if (sum == target) {
+                        v.push_back({nums[i], nums[j], nums[lo], nums[hi]});
+                        while (lo < hi && nums[hi] == nums[hi - 1]) hi--;
+                        while (lo < hi && nums[lo] == nums[lo + 1]) lo++;
+                        lo++, hi--;
+                    } else if (sum > target) hi--;
                     else lo++;
                 }
             }

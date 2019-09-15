@@ -27,10 +27,27 @@ public:
 
 
 //STL
-class Solution {
+class Solution2 {
 public:
     int removeDuplicates(vector<int> &nums) {
         nums.erase(unique(nums.begin(), nums.end()), nums.end());
         return nums.size();
     }
 };
+
+
+class Solution3 {
+public:
+    int removeDuplicates(vector<int> &nums) {
+        if (nums.empty())
+            return 0;
+        int i = 0;
+        for (int j = 0; j < nums.size(); ++j) {
+            if (nums[i] != nums[j]) {
+                nums[++i] = nums[j];
+            }
+        }
+        return i + 1;
+    }
+};
+

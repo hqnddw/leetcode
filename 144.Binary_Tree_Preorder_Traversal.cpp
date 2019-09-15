@@ -89,14 +89,7 @@ public:
 };
 
 
-
-
-
-
-
-
-
-class Solution {
+class Solution5 {
 public:
     vector<int> preorderTraversal(TreeNode *root) {
         stack<TreeNode *> s;
@@ -113,3 +106,25 @@ public:
         return v;
     }
 };
+
+
+class Solution6 {
+public:
+    vector<int> preorderTraversal(TreeNode *root) {
+        stack<TreeNode *> s;
+        vector<int> v;
+        if (!root) return v;
+        s.push(root);
+        while (!s.empty()) {
+            root = s.top();
+            s.pop();
+            v.push_back(root->val);
+            if (root->right) s.push(root->right);
+            if (root->left) s.push(root->left);
+        }
+        return v;
+    }
+};
+
+
+
