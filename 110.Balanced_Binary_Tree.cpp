@@ -102,3 +102,39 @@ public:
     }
 };
 
+class Solution5 {
+public:
+    bool isBalanced(TreeNode *root) {
+        if (!root) return false;
+        if (abs(maxdepth(root->left) - maxdepth(root->right)) > 1)
+            return false;
+        return isBalanced(root->left) && isBalanced(root->right);
+    }
+
+    int maxdepth(TreeNode *root) {
+        if (!root) return 0;
+        return 1 + max(maxdepth(root->left), maxdepth(root->right));
+    }
+};
+
+
+class Solution6 {
+public:
+    bool isBalanced(TreeNode *root) {
+        return helper(root) != -1;
+    }
+
+    int helper(TreeNode *root) {
+        if (!root) return 0;
+        int left = helper(root->left);
+        if (left == -1)
+            return -1;
+        int right = helper(root->right);
+        if (right == -1)
+            return -1;
+        if (abs(left - right) > 1) return -1;
+        return max(left, right) + 1;
+    }
+};
+
+

@@ -51,7 +51,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     int numTrees(int n) {
         vector<int> v;
@@ -67,3 +67,7 @@ public:
         return v[n];
     }
 };
+
+
+
+

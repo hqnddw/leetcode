@@ -44,7 +44,7 @@ public:
 };
 
 //迭代
-class Solution {
+class Solution2 {
 public:
     const string map[10] = {
             " ",   //0
@@ -72,6 +72,78 @@ public:
                 }
             }
             res = temp;
+        }
+        return res;
+    }
+};
+
+
+class Solution3 {
+public:
+    const string map[10] = {
+            " ",   //0
+            "",    //1
+            "abc", //2
+            "def", //3
+            "ghi", //4
+            "jkl", //5
+            "mno", //6
+            "pqrs",//7
+            "tuv", //8
+            "wxyz",//9
+    };
+
+    vector<string> letterCombinations(string digits) {
+        vector<string> res;
+        if (digits.empty())
+            return res;
+        backtrack(digits, res, "", 0);
+        return res;
+    }
+
+    void backtrack(string &digits, vector<string> &res, const string &s, int start) {
+        if (start >= digits.size()) {
+            res.push_back(s);
+            return;
+        }
+        string temp = map[digits[start] - '0'];
+        for (int j = 0; j < temp.size(); ++j) {
+            backtrack(digits, res, s + temp[j], start + 1);
+        }
+
+    }
+
+};
+
+
+class Solution4 {
+public:
+    const string map[10] = {
+            " ",   //0
+            "",    //1
+            "abc", //2
+            "def", //3
+            "ghi", //4
+            "jkl", //5
+            "mno", //6
+            "pqrs",//7
+            "tuv", //8
+            "wxyz",//9
+    };
+
+    vector<string> letterCombinations(string digits) {
+        vector<string> res;
+        if (digits.empty()) return res;
+        res.push_back("");
+        for (int k = 0; k < digits.size(); ++k) {
+            string temp = map[digits[k] - '0'];
+            vector<string> v;
+            for (auto i :res) {
+                for (int j = 0; j < temp.size(); ++j) {
+                    v.push_back(i + temp[j]);
+                }
+            }
+            res = v;
         }
         return res;
     }

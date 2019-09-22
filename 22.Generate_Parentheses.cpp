@@ -47,3 +47,45 @@ public:
             backtrack(res, max, s + ")", left, right + 1);
     }
 };
+
+
+class Solution3 {
+public:
+    vector<string> generateParenthesis(int n) {
+        vector<string> v;
+        backtrack(v, "", n, 0, 0);
+        return v;
+    }
+
+    void backtrack(vector<string> &v, string s, int max, int left, int right) {
+        if (s.size() == max * 2) {
+            v.push_back(s);
+            return;
+        }
+        if (left < max)
+            backtrack(v, s + "(", max, left + 1, right);
+        if (right < left)
+            backtrack(v, s + ")", max, left, right + 1);
+    }
+};
+
+
+class Solution {
+public:
+    vector<string> generateParenthesis(int n) {
+        vector<string> res;
+        backtrack(res, "", n, 0, 0);
+        return res;
+    }
+
+    void backtrack(vector<string> &res, string s, int max, int left, int right) {
+        if (s.size() == max * 2) {
+            res.push_back(s);
+            return;
+        }
+        if (left < max)
+            backtrack(res, s + "(", max, left + 1, right);
+        if (right < left)
+            backtrack(res, s + ")", max, left, right + 1);
+    }
+};

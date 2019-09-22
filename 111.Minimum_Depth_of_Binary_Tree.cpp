@@ -110,7 +110,7 @@ public:
 };
 
 
-class Solution16 {
+class Solution6 {
 public:
     bool isBalanced(TreeNode *root) {
         if (!root) return true;
@@ -125,19 +125,39 @@ public:
     }
 };
 
-class Solution {
-public:
-    bool isBalanced(TreeNode *root) {
-        return depth(root) != -1;
-    }
 
-    int depth(TreeNode *root) {
+class Solution7 {
+public:
+    int minDepth(TreeNode *root) {
         if (!root) return 0;
-        int left = depth(root->left);
-        if (left == -1) return -1;
-        int right = depth(root->right);
-        if (right == -1) return -1;
-        if (abs(left - right) > 1) return -1;
-        return max(right, left) + 1;
+        if (!root->left)
+            return 1 + minDepth(root->right);
+        if (!root->right)
+            return 1 + minDepth(root->left);
+        return 1 + min(minDepth(root->left), minDepth(root->right));
+    }
+};
+
+
+class Solution8 {
+public:
+    int minDepth(TreeNode *root) {
+        if (!root) return 0;
+        queue<TreeNode *> q;
+        q.push(root);
+        int cnt = 1;
+        while (!q.empty()) {
+            int n = q.size();
+            for (int i = 0; i < n; ++i) {
+                root = q.front();
+                q.pop();
+                if (!root->left && !root->right)
+                    return cnt;
+                if (root->left) q.push(root->left);
+                if (root->right) q.push(root->right);
+            }
+            cnt++;
+        }
+        return cnt;
     }
 };

@@ -66,7 +66,7 @@ public:
 
 
 //位运算
-class Solution {
+class Solution4 {
 public:
     vector<vector<int>> subsets(vector<int> &nums) {
         int n = nums.size();
@@ -79,6 +79,48 @@ public:
                     temp.push_back(nums[j]);
             }
             res.push_back(temp);
+        }
+        return res;
+    }
+};
+
+
+//第二次
+class Solution5 {
+public:
+    vector<vector<int>> subsets(vector<int> &nums) {
+        vector<vector<int>> res;
+        vector<int> v;
+        backtrack(res, v, nums, 0);
+        return res;
+    }
+
+    void backtrack(vector<vector<int>> &res, vector<int> &v, vector<int> &nums, int start) {
+        if (start >= nums.size()) {
+            res.push_back(v);
+            return;
+        }
+        v.push_back(nums[start]);
+        backtrack(res, v, nums, start + 1);
+        v.pop_back();
+        backtrack(res, v, nums, start + 1);
+    }
+
+};
+
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int> &nums) {
+        vector<vector<int>> res = {{}};
+        vector<int> v;
+        for (int i = 0; i < nums.size(); ++i) {
+            vector<vector<int>> temp;
+            for (auto j : res) {
+                j.push_back(nums[i]);
+                temp.push_back(j);
+            }
+            res.insert(res.end(), temp.begin(), temp.end());
         }
         return res;
     }

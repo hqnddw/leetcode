@@ -128,3 +128,37 @@ public:
 };
 
 
+class Solution7 {
+public:
+    void flatten(TreeNode *root) {
+        TreeNode *cur = nullptr;
+        while (root) {
+            if (root->left) {
+                cur = root->left;
+                while (cur->right)
+                    cur = cur->right;
+
+                cur->right = root->right;
+                root->right = root->left;
+                root->left = nullptr;
+
+            }
+            root = root->right;
+        }
+    }
+};
+
+
+class Solution {
+public:
+    TreeNode *pre = nullptr;
+
+    void flatten(TreeNode *root) {
+        if (!root) return;
+        flatten(root->right);
+        flatten(root->left);
+        root->right = pre;
+        root->left = nullptr;
+        pre = root;
+    }
+};

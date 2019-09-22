@@ -141,7 +141,7 @@ public:
 //    vector<int> nums2{2, 3, 4, 6};
 //    cout << s.findMedianSortedArrays(nums1, nums2);
 //}
-class Solution {
+class Solution5 {
 public:
     double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
         int m = nums1.size();
@@ -180,10 +180,39 @@ public:
 };
 
 
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
+        int m = nums1.size();
+        int n = nums2.size();
+        if (m > n)
+            return findMedianSortedArrays(nums2, nums1);
+        int lo = 0;
+        int hi = m;
+        while (lo <= hi) {
+            int i = (lo + hi) / 2;
+            int j = (m + n + 1) / 2 - i;
+            if (i > 0 && nums1[i - 1] > nums2[j])
+                hi = i - 1;
+            else if (i < m && nums2[j - 1] > nums1[i])
+                lo = i + 1;
+            else {
+                int max_left = 0;
+                if (i == 0) max_left = nums2[j - 1];
+                else if (j == 0) max_left = nums1[i - 1];
+                else max_left = max(nums1[i - 1], nums2[j - 1]);
 
+                if ((m + n) % 2 == 1)
+                    return max_left;
+                int min_right = 0;
+                if (i == m) min_right = nums2[j];
+                else if (j == n) min_right = nums1[i];
+                else min_right = min(nums1[i], nums2[j]);
 
-
-
-
-
+                return (min_right + max_left) / 2.0;
+            }
+        }
+        return 0.0;
+    }
+};
 
