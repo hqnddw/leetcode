@@ -197,7 +197,7 @@ public:
     }
 };
 
-class Solution {
+class Solution7 {
 public:
     ListNode *mergeKLists(vector<ListNode *> &lists) {
         struct compare {
@@ -217,6 +217,64 @@ public:
             pq.pop();
             re->next = top;
             re = re->next;
+            if (top->next)
+                pq.push(top->next);
+        }
+        return dummy.next;
+    }
+};
+
+
+class Solution8 {
+public:
+    ListNode *mergeKLists(vector<ListNode *> &lists) {
+        return divideAndMerge(lists, 0, lists.size() - 1);
+    }
+
+    ListNode *divideAndMerge(vector<ListNode *> &lists, int start, int end) {
+        if (start > end) return nullptr;
+        if (start == end) return lists[start];
+        ListNode *left = divideAndMerge(lists, start, (start + end) / 2);
+        ListNode *right = divideAndMerge(lists, (start + end) / 2 + 1, end);
+        return merge(left, right);
+    }
+
+    ListNode *merge(ListNode *l1, ListNode *l2) {
+        if (!l1) return l2;
+        if (!l2) return l1;
+        if (l1->val < l2->val) {
+            l1->next = merge(l1->next, l2);
+            return l1;
+        } else {
+            l2->next = merge(l1, l2->next);
+            return l2;
+        }
+    }
+};
+
+
+class Solution9 {
+public:
+    struct compare {
+        bool operator()(ListNode *l1, ListNode *l2) {
+            return l1->val > l2->val;
+        }
+    };
+
+    ListNode *mergeKLists(vector<ListNode *> &lists) {
+
+        ListNode dummy(-1);
+        ListNode *cur = &dummy;
+        priority_queue<ListNode *, vector<ListNode *>, compare> pq;
+        for (auto i:lists) {
+            if (i)
+                pq.push(i);
+        }
+        while (!pq.empty()) {
+            ListNode *top = pq.top();
+            pq.pop();
+            cur->next = top;
+            cur = cur->next;
             if (top->next)
                 pq.push(top->next);
         }

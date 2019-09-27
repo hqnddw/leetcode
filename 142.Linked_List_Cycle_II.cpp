@@ -54,7 +54,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     ListNode *detectCycle(ListNode *head) {
         ListNode *slow = head;
@@ -72,5 +72,48 @@ public:
             }
         }
         return nullptr;
+    }
+};
+
+
+class Solution4 {
+public:
+    ListNode *detectCycle(ListNode *head) {
+        ListNode *slow = head;
+        ListNode *fast = head;
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+            if (slow == fast) {
+                ListNode *slow1 = head;
+                while (slow != slow1) {
+                    slow = slow->next;
+                    slow1 = slow1->next;
+                }
+                return slow1;
+            }
+        }
+        return nullptr;
+    }
+};
+
+
+class Solution {
+public:
+    ListNode *insertionSortList(ListNode *head) {
+        ListNode dummy(-1);
+        ListNode *pre = &dummy;
+        ListNode *cur = head;
+        while (cur) {
+            if (pre->next && pre->next->val > cur->val)
+                pre = &dummy;
+            while (pre->next && pre->next->val < cur->val)
+                pre = pre->next;
+
+            ListNode *temp = cur->next;
+            pre->next = cur;
+            cur = temp;
+        }
+        return dummy.next;
     }
 };

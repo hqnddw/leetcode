@@ -90,14 +90,14 @@ public:
         ListNode *node2 = headB;
         while (headA != headB) {
             headA = (!headA) ? node2 : headA->next;
-            headB = (!headB) ? node1:headB->next;
+            headB = (!headB) ? node1 : headB->next;
         }
         return headA;
     }
 };
 
 
-class Solution {
+class Solution5 {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode *slow1 = headA;
@@ -109,5 +109,22 @@ public:
             else slow2 = slow2->next;
         }
         return slow1;
+    }
+};
+
+
+class Solution6 {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *node1 = headA;
+        ListNode *node2 = headB;
+
+        while (headA != headB) {
+            if (headA) headA = headA->next;
+            else headA = node2;
+            if (headB) headB = headB->next;
+            else headB = node1;
+        }
+        return headA;
     }
 };

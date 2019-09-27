@@ -49,7 +49,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     ListNode *insertionSortList(ListNode *head) {
         ListNode dummy(-1);
@@ -65,6 +65,28 @@ public:
             pre->next = cur;
             pre = &dummy;
 
+        }
+        return dummy.next;
+    }
+};
+
+
+class Solution4 {
+public:
+    ListNode *insertionSortList(ListNode *head) {
+        ListNode dummy(-1);
+        ListNode *pre = &dummy;
+        ListNode *cur = head;
+        while (cur) {
+            if (pre->next && pre->next->val > cur->val)
+                pre = &dummy;
+            while (pre->next && pre->next->val < cur->val)
+                pre = pre->next;
+
+            ListNode *temp = cur->next;
+            cur->next = pre->next;
+            pre->next = cur;
+            cur = temp;
         }
         return dummy.next;
     }

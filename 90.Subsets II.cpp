@@ -52,7 +52,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     vector<vector<int>> subsetsWithDup(vector<int> &nums) {
         vector<vector<int>> res = {{}};
@@ -66,6 +66,54 @@ public:
             vector<vector<int>> temp;
             for (auto j:res) {
                 for (int k = 0; k <= count; ++k) {
+                    j.push_back(nums[i]);
+                    temp.push_back(j);
+                }
+            }
+            res.insert(res.end(), temp.begin(), temp.end());
+        }
+        return res;
+    }
+};
+
+
+class Solution4 {
+public:
+    vector<vector<int>> subsetsWithDup(vector<int> &nums) {
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> res;
+        vector<int> v;
+        backtrack(res, v, nums, 0);
+        return res;
+    }
+
+    void backtrack(vector<vector<int>> &res, vector<int> &v, vector<int> &nums, int start) {
+        res.push_back(v);
+        for (int i = start; i < nums.size(); ++i) {
+            if (i == start || (i > 0 && nums[i] != nums[i - 1])) {
+                v.push_back(nums[i]);
+                backtrack(res, v, nums, i + 1);
+                v.pop_back();
+            }
+        }
+    }
+};
+
+
+class Solution5 {
+public:
+    vector<vector<int>> subsetsWithDup(vector<int> &nums) {
+        vector<vector<int>> res = {{}};
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < nums.size(); ++i) {
+            int count = 0;
+            while ((i + 1) < nums.size() && nums[i] == nums[i + 1]) {
+                i++;
+                count++;
+            }
+            vector<vector<int>> temp;
+            for (auto j : res) {
+                for (int k = 0; k <= count; k++) {
                     j.push_back(nums[i]);
                     temp.push_back(j);
                 }
