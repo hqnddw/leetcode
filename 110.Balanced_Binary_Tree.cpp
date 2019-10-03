@@ -102,3 +102,20 @@ public:
     }
 };
 
+
+class Solution5 {
+public:
+    bool isBalanced(TreeNode *root) {
+        if (!root) return true;
+        if (abs(depth(root->left) - depth(root->right)) > 1)
+            return false;
+        return isBalanced(root->left) && isBalanced(root->right);
+    }
+
+    int depth(TreeNode *root) {
+        if (!root) return 0;
+        return max(depth(root->right), depth(root->left)) + 1;
+    }
+};
+
+

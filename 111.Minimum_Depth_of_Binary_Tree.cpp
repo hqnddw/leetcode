@@ -125,7 +125,7 @@ public:
     }
 };
 
-class Solution {
+class Solution7 {
 public:
     bool isBalanced(TreeNode *root) {
         return depth(root) != -1;
@@ -139,5 +139,44 @@ public:
         if (right == -1) return -1;
         if (abs(left - right) > 1) return -1;
         return max(right, left) + 1;
+    }
+};
+
+
+class Solution8 {
+public:
+    int minDepth(TreeNode *root) {
+        if (!root) return 0;
+        if (!root->left)
+            return minDepth(root->right) + 1;
+        if (!root->right)
+            return minDepth(root->left) + 1;
+        return min(minDepth(root->right), minDepth(root->left)) + 1;
+    }
+};
+
+
+class Solution9 {
+public:
+    int minDepth(TreeNode *root) {
+        queue<TreeNode *> q;
+        int count = 0;
+        if (root) {
+            q.push(root);
+            count++;
+        }
+        while (!q.empty()) {
+            int n = q.size();
+            for (int i = 0; i < n; ++i) {
+                root = q.front();
+                q.pop();
+                if (!root->left && !root->right)
+                    return count;
+                if (root->left) q.push(root->left);
+                if (root->right) q.push(root->right);
+            }
+            count++;
+        }
+        return count;
     }
 };
