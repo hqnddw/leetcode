@@ -41,11 +41,11 @@ public:
 //使用虚拟头节点
 class Solution3 {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
+    ListNode *removeElements(ListNode *head, int val) {
         ListNode dummy(-1);
         dummy.next = head;
         ListNode *cur = &dummy;
-        while (cur->next){
+        while (cur->next) {
             if (cur->next->val == val)
                 cur->next = cur->next->next;
             else cur = cur->next;
@@ -57,11 +57,11 @@ public:
 //不使用虚拟头节点
 class Solution4 {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
+    ListNode *removeElements(ListNode *head, int val) {
         ListNode *cur = head;
         if (!head) return nullptr;
-        while (cur->next){
-            if (cur->next->val == val )
+        while (cur->next) {
+            if (cur->next->val == val)
                 cur->next = cur->next->next;
             else cur = cur->next;
         }
@@ -71,13 +71,42 @@ public:
 };
 
 //递归
-class Solution {
+class Solution5 {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
+    ListNode *removeElements(ListNode *head, int val) {
         if (!head)
             return head;
         head->next = removeElements(head->next, val);
         if (head->val == val) return head->next;
+        else return head;
+    }
+};
+
+
+class Solution6 {
+public:
+    ListNode *removeElements(ListNode *head, int val) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        while (pre->next) {
+            if (pre->next->val == val)
+                pre->next = pre->next->next;
+            else pre = pre->next;
+        }
+        return dummy.next;
+    }
+};
+
+
+class Solution7 {
+public:
+    ListNode *removeElements(ListNode *head, int val) {
+        if (!head)
+            return nullptr;
+        head->next = removeElements(head->next, val);
+        if (head->val == val)
+            return head->next;
         else return head;
     }
 };

@@ -3,6 +3,7 @@
 //
 #include <stack>
 #include <queue>
+
 using namespace std;
 
 struct TreeNode {
@@ -148,7 +149,7 @@ public:
 
 
 //BFS
-class Solution {
+class Solution9 {
 public:
     bool isValidBST(TreeNode *root) {
         if (!root || (!root->right && !root->left))
@@ -182,6 +183,28 @@ public:
                 min.push(root);
                 max.push(maxvalue);
             }
+        }
+        return true;
+    }
+};
+
+
+class Solution10 {
+public:
+    bool isValidBST(TreeNode *root) {
+        TreeNode *pre = nullptr;
+        stack<TreeNode *> s;
+        while (root || !s.empty()) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            root = s.top();
+            s.pop();
+            if (pre && pre->val >= root->val)
+                return false;
+            pre = root;
+            root = root->right;
         }
         return true;
     }
