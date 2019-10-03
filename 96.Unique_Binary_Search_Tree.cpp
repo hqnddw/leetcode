@@ -51,7 +51,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     int numTrees(int n) {
         vector<int> v;
@@ -63,6 +63,25 @@ public:
                 temp += v[j - 1] * v[i - j];
             }
             v.push_back(temp);
+        }
+        return v[n];
+    }
+};
+
+
+class Solution4 {
+public:
+    int numTrees(int n) {
+        vector<int> v;
+        v.push_back(1);
+        v.push_back(1);
+
+        for (int i = 2; i <= n; i++) {
+            int res = 0;
+            for (int j = 1; j <= i; j++) {
+                res += v[j - 1] * v[i - j];
+            }
+            v.push_back(res);
         }
         return v[n];
     }

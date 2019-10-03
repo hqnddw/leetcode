@@ -27,7 +27,7 @@ public:
 };
 
 
-class Solution {
+class Solution2 {
 public:
     ListNode *deleteDuplicates(ListNode *head) {
         ListNode dummy(-1);
@@ -38,6 +38,24 @@ public:
             if (pre->next->val == pre->next->next->val) {
                 temp = pre->next->val;
                 while (pre->next && pre->next->val == temp)
+                    pre->next = pre->next->next;
+            } else pre = pre->next;
+        }
+        return dummy.next;
+    }
+};
+
+
+class Solution3 {
+public:
+    ListNode *deleteDuplicates(ListNode *head) {
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        while (pre->next && pre->next->next) {
+            if (pre->next->val == pre->next->next->val) {
+                int tempValue = pre->next->val;
+                while (pre->next && pre->next->val == tempValue)
                     pre->next = pre->next->next;
             } else pre = pre->next;
         }

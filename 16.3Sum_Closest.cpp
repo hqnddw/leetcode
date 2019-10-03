@@ -104,3 +104,29 @@ public:
         return re;
     }
 };
+
+
+class Solution4 {
+public:
+    int threeSumClosest(vector<int> &nums, int target) {
+        int res = nums[0] + nums[1] + nums[2];
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < nums.size(); ++i) {
+            if (i == 0 || (i > 0 && nums[i] != nums[i - 1])) {
+                int lo = i + 1;
+                int hi = nums.size() - 1;
+                while (lo < hi) {
+                    int curSum = nums[i] + nums[lo] + nums[hi];
+                    if (curSum == target)
+                        return target;
+                    else if (curSum > target)
+                        hi--;
+                    else lo++;
+                    if (abs(curSum - target) < abs(res - target))
+                        res = curSum;
+                }
+            }
+        }
+        return res;
+    }
+};

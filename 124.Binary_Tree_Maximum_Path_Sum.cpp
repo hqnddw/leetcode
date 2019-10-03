@@ -69,3 +69,30 @@ public:
         return root->val + max(left, right);
     }
 };
+
+
+class Solution4 {
+public:
+    int maxValue = INT_MIN;
+
+    int maxPathSum(TreeNode *root) {
+        helper(root);
+        return maxValue;
+    }
+
+    int helper(TreeNode *root) {
+        if (!root) return 0;
+        int left = max(helper(root->left), 0);
+        int right = max(helper(root->right), 0);
+        maxValue = max(maxValue, right + left + root->val);
+        return root->val + max(left, right);
+    }
+};
+
+
+class Solution {
+public:
+    int maxArea(vector<int> &height) {
+
+    }
+};

@@ -210,7 +210,7 @@ public:
 };
 
 
-class Solution {
+class Solution10 {
 public:
     vector<int> inorderTraversal(TreeNode *root) {
         vector<int> v;
@@ -233,5 +233,29 @@ public:
             }
         }
         return v;
+    }
+};
+
+
+class Solution11 {
+public:
+    vector<int> inorderTraversal(TreeNode *root) {
+        vector<int> res;
+        while (root) {
+            if (root->left) {
+                TreeNode *temp = root;
+                TreeNode *cur = root->left;
+                TreeNode *re = cur;
+                while (cur->right)
+                    cur = cur->right;
+                cur->right = temp;
+                temp->left = nullptr;
+                root = re;
+            } else {
+                res.push_back(root->val);
+                root = root->right;
+            }
+        }
+        return res;
     }
 };

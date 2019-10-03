@@ -201,3 +201,30 @@ public:
 };
 
 
+class Solution8 {
+public:
+    vector<int> postorderTraversal(TreeNode *root) {
+        stack<TreeNode *> s;
+        vector<int> res;
+        TreeNode *pre = nullptr;
+        while (root || !s.empty()) {
+            if (root) {
+                s.push(root);
+                root = root->left;
+            } else {
+                root = s.top();
+                if (root->right && root->right != pre) {
+                    root = root->right;
+                    s.push(root);
+                    root = root->left;
+                } else {
+                    s.pop();
+                    res.push_back(root->val);
+                    pre = root;
+                    root = nullptr;
+                }
+            }
+        }
+        return res;
+    }
+};

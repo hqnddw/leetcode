@@ -116,7 +116,7 @@ public:
 };
 
 
-class Solution {
+class Solution6 {
 public:
     bool hasPathSum(TreeNode *root, int sum) {
         if (!root)
@@ -149,4 +149,84 @@ public:
         }
         return false;
     }
+};
+
+
+class Solution7 {
+public:
+    bool hasPathSum(TreeNode *root, int sum) {
+        if (!root) return false;
+        if (!root->left && !root->right)
+            return root->val == sum;
+        return hasPathSum(root->left, sum - root->val) ||
+               hasPathSum(root->right, sum - root->val);
+    }
+};
+
+
+class Solution8 {
+public:
+    bool hasPathSum(TreeNode *root, int sum) {
+        stack<TreeNode *> s;
+        TreeNode *pre = nullptr;
+        int curSum = 0;
+        while (root || !s.empty()) {
+            if (root) {
+                s.push(root);
+                curSum += root->val;
+                root = root->left;
+            } else {
+                root = s.top();
+                if (root->right && root->right != pre) {
+                    root = root->right;
+                    s.push(root);
+                    curSum += root->val;
+                    root = root->left;
+                } else {
+                    if (!root->left && !root->right && curSum == sum)
+                        return true;
+                    s.pop();
+                    curSum -= root->val;
+                    pre = root;
+                    root = nullptr;
+                }
+            }
+        }
+        return false;
+    }
+};
+
+
+class Solution9 {
+public:
+    bool hasPathSum(TreeNode *root, int sum) {
+        if (!root)
+            return false;
+        queue<TreeNode *> q;
+        queue<int> curSum;
+        q.push(root);
+        curSum.push(root->val);
+        while (!q.empty()) {
+            int n = q.size();
+            for (int i = 0; i < n; ++i) {
+                root = q.front();
+                q.pop();
+                int cur = curSum.front();
+                curSum.pop();
+                if (!root->left && !root->right && cur == sum)
+                    return true;
+                if (root->left) {
+                    q.push(root->left);
+                    curSum.push(cur + root->left->val);
+                }
+                if (root->right) {
+                    q.push(root->right);
+                    curSum.push(cur + root->right->val);
+                }
+            }
+
+        }
+        return false;
+    }
+
 };

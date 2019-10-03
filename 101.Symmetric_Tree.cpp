@@ -94,7 +94,21 @@ public:
 };
 
 
-class Solution {
+class Solution5 {
+public:
+    bool isSymmetric(TreeNode *root) {
+        return valid(root, root);
+    }
+
+    bool valid(TreeNode *root1, TreeNode *root2) {
+        if (!root1 || !root2) return root1 == root2;
+        return (root1->val == root2->val) && valid(root1->left, root2->right)
+               && valid(root1->right, root2->left);
+    }
+};
+
+
+class Solution6 {
 public:
     bool isSymmetric(TreeNode *root) {
         return valid(root, root);

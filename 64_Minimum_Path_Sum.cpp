@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     int minPathSum(vector<vector<int>> &grid) {
         int m = grid.size();
@@ -22,3 +22,9 @@ public:
         return sum[m - 1][n - 1];
     }
 };
+
+
+
+
+
+

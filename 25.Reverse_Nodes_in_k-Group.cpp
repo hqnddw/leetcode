@@ -154,3 +154,32 @@ public:
         return dummy.next;
     }
 };
+
+
+class Solution6 {
+public:
+    ListNode *reverseKGroup(ListNode *head, int k) {
+        int count = 0;
+        ListNode *l1 = head;
+        while (l1) {
+            l1 = l1->next;
+            count++;
+        }
+        ListNode dummy(-1);
+        dummy.next = head;
+        ListNode *pre = &dummy;
+        ListNode *cur = pre->next;
+        while (count >= k) {
+            for (int i = 0; i < k - 1; ++i) {
+                ListNode *temp = pre->next;
+                pre->next = cur->next;
+                cur->next = cur->next->next;
+                pre->next->next = temp;
+            }
+            pre = cur;
+            cur = cur->next;
+            count -= k;
+        }
+        return dummy.next;
+    }
+};
