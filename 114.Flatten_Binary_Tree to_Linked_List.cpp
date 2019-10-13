@@ -149,7 +149,7 @@ public:
 };
 
 
-class Solution {
+class Solution8 {
 public:
     TreeNode *pre = nullptr;
 
@@ -162,3 +162,39 @@ public:
         pre = root;
     }
 };
+
+
+class Solution9 {
+public:
+    void flatten(TreeNode *root) {
+        while (root) {
+            if (root->left) {
+                TreeNode *cur = root->left;
+                while (cur->right) {
+                    cur = cur->right;
+                }
+                cur->right = root->right;
+                root->right = root->left;
+                root->left = nullptr;
+            }
+            root = root->right;
+        }
+    }
+};
+
+
+class Solution10 {
+public:
+    TreeNode *pre = nullptr;
+
+    void flatten(TreeNode *root) {
+        if (!root) return;
+        flatten(root->right);
+        flatten(root->left);
+        root->right = pre;
+        pre = root;
+        root->left = nullptr;
+    }
+};
+
+
