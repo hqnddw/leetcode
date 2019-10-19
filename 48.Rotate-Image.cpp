@@ -81,3 +81,20 @@ public:
         }
     }
 };
+
+
+class Solution6 {
+public:
+    void rotate(vector<vector<int>> &matrix) {
+        for (int i = 0; i < matrix.size(); ++i) {
+            for (int j = i; j < matrix[i].size(); ++j) {
+                swap(matrix[i][j], matrix[j][i]);
+            }
+        }
+        for (int k = 0; k < matrix.size(); ++k) {
+            for (int i = 0; i < matrix[i].size() / 2; ++i) {
+                swap(matrix[k][i], matrix[k][matrix[i].size() - 1 - i]);
+            }
+        }
+    }
+};

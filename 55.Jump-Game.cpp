@@ -78,3 +78,18 @@ public:
         return i == nums.size();
     }
 };
+
+
+class Solution5 {
+public:
+    bool canJump(vector<int> &nums) {
+        int reach = 0;
+        for (int i = 0; i < nums.size(); ++i) {
+            if (i > reach) return false;
+            else reach = max(reach, nums[i] + i);
+        }
+        return true;
+    }
+};
+
+

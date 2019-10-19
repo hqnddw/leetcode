@@ -134,3 +134,32 @@ public:
         return root;
     }
 };
+
+
+class Solution5 {
+public:
+    TreeNode *sortedListToBST(ListNode *head) {
+        if (!head)
+            return nullptr;
+        ListNode *middle = findMiddle(head);
+        TreeNode *root = new TreeNode(middle->val);
+        if (middle == head)
+            return root;
+        root->left = sortedListToBST(middle);
+        root->right = sortedListToBST(middle->next);
+        return root;
+    }
+
+    ListNode *findMiddle(ListNode *head) {
+        ListNode *slow = head;
+        ListNode *fast = head;
+        ListNode *pre = nullptr;
+        while (fast && fast->next) {
+            pre = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        if (pre) pre->next = nullptr;
+        return slow;
+    }
+};
