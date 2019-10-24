@@ -77,3 +77,35 @@ public:
         }
     }
 };
+
+
+class Solution4 {
+public:
+    vector<vector<int>> permute(vector<int> &nums) {
+        vector<vector<int>> res;
+        vector<int> v;
+        helper(res, v, nums, 0);
+        return res;
+    }
+
+    void helper(vector<vector<int>> &res, vector<int> &v, vector<int> &nums, int start) {
+        if (v.size() == nums.size()) {
+            res.push_back(v);
+            return;
+        }
+        for (int i = 0; i < nums.size(); ++i) {
+            if (find(v.begin(), v.end(), nums[i]) != v.end()) continue;
+            v.push_back(nums[i]);
+            helper(res, v, nums, i + 1);
+            v.pop_back();
+        }
+    }
+};
+
+
+class Solution5 {
+public:
+    vector<vector<int>> permute(vector<int> &nums) {
+
+    }
+};

@@ -107,3 +107,30 @@ public:
         }
     }
 };
+
+
+class Solution5 {
+public:
+    vector<vector<int>> combinationSum(vector<int> &candidates, int target) {
+        vector<vector<int>> res;
+        vector<int> v;
+        backtrack(res, v, candidates, target, 0);
+        return res;
+    }
+
+    void backtrack(vector<vector<int>> &res, vector<int> &v, vector<int> &nums, int remain, int start) {
+        if (remain < 0)
+            return;
+        else if (remain == 0) {
+            res.push_back(v);
+            return;
+        } else {
+            for (int i = 0; i < nums.size(); ++i) {
+                v.push_back(nums[i]);
+                backtrack(res, v, nums, remain - nums[i], i);
+                v.pop_back();
+            }
+        }
+    }
+};
+

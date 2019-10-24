@@ -120,3 +120,22 @@ public:
                && valid(root1->right, root2->left);
     }
 };
+
+
+class Solution {
+public:
+    vector<int> PrintFromTopToBottom(TreeNode *root) {
+        queue<TreeNode *> q;
+        vector<int> v;
+        if (!root) return v;
+        q.push(root);
+        while (!q.empty()) {
+            root = q.front();
+            q.pop();
+            v.push_back(root->val);
+            if (root->left) q.push(root->left);
+            if (root->right) q.push(root->right);
+        }
+        return v;
+    }
+};

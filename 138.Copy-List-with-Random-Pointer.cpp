@@ -123,3 +123,37 @@ public:
         return l2_head;
     }
 };
+
+
+class Solution4 {
+public:
+    Node *copyRandomList(Node *head) {
+        if (!head)
+            return nullptr;
+        Node *l1 = head;
+        Node *l2 = nullptr;
+        while (l1) {
+            l2 = new Node(l1->val, nullptr, nullptr);
+            l2->next = l1->random;
+            l1->random = l2;
+            l1 = l1->next;
+        }
+
+        l1 = head;
+        while (l1) {
+            l2 = l1->random;
+            l2->random = (l2->next) ? l2->next->random : nullptr;
+            l1 = l1->next;
+        }
+
+        l1 = head;
+        Node *dummy = l1->random;
+        while (l1) {
+            l2 = l1->random;
+            l1->random = l2->next;
+            l2->next = (l1->next) ? l1->next->random : nullptr;
+            l1 = l1->next;
+        }
+        return dummy;
+    }
+};

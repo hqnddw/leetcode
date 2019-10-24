@@ -65,3 +65,33 @@ public:
         return res;
     }
 };
+
+
+class Solution3 {
+public:
+    vector<vector<int>> generateMatrix(int n) {
+        vector<vector<int>> res(n, vector<int>(n));
+        int up = 0, left = 0;
+        int down = n - 1, right = n - 1;
+        int p = 1;
+        while (up <= down && left <= right) {
+            for (int i = left; i <= right; ++i) {
+                res[up][i] = p++;
+            }
+            if (++up > down) break;
+            for (int j = up; j <= down; ++j) {
+                res[j][right] = p++;
+            }
+            if (--right < left) break;
+            for (int k = right; k >= left; k--) {
+                res[down][k] = p++;
+            }
+            if (--down < up) break;
+            for (int l = down; l >= up; l--) {
+                res[l][left] = p++;
+            }
+            if (++left > right) break;
+        }
+        return res;
+    }
+};
