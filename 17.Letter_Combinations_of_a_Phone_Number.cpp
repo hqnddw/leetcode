@@ -222,3 +222,73 @@ public:
         return res;
     }
 };
+
+
+class Solution7 {
+public:
+    const string map[10] = {
+            " ",   //0
+            "",    //1
+            "abc", //2
+            "def", //3
+            "ghi", //4
+            "jkl", //5
+            "mno", //6
+            "pqrs",//7
+            "tuv", //8
+            "wxyz",//9
+    };
+
+    vector<string> letterCombinations(string digits) {
+        vector<string> res;
+        if (digits.empty()) return res;
+        helper(res, "", digits, 0);
+        return res;
+    }
+
+    void helper(vector<string> &res, string s, string digits, int start) {
+        if (start == digits.size()) {
+            res.push_back(s);
+            return;
+        }
+        string tmp = map[digits[start] - '0'];
+        for (int i = 0; i < tmp.size(); ++i) {
+            helper(res, s + tmp[i], digits, start + 1);
+        }
+    }
+};
+
+
+class Solution8 {
+public:
+    const string map[10] = {
+            " ",   //0
+            "",    //1
+            "abc", //2
+            "def", //3
+            "ghi", //4
+            "jkl", //5
+            "mno", //6
+            "pqrs",//7
+            "tuv", //8
+            "wxyz",//9
+    };
+
+    vector<string> letterCombinations(string digits) {
+        vector<string> res;
+        if (digits.empty()) return res;
+        res = {""};
+        for (int i = 0; i < digits.size(); ++i) {
+            string tmp = map[digits[i] - '0'];
+            vector<string> v;
+            for (auto j : res) {
+                for (int k = 0; k < tmp.size(); ++k) {
+                    j += tmp[k];
+                    v.push_back(j);
+                }
+            }
+            res = v;
+        }
+        return res;
+    }
+};

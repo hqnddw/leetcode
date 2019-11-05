@@ -99,3 +99,23 @@ public:
         return step;
     }
 };
+
+
+class Solution6 {
+public:
+    int jump(vector<int> &nums) {
+        int reach = 0;
+        int end = 0;
+        int step = 0;
+        for (int i = 0; i < nums.size(); ++i) {
+            reach = max(reach, nums[i] + i);
+            if (end == i) {
+                step++;
+                end = reach;
+            }
+            if (end >= nums.size() - 1)
+                break;
+        }
+        return step;
+    }
+};

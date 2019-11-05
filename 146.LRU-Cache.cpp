@@ -7,14 +7,14 @@
 
 using namespace std;
 
-class LRUCache {
+class LRUCache1 {
 public:
     int size;
     list<int> lru;
     unordered_map<int, int> map_value;
     unordered_map<int, list<int>::iterator> map_iter;
 
-    LRUCache(int capacity) {
+    LRUCache1(int capacity) {
         this->size = capacity;
     }
 
@@ -43,6 +43,51 @@ public:
     void evict() {
         map_value.erase(lru.back());
         map_iter.erase(lru.back());
+        lru.pop_back();
+    }
+};
+
+
+class LRUCache {
+public:
+    int size;
+    list<int> lru;
+    unordered_map<int, int> kv;
+    unordered_map<int, list<int>::iterator> map;
+
+    LRUCache(int capacity) : size(capacity) {}
+
+    int get(int key) {
+        if (kv.count(key)) {
+            lru.erase(map[key]);
+            lru.push_front(key);
+            map[key] = lru.begin();
+            return kv[key];
+        } else return -1;
+    }
+
+    void put(int key, int value) {
+        if (lru.size() == size && kv.count(key) == 0) {
+            pop_lru();
+            lru.push_front(key);
+            kv[key] = value;
+            map[key] = lru.begin();
+        } else if (kv.count(key)) {
+            lru.erase(map[key]);
+            lru.push_front(key);
+            kv[key] = value;
+            map[key] = lru.begin();
+        } else {
+            lru.push_front(key);
+            kv[key] = value;
+            map[key] = lru.begin();
+        }
+
+    }
+
+    void pop_lru() {
+        map.erase(lru.back());
+        kv.erase(lru.back());
         lru.pop_back();
     }
 };

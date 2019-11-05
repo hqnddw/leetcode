@@ -7,27 +7,23 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     bool isValid(string s) {
-        stack<char> stack;
-        for (auto c: s) {
-            if (c == '(' || c == '[' || c == '{')
-                stack.push(c);
+        stack<char> s1;
+        for (char c :s) {
+            if (c == '(' || c == '{' || c == '[')
+                s1.push(c);
             else {
-                if (stack.empty()) return false;
-                if (c == ')' && stack.top() != '(') return false;
-                if (c == ']' && stack.top() != '[') return false;
-                if (c == '}' && stack.top() != '{') return false;
-                stack.pop();
+                if (!s1.empty()) {
+                    char tmp = s1.top();
+                    if (tmp == '(' && c == ')') s1.pop();
+                    else if (tmp == '[' && c == ']') s1.pop();
+                    else if (tmp == '{' && c == '}') s1.pop();
+                    else return false;
+                } else return false;
             }
         }
-        return stack.empty();
+        return s1.empty();
     }
 };
-
-//int main() {
-//    Solution solution;
-//    string s = "{()[]}";
-//    cout << solution.isValid(s) << endl;
-//}

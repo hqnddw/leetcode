@@ -15,12 +15,12 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
-class BSTIterator {
+class BSTIterator1 {
 public:
     stack<TreeNode *> s;
     queue<int> q;
 
-    BSTIterator(TreeNode *root) {
+    BSTIterator1(TreeNode *root) {
 
         while (root || !s.empty()) {
             while (root) {
@@ -32,6 +32,36 @@ public:
             q.push(root->val);
             root = root->right;
         }
+    }
+
+    /** @return the next smallest number */
+    int next() {
+        int a = q.front();
+        q.pop();
+        return a;
+    }
+
+    /** @return whether we have a next smallest number */
+    bool hasNext() {
+        return !q.empty();
+    }
+};
+
+
+class BSTIterator2 {
+public:
+    stack<TreeNode *> s;
+    queue<int> q;
+
+    BSTIterator2(TreeNode *root) {
+        helper(root);
+    }
+
+    void helper(TreeNode *root) {
+        if (!root) return;
+        helper(root->left);
+        q.push(root->val);
+        helper(root->right);
     }
 
     /** @return the next smallest number */

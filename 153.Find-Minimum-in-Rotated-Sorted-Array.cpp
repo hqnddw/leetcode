@@ -2,6 +2,8 @@
 // Created by hqnddw on 2019/10/23.
 //
 #include <vector>
+#include <algorithm>
+#include <cmath>
 
 using namespace std;
 
@@ -30,10 +32,37 @@ public:
             if (nums[hi] > nums[lo])
                 return nums[lo];
             int mid = (lo + hi) >> 1;
-            if (nums[mid] >= nums[lo])
+            if (nums[mid] > nums[lo])
                 lo = mid + 1;
             else hi = mid;
         }
-        return 0;
+        return nums[hi];
     }
 };
+
+
+class Solution3 {
+public:
+    int findMin(vector<int> &nums) {
+        if (nums.size() == 1)
+            return nums[0];
+        int lo = 0;
+        int hi = nums.size() - 1;
+        if (nums[hi] > nums[lo])
+            return nums[lo];
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (nums[mid] > nums[mid + 1])
+                return nums[mid + 1];
+            if (nums[mid - 1] > nums[mid])
+                return nums[mid];
+            if (nums[mid] > nums[lo])
+                lo = mid + 1;
+            else hi = mid - 1;
+        }
+        return -1;
+    }
+};
+
+
+

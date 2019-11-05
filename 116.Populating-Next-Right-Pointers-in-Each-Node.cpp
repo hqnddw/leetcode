@@ -74,7 +74,8 @@ public:
         if (root->left) root->left->next = root->right;
         if (root->right && root->next) root->right->next = root->next->left;
         connect(root->left);
-        connect((root->right));
+        connect(root->right);
+        return root;
     }
 };
 
@@ -93,5 +94,40 @@ public:
             root = cur->left;
         }
         return head;
+    }
+};
+
+
+class Solution5 {
+public:
+    Node *connect(Node *root) {
+        Node *head = root;
+        while (root) {
+            Node *tmp = root;
+            while (root) {
+                if (root->left)
+                    root->left->next = root->right;
+                if (root->right && root->next)
+                    root->right->next = root->next->left;
+                root = root->next;
+            }
+            root = tmp->left;
+        }
+        return head;
+    }
+};
+
+
+class Solution6 {
+public:
+    Node *connect(Node *root) {
+        if (!root) return nullptr;
+        if (root->left) {
+            root->left->next = root->right;
+            if (root->next)
+                root->right->next = root->next->left;
+        }
+        connect(root->left);
+        connect(root->right);
     }
 };

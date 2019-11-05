@@ -64,3 +64,21 @@ public:
         return false;
     }
 };
+
+
+class Solution4 {
+public:
+    bool searchMatrix(vector<vector<int>> &matrix, int target) {
+        if (matrix.empty()) return false;
+        int up = 0;
+        int right = matrix[0].size() - 1;
+        while (up <= matrix.size() - 1 && right >= 0) {
+            if (matrix[up][right] == target)
+                return true;
+            else if (matrix[up][right] > target)
+                right--;
+            else up++;
+        }
+        return false;
+    }
+};
