@@ -41,3 +41,39 @@ public:
         }
     }
 };
+
+
+class Solution3 {
+public:
+    void sortColors(vector<int> &nums) {
+        unordered_map<int, int> map;
+        for (int i : nums) {
+            if (map.count(i))
+                map[i] += 1;
+            else map[i] = 1;
+        }
+        for (int k = 0, j = 0; k < 3; ++k) {
+            while (map[k]--) {
+                nums[j] = k;
+                j++;
+            }
+        }
+    }
+};
+
+
+class Solution4 {
+public:
+    void sortColors(vector<int> &nums) {
+        int lo = 0;
+        int hi = nums.size() - 1;
+        for (int i = 0; i <= hi; ++i) {
+            while (nums[i] == 2 && i < hi) {
+                swap(nums[i], nums[hi--]);
+            }
+            while (nums[i] == 0 && i > lo) {
+                swap(nums[i], nums[lo++]);
+            }
+        }
+    }
+};

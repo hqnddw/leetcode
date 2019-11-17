@@ -106,6 +106,26 @@ public:
 class Solution5 {
 public:
     vector<vector<int>> permute(vector<int> &nums) {
+        vector<vector<int>> res;
+        if (nums.empty()) return res;
+        vector<int> v;
+        vector<bool> used(nums.size(), false);
+        helper(res, v, nums, used);
+        return res;
+    }
 
+    void helper(vector<vector<int>> &res, vector<int> &v, vector<int> &nums, vector<bool> &used) {
+        if (v.size() == nums.size()) {
+            res.push_back(v);
+            return;
+        }
+        for (int i = 0; i < nums.size(); ++i) {
+            if (used[i]) continue;
+            v.push_back(nums[i]);
+            used[i] = true;
+            helper(res, v, nums, used);
+            v.pop_back();
+            used[i] = false;
+        }
     }
 };

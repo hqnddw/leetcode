@@ -86,3 +86,23 @@ public:
         return res;
     }
 };
+
+
+class Solution5 {
+public:
+    vector<vector<string>> groupAnagrams(vector<string> &strs) {
+        vector<vector<string>> res;
+        unordered_map<string, vector<string>> map;
+        if (strs.empty()) return res;
+        for (auto s : strs) {
+            string temp = s;
+            sort(s.begin(), s.end());
+            map[s].push_back(temp);
+        }
+        unordered_map<string, vector<string>>::iterator it;
+        for (it = map.begin(); it != map.end(); it++) {
+            res.push_back((*it).second);
+        }
+        return res;
+    }
+};

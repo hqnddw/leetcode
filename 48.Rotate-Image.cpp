@@ -98,3 +98,18 @@ public:
         }
     }
 };
+
+
+class Solution7 {
+public:
+    void rotate(vector<vector<int>> &matrix) {
+        if (matrix.empty())
+            return;
+        reverse(matrix.begin(), matrix.end());
+        for (int i = 0; i < matrix.size(); ++i) {
+            for (int j = i; j < matrix[i].size(); ++j) {
+                swap(matrix[i][j], matrix[j][i]);
+            }
+        }
+    }
+};

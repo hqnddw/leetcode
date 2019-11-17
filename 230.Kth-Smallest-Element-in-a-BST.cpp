@@ -52,3 +52,18 @@ public:
         return -1;
     }
 };
+
+
+class Solution3 {
+public:
+    int count = 0;
+    int res = 0;
+
+    int kthSmallest(TreeNode *root, int k) {
+        if (!root) return -1;
+        kthSmallest(root->left, k);
+        if (++count == k) res = root->val;
+        kthSmallest(root->right, k);
+        return res;
+    }
+};

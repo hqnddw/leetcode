@@ -23,3 +23,21 @@ public:
         return pt == n;
     }
 };
+
+
+class Solution2 {
+public:
+    bool validateStackSequences(vector<int> &pushed, vector<int> &popped) {
+        if (pushed.empty() && popped.empty()) return true;
+        stack<int> s;
+        int j = 0;
+        for (int i : pushed) {
+            s.push(pushed[i]);
+            while (!s.empty() && j < popped.size() && s.top() == popped[j]) {
+                s.pop();
+                j++;
+            }
+        }
+        return j == popped.size();
+    }
+};
