@@ -265,7 +265,7 @@ public:
 
         ListNode dummy(-1);
         ListNode *cur = &dummy;
-        priority_queue<ListNode *, vector<ListNode *>, compare> pq;
+        priority_queue<vector<ListNode *>, ListNode *, compare> pq;
         for (auto i:lists) {
             if (i)
                 pq.push(i);

@@ -89,10 +89,21 @@ public:
     }
 };
 
-
-class Solution {
+class Solution5 {
 public:
-    int maxArea(vector<int> &height) {
+    int maxValue = INT_MIN;
 
+    int maxPathSum(TreeNode *root) {
+        helper(root);
+        return maxValue;
+    }
+
+    int helper(TreeNode *root) {
+        if (!root)
+            return 0;
+        int left = max(helper(root->left), 0);
+        int right = max(helper(root->right), 0);
+        maxValue = max(root->val + left + right, maxValue);
+        return root->val + max(left, right);
     }
 };

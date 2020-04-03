@@ -6,26 +6,36 @@
 
 using namespace std;
 
-class Solution {
+// O(n)空间
+class Solution1 {
 public:
     int maxSubArray(vector<int> &nums) {
         int n = nums.size();
-        int max_sum = nums[0];
-        int dp[10000] = {};
+        vector<int> dp(n);
         dp[0] = nums[0];
-        for (int i = 1; i < n; ++i) {
+        int res = nums[0];
+        for (int i = 1; i < nums.size(); ++i) {
             if (dp[i - 1] > 0)
                 dp[i] = dp[i - 1] + nums[i];
             else dp[i] = nums[i];
-            max_sum = max(dp[i], max_sum);
+            res = max(res, dp[i]);
         }
-        return max_sum;
+        return res;
     }
 };
 
-//int main() {
-//    Solution s;
-//    int a[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-//    vector<int> nums(a, a + 9);
-//    cout << s.maxSubArray(nums) << endl;
-//}
+//O(1)空间
+class Solution2 {
+public:
+    int maxSubArray(vector<int> &nums) {
+        int dp = nums[0];
+        int res = nums[0];
+        for (int i = 1; i < nums.size(); ++i) {
+            if (dp < 0)
+                dp = nums[i];
+            else dp += nums[i];
+            res = max(dp, res);
+        }
+        return res;
+    }
+};

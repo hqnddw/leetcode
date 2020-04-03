@@ -1,45 +1,22 @@
-//
-// Created by hqnddw on 2019/9/19.
-//
-#include <stack>
-#include <queue>
+#include <string>
+#include <iostream>
+#include <vector>
+#include <cmath>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
-class Node {
+class A {
 public:
-    int val;
-    Node *left;
-    Node *right;
-    Node *next;
+    int n1;
+    int n2;
 
-    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
-
-    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
-
-    Node(int _val, Node *_left, Node *_right, Node *_next)
-            : val(_val), left(_left), right(_right), next(_next) {}
+    A() : n2(1), n1(n2 + 2) {}
 };
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
-
-class Solution {
-public:
-    Node *connect(Node *root) {
-        if (!root) return nullptr;
-        root->next = nullptr;
-        if (root->left) {
-            root->left->next = root->right;
-            if (root->next) root->right->next = root->next->left;
-        }
-        connect(root->left);
-        connect(root->right);
-    }
-};
+int main() {
+    A a;
+    cout << a.n1 << endl;
+    cout << a.n2 << endl;
+}

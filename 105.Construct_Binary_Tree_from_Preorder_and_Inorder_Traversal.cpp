@@ -109,7 +109,7 @@ public:
 };
 
 
-class Solution {
+class Solution4 {
 public:
     TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
         return buildTree(preorder, 0,
@@ -131,6 +131,35 @@ public:
         int len = index - in_start;
         root->left = buildTree(preorder, pre_start + 1, inorder, in_start, index - 1);
         root->right = buildTree(preorder, pre_start + 1 + len, inorder, index + 1, in_end);
+        return root;
+    }
+};
+
+
+class Solution5 {
+public:
+    TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
+        helper(preorder, 0, preorder.size() - 1,
+               inorder, 0, inorder.size() - 1);
+    }
+
+    TreeNode *helper(vector<int> &preorder, int pre_start, int pre_end,
+                     vector<int> &inorder, int in_start, int in_end) {
+        if (pre_start > pre_end || in_start > in_end)
+            return nullptr;
+        TreeNode *root = new TreeNode(preorder[pre_start]);
+        int index = 0;
+        for (int i = in_start; i <= in_end; ++i) {
+            if (inorder[i] == preorder[pre_start]) {
+                index = i;
+                break;
+            }
+        }
+        int len = index - in_start;
+        root->left = helper(preorder, pre_start + 1, pre_start + len,
+                            inorder, in_start, index - 1);
+        root->right = helper(preorder, pre_start + len + 1, pre_end,
+                             inorder, index + 1, in_end);
         return root;
     }
 };

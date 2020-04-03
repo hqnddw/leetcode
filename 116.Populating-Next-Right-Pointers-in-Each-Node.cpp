@@ -1,9 +1,7 @@
 //
-// Created by hqnddw on 2020/4/3.
+// Created by hqnddw on 2019/10/16.
 //
-#include <stack>
 #include <queue>
-#include <algorithm>
 
 using namespace std;
 
@@ -14,70 +12,122 @@ public:
     Node *right;
     Node *next;
 
-    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
+    Node() {}
 
-    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
-
-    Node(int _val, Node *_left, Node *_right, Node *_next)
-            : val(_val), left(_left), right(_right), next(_next) {}
+    Node(int _val, Node *_left, Node *_right, Node *_next) {
+        val = _val;
+        left = _left;
+        right = _right;
+        next = _next;
+    }
 };
 
-// 使用队列，用额外的空间
+
 class Solution1 {
 public:
     Node *connect(Node *root) {
-        if (!root)
-            return nullptr;
         queue<Node *> q;
+        if (!root) return nullptr;
         q.push(root);
         while (!q.empty()) {
             int n = q.size();
-            Node *pre = nullptr;
-            for (int i = 0; i < n; ++i) {
-                Node *cur = q.front();
+            for (int i = 0; i < n - 1; ++i) {
+                Node *node1 = q.front();
                 q.pop();
-                if (i > 0)
-                    pre->next = cur;
-                pre = cur;
-                if (cur->left) q.push(cur->left);
-                if (cur->right) q.push(cur->right);
+                if (node1->left) q.push(node1->left);
+                if (node1->right) q.push(node1->right);
+                Node *node2 = q.front();
+                node1->next = node2;
             }
+            Node *last = q.front();
+            q.pop();
+            if (last->left) q.push(last->left);
+            if (last->right) q.push(last->right);
         }
         return root;
     }
 };
 
-//用二个变量标记当前层和下一层，不用额外的空间
+
 class Solution2 {
 public:
     Node *connect(Node *root) {
-        if (!root) return nullptr;
-        Node *pre = root;
-        Node *cur = nullptr;
-        while (pre->left) {
-            cur = pre;
+        Node *level_start = root;
+        while (level_start) {
+            Node *cur = level_start;
             while (cur) {
-                cur->left->next = cur->right;
-                if (cur->next) cur->right->next = cur->next->left;
+                if (cur->left) cur->left->next = cur->right;
+                if (cur->right && cur->next) cur->right->next = cur->next->left;
                 cur = cur->next;
             }
-            pre = pre->left;
+            level_start = level_start->left;
         }
         return root;
     }
 };
 
-//递归
+
 class Solution3 {
+public:
+    Node *connect(Node *root) {
+        if (!root) return root;
+        if (root->left) root->left->next = root->right;
+        if (root->right && root->next) root->right->next = root->next->left;
+        connect(root->left);
+        connect(root->right);
+        return root;
+    }
+};
+
+
+class Solution4 {
+public:
+    Node *connect(Node *root) {
+        Node *head = root;
+        while (root) {
+            Node *cur = root;
+            while (root->left) {
+                if (root->left) root->left->next = root->right;
+                if (root->right && root->next) root->right->next = root->next->left;
+                root = root->next;
+            }
+            root = cur->left;
+        }
+        return head;
+    }
+};
+
+
+class Solution5 {
+public:
+    Node *connect(Node *root) {
+        Node *head = root;
+        while (root) {
+            Node *tmp = root;
+            while (root) {
+                if (root->left)
+                    root->left->next = root->right;
+                if (root->right && root->next)
+                    root->right->next = root->next->left;
+                root = root->next;
+            }
+            root = tmp->left;
+        }
+        return head;
+    }
+};
+
+
+class Solution6 {
 public:
     Node *connect(Node *root) {
         if (!root) return nullptr;
         if (root->left) {
             root->left->next = root->right;
-            if (root->next) root->right->next = root->next->left;
+            if (root->next)
+                root->right->next = root->next->left;
         }
         connect(root->left);
         connect(root->right);
-        return root;
     }
 };
