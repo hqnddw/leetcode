@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     int minDistance(string word1, string word2) {
         int m = word1.length();
@@ -31,7 +31,27 @@ public:
     }
 };
 
-//int main() {
-//    Solution s;
-//    cout << s.minDistance("intention", "execution") << endl;
-//}
+class Solution {
+public:
+    int minDistance(string word1, string word2) {
+        int m = word1.size();
+        int n = word2.size();
+        vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+        for (int i = 1; i <= n; ++i) {
+            dp[0][i] = i;
+        }
+        for (int j = 1; j <= m; ++j) {
+            dp[j][0] = j;
+        }
+        for (int k = 1; k <= m; ++k) {
+            for (int i = 1; i <= n; ++i) {
+                if (word1[k - 1] == word2[i - 1])
+                    dp[k][i] = dp[k - 1][i - 1];
+                else {
+                    dp[k][i] = min(dp[k - 1][i - 1], min(dp[k][i - 1], dp[k - 1][i])) + 1;
+                }
+            }
+        }
+        return dp[m][n];
+    }
+};

@@ -47,8 +47,6 @@ public:
                 root = s.top(); //只查看栈顶节点，但不弹出
                 if (root->right && root->right != pre) {
                     root = root->right;
-                    s.push(root);
-                    root = root->left;
                 } else {
                     root = s.top();
                     s.pop();
@@ -81,147 +79,24 @@ public:
     }
 };
 
-class Solution4 {
+class Solution {
 public:
     vector<int> postorderTraversal(TreeNode *root) {
-        stack<TreeNode *> s;
-        vector<int> v;
-        if (!root) return v;
-        TreeNode *pre = nullptr;
-        while (root || !s.empty()) {
-            if (root) {
-                s.push(root);
-                root = root->left;
-            } else {
-                root = s.top();
-                if (root->right && root->right != pre) {
-                    root = root->right;
-                    s.push(root);
-                    root = root->left;
-                } else {
-                    s.pop();
-                    v.push_back(root->val);
-                    pre = root;
-                    root = nullptr;
-                }
-            }
-        }
-        return v;
-    }
-};
-
-
-class Solution5 {
-public:
-    vector<int> postorderTraversal(TreeNode *root) {
-        stack<TreeNode *> s;
-        vector<int> v;
-        TreeNode *pre = nullptr;
-        if (!root) return v;
-        while (!s.empty()) {
-            if (root) {
-                s.push(root);
-                root = root->left;
-            } else {
-                root = s.top();
-                if (root->right && pre != root->right) {
-                    root = root->right;
-                    s.push(root);
-                    root = root->left;
-                } else {
-                    s.pop();
-                    v.push_back(root->val);
-                    pre = root;
-                    root = nullptr;
-                }
-            }
-        }
-        return v;
-    }
-};
-
-
-class Solution6 {
-public:
-    vector<int> postorderTraversal(TreeNode *root) {
-        vector<int> v;
-        if (!root)
-            return v;
-        TreeNode *pre = nullptr;
-        stack<TreeNode *> s;
-        int sum = 0;
-        while (root || !s.empty()) {
-            if (root) {
-                s.push(root);
-                root = root->left;
-            } else {
-                root = s.top();
-                if (root->right && root->right != pre) {
-                    root = root->right;
-                    s.push(root);
-                    root = root->left;
-                } else {
-                    s.pop();
-                    v.push_back(root->val);
-                    pre = root;
-                    root = nullptr;
-                }
-            }
-        }
-        return v;
-    }
-};
-
-class Solution7 {
-public:
-    vector<int> postorderTraversal(TreeNode *root) {
-        stack<TreeNode *> s;
-        vector<int> v;
-        TreeNode *pre = nullptr;
-        while (root || !s.empty()) {
-            if (root) {
-                s.push(root);
-                root = root->left;
-            } else {
-                root = s.top();
-                if (root->right && root->right != pre) {
-                    root = root->right;
-                    s.push(root);
-                    root = root->left;
-                } else {
-                    s.pop();
-                    v.push_back(root->val);
-                    pre = root;
-                    root = nullptr;
-                }
-            }
-        }
-        return v;
-    }
-};
-
-
-class Solution8 {
-public:
-    vector<int> postorderTraversal(TreeNode *root) {
-        stack<TreeNode *> s;
         vector<int> res;
+        stack<TreeNode *> s;
         TreeNode *pre = nullptr;
         while (root || !s.empty()) {
             if (root) {
                 s.push(root);
                 root = root->left;
             } else {
-                root = s.top();
-                if (root->right && root->right != pre) {
-                    root = root->right;
-                    s.push(root);
-                    root = root->left;
+                TreeNode *cur = s.top();
+                if (cur->right && cur->right != pre) {
+                    root = cur->right;
                 } else {
+                    res.push_back(cur->val);
+                    pre = cur;
                     s.pop();
-                    res.push_back(root->val);
-                    pre = root;
-                    root = nullptr;
                 }
             }
         }
