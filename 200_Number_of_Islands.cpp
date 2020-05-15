@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     int numIslands(vector<vector<char>> &grid) {
         if (grid.empty() || grid[0].empty())
@@ -48,5 +48,36 @@ public:
                 grid[x][y + 1] = '0';
             }
         }
+    }
+};
+
+
+class Solution {
+public:
+    int numIslands(vector<vector<char>> &grid) {
+        int count = 0;
+        if (grid.empty()) return count;
+        int m = grid.size();
+        int n = grid[0].size();
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] == '1') {
+                    dfs(i, j, grid);
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
+    void dfs(int row, int col, vector<vector<char>> &grid) {
+        if (row < 0 || row == grid.size() || col < 0 ||
+            col == grid[0].size() || grid[row][col] != '1')
+            return;
+        grid[row][col] = '2';
+        dfs(row + 1, col, grid);
+        dfs(row - 1, col, grid);
+        dfs(row, col + 1, grid);
+        dfs(row, col - 1, grid);
     }
 };

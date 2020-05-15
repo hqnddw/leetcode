@@ -6,37 +6,30 @@
 #include <vector>
 #include <stack>
 #include <unordered_set>
+#include <unordered_map>
+#include <list>
+
+struct ListNode {
+    int val;
+    ListNode *next;
+
+    ListNode(int x) : val(x), next(nullptr) {}
+};
 
 using namespace std;
 
-class MinStack {
+
+class Solution {
 public:
-    /** initialize your data structure here. */
-    stack<pair<int, int>> s;
-
-    MinStack() {
-
-    }
-
-    void push(int x) {
-        if (s.empty())
-            s.push(make_pair(x, x));
-        else {
-            int m = min(s.top().second, x);
-            s.push(make_pair(x, m));
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *l1 = headA;
+        ListNode *l2 = headB;
+        while (l1 != l2) {
+            if (l1) l1 = l1->next;
+            else l1 = headB;
+            if (l2) l2 = l2->next;
+            else l2 = headA;
         }
-    }
-
-    void pop() {
-        s.pop();
-    }
-
-    int top() {
-        return s.top().first;
-    }
-
-    int getMin() {
-        return s.top().second;
+        return l1;
     }
 };
-

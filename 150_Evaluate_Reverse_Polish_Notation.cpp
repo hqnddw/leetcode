@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     int evalRPN(vector<string> &tokens) {
         stack<int> s1;
@@ -33,5 +33,44 @@ public:
             }
         }
         return s1.top();
+    }
+};
+
+class Solution {
+public:
+    int evalRPN(vector<string>& tokens) {
+        stack<int> s;
+        int left;
+        int right;
+        for (auto c : tokens){
+            if (c == "+"){
+                right = s.top();
+                s.pop();
+                left = s.top();
+                s.pop();
+                s.push(left + right);
+            } else if (c == "-"){
+                right = s.top();
+                s.pop();
+                left = s.top();
+                s.pop();
+                s.push(left * right);
+            } else if (c == "*"){
+                right = s.top();
+                s.pop();
+                left = s.top();
+                s.pop();
+                s.push(left * right);
+            } else if (c == "/"){
+                right = s.top();
+                s.pop();
+                left = s.top();
+                s.pop();
+                s.push(left / right);
+            } else {
+                s.push(stoi(c));
+            }
+        }
+        return s.top();
     }
 };
