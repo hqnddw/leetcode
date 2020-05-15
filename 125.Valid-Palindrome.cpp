@@ -8,23 +8,20 @@ using namespace std;
 class Solution {
 public:
     bool isPalindrome(string s) {
-        if (s.empty())
-            return true;
-        string str = process(s);
-        int n = str.size();
-        for (int i = 0; i < n / 2; ++i) {
-            if (str[i] != str[n - i - 1])
+        int left = 0;
+        int right = s.size() - 1;
+        while (left <= right) {
+            char c1 = s[left];
+            char c2 = s[right];
+            if (!isalnum(c1))
+                left++;
+            else if (!isalnum(c2))
+                right--;
+            else if (tolower(c1) != tolower(c2))
                 return false;
+            left++;
+            right--;
         }
         return true;
-    }
-
-    string process(string &s) {
-        string res;
-        for (auto c: s) {
-            if (isalpha(c) || isdigit(c))
-                res += tolower(c);
-        }
-        return res;
     }
 };

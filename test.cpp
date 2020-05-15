@@ -8,28 +8,44 @@
 #include <unordered_set>
 #include <unordered_map>
 #include <list>
-
-struct ListNode {
-    int val;
-    ListNode *next;
-
-    ListNode(int x) : val(x), next(nullptr) {}
-};
+#include <set>
+#include <queue>
 
 using namespace std;
 
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+};
+
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    Node *next;
+    Node *random;
+
+    Node(int _val) {
+        val = _val;
+        next = NULL;
+        random = NULL;
+    }
+};
 
 class Solution {
 public:
-    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        ListNode *l1 = headA;
-        ListNode *l2 = headB;
-        while (l1 != l2) {
-            if (l1) l1 = l1->next;
-            else l1 = headB;
-            if (l2) l2 = l2->next;
-            else l2 = headA;
+    int numTrees(int n) {
+        vector<int> dp(n + 1, 0);
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i <= n; ++i) {
+            for (int j = 1; j <= i; ++j) {
+                dp[i] += (dp[j - 1] * dp[i - j]);
+            }
         }
-        return l1;
+        return dp[n];
     }
 };
