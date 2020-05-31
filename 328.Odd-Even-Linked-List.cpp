@@ -8,7 +8,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     ListNode *oddEvenList(ListNode *head) {
         if (!head || !head->next) return head;
@@ -22,6 +22,26 @@ public:
             even = even->next;
         }
         odd->next = l2;
+        return head;
+    }
+};
+
+
+class Solution {
+public:
+    ListNode *oddEvenList(ListNode *head) {
+        if (!head || !head->next)
+            return head;
+        ListNode *l1 = head;
+        ListNode *l2 = head->next;
+        ListNode *dummy = l2;
+        while (l2 && l2->next) {
+            l1->next = l1->next->next;
+            l1 = l1->next;
+            l2->next = l2->next->next;
+            l2 = l2->next;
+        }
+        l1->next = dummy;
         return head;
     }
 };

@@ -37,15 +37,36 @@ public:
 
 class Solution {
 public:
-    int numTrees(int n) {
-        vector<int> dp(n + 1, 0);
-        dp[0] = 1;
-        dp[1] = 1;
-        for (int i = 2; i <= n; ++i) {
-            for (int j = 1; j <= i; ++j) {
-                dp[i] += (dp[j - 1] * dp[i - j]);
+    int networkDelayTime(vector<vector<int>> &times, int N, int K) {
+        struct compare {
+            bool operator()(pair<int, int> a, pair<int, int> b) {
+                return a.second > b.second;
+            }
+        };
+        vector<vector<pair<int, int>>> g(N + 1);
+        vector<bool> visited(N + 1, false);
+        for (auto v : times) {
+            g[v[0]].push_back({v[2], v[1]});
+        }
+        int res = 0;
+        priority_queue<pair<int, int>, vector<pair<int, int >>, greater<>> pq;
+
+        pq.push({0, K});
+        while (!pq.empty()) {
+            auto node = pq.top();
+            pq.pop();
+            int dist = node.first;
+            int vertex = node.second;
+            if (visited[vertex]) continue;
+            visited[vertex] = true;
+            N--;
+            if (N == 0)
+                return res;
+            res = dist;
+            for (auto v :g[vertex]) {
+                pq.push({v.first + dist, v.second});
             }
         }
-        return dp[n];
+        return N == 0 ? res : -1;
     }
 };

@@ -14,7 +14,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
-class Solution {
+class Solution1 {
 public:
     TreeNode *bstFromPreorder(vector<int> &preorder) {
         if (preorder.empty())
@@ -32,10 +32,29 @@ public:
                     pre = s.top();
                     s.pop();
                 }
-                s.top()->right = pre;
+                pre->right = cur;
             }
             s.push(cur);
         }
+        return root;
+    }
+};
+
+
+class Solution {
+public:
+    TreeNode *bstFromPreorder(vector<int> &preorder) {
+        return helper(preorder, 0, preorder.size() - 1);
+    }
+
+    TreeNode *helper(vector<int> &preorder, int start, int end) {
+        if (start > end) return nullptr;
+        TreeNode *root = new TreeNode(preorder[start]);
+        int i = start+1;
+        while (i <= end && preorder[i] < preorder[start])
+            i++;
+        root->left = helper(preorder, start + 1, i - 1);
+        root->right = helper(preorder, i, end);
         return root;
     }
 };

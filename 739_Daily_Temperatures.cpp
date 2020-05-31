@@ -4,21 +4,29 @@
 #include <iostream>
 #include <vector>
 #include <stack>
-
+#include <algorithm>
 using namespace std;
 
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int> &T) {
-        int n = T.size();
-        vector<int> v(n, 0);
         stack<int> s;
-        for (int i = n - 1; i >= 0; --i) {
-            while (!s.empty() && T[i] >= T[s.top()])
-                s.pop();
-            if (!s.empty()) v[i] = s.top() - i;
-            s.push(i);
+        int i = T.size() - 1;
+        vector<int> res;
+        while (i >= 0) {
+            if (s.empty()) {
+                s.push(i);
+                res.push_back(0);
+            } else {
+                while (!s.empty() && T[i] >= T[s.top()])
+                    s.pop();
+                if (s.empty()) res.push_back(0);
+                else res.push_back(s.top() - i);
+                s.push(i);
+            }
+            i--;
         }
-        return v;
+        reverse(res.begin(), res.end());
+        return res;
     }
 };
