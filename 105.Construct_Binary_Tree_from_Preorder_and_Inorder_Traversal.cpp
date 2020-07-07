@@ -139,8 +139,8 @@ public:
 class Solution5 {
 public:
     TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
-        helper(preorder, 0, preorder.size() - 1,
-               inorder, 0, inorder.size() - 1);
+        return helper(preorder, 0, preorder.size() - 1,
+                      inorder, 0, inorder.size() - 1);
     }
 
     TreeNode *helper(vector<int> &preorder, int pre_start, int pre_end,
