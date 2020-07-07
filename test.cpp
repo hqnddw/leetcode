@@ -13,6 +13,14 @@
 
 using namespace std;
 
+struct ListNode {
+    int val;
+    ListNode *next;
+
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
+
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -37,36 +45,14 @@ public:
 
 class Solution {
 public:
-    int networkDelayTime(vector<vector<int>> &times, int N, int K) {
-        struct compare {
-            bool operator()(pair<int, int> a, pair<int, int> b) {
-                return a.second > b.second;
-            }
-        };
-        vector<vector<pair<int, int>>> g(N + 1);
-        vector<bool> visited(N + 1, false);
-        for (auto v : times) {
-            g[v[0]].push_back({v[2], v[1]});
-        }
+    int reversePairs(vector<int> &nums) {
         int res = 0;
-        priority_queue<pair<int, int>, vector<pair<int, int >>, greater<>> pq;
-
-        pq.push({0, K});
-        while (!pq.empty()) {
-            auto node = pq.top();
-            pq.pop();
-            int dist = node.first;
-            int vertex = node.second;
-            if (visited[vertex]) continue;
-            visited[vertex] = true;
-            N--;
-            if (N == 0)
-                return res;
-            res = dist;
-            for (auto v :g[vertex]) {
-                pq.push({v.first + dist, v.second});
+        for (int i = 0; i < nums.size(); ++i) {
+            for (int j = i + 1; j < nums.size(); ++j) {
+                if (nums[i] > nums[j])
+                    res++;
             }
         }
-        return N == 0 ? res : -1;
+        return res;
     }
 };

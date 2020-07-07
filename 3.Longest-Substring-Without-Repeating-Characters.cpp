@@ -62,17 +62,18 @@ public:
 };
 
 
-class Solution4 {
+class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int> map;
-        int i = 0;
-        int len = 0;
-        for (int j = 0; j < s.size(); ++j) {
-            if (map.count(s[j]))
-                i = max(i, map[s[j]] + 1);
-            map[s[j]] = j;
-            len = max(len, j - i + 1);
+        unordered_set<char> set;
+        int left = 0, right = 0, len = INT_MIN;
+        while (right < s.size()) {
+            set.insert(s[right]);
+            while (set.count(s[right])) {
+                set.erase(left);
+                left++;
+            }
+            len = max(len, right - left + 1);
         }
         return len;
     }
