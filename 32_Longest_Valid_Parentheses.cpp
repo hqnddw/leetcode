@@ -17,7 +17,7 @@ using namespace std;
 //    if s[i-dp[i-1]-1] == '(' , s[i−dp[i−1]−1]='('
 //  ==> dp[i]=dp[i−1]+dp[i−dp[i−1]−2]+2
 
-//动态规划
+//dp动态规划
 class Solution {
 public:
     int longestValidParentheses(string s) {

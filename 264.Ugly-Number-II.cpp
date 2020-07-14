@@ -31,7 +31,7 @@ public:
     }
 };
 
-//动态规划
+//dp动态规划
 class Solution2 {
 public:
     int nthUglyNumber(int n) {

@@ -57,7 +57,7 @@ void merge(vector<int> &nums, int l, int m, int r) {
 }
 
 int main() {
-    vector<int> v{6, 8, 1, 7, 11, 55, 98, 23, 12, 10, 4, 99, 3};
+    vector<int> v{6, 8, 1, 7, 11, 55, 98, 23, 12, 10, 4, 99, 3, 100, 201};
     merge_sort(v);
     for (int i : v) {
         cout << i << " ";

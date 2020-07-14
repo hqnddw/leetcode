@@ -9,7 +9,7 @@
 
 using namespace std;
 
-//动态规划
+//dp动态规划
 class Solution1 {
 public:
     int numSquares(int n) {

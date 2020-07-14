@@ -30,7 +30,7 @@ public:
     }
 };
 
-class Solution {
+class Solution2 {
 public:
     TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q) {
         unordered_map<TreeNode *, TreeNode *> map;
@@ -60,5 +60,36 @@ public:
             q = map[q];
         }
         return q;
+    }
+};
+
+
+class Solution {
+public:
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q) {
+        stack<TreeNode *> s;
+        TreeNode *cur = root->left;
+        bool isp = false;
+        bool isq = false;
+        while (cur || !s.empty()) {
+            while (cur) {
+                s.push(cur);
+                cur = cur->left;
+            }
+            cur = s.top();
+            s.pop();
+            if (cur == p)
+                isp = true;
+            if (cur == q)
+                isq = true;
+            if (isq && isp)
+                break;
+            cur = cur->right;
+        }
+        if (isq && isp)
+            return lowestCommonAncestor(root->left, p, q);
+        else if (!isq && !isp)
+            return lowestCommonAncestor(root->right, p, q);
+        else return root;
     }
 };

@@ -41,7 +41,7 @@ public:
     }
 };
 
-//动态规划，O(n*n) space
+//dp动态规划，O(n*n) space
 class Solution2 {
 public:
     int maximalSquare(vector<vector<char>> &matrix) {

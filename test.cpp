@@ -10,6 +10,7 @@
 #include <list>
 #include <set>
 #include <queue>
+#include <cstring>
 
 using namespace std;
 
@@ -33,26 +34,8 @@ struct TreeNode {
 class Node {
 public:
     int val;
+    Node *prev;
     Node *next;
-    Node *random;
-
-    Node(int _val) {
-        val = _val;
-        next = NULL;
-        random = NULL;
-    }
+    Node *child;
 };
 
-class Solution {
-public:
-    int reversePairs(vector<int> &nums) {
-        int res = 0;
-        for (int i = 0; i < nums.size(); ++i) {
-            for (int j = i + 1; j < nums.size(); ++j) {
-                if (nums[i] > nums[j])
-                    res++;
-            }
-        }
-        return res;
-    }
-};
