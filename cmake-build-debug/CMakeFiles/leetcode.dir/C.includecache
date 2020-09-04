@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLion 2020.1.2/workspace/leetcode/c-func函数实现/strcpy.c
+stdio.h
+-
+
+D:/CLion 2020.1.2/workspace/leetcode/demo.c
+stdio.h
+-
+malloc.h
+-
+
+D:/CLion 2020.1.2/workspace/leetcode/gdb学习/demo.c
+stdio.h
+-
+malloc.h
+-
+
+D:/CLion 2020.1.2/workspace/leetcode/gdb学习/fibonacci.c
+stdio.h
+-
+
+D:/CLion 2020.1.2/workspace/leetcode/gdb学习/memory.c
+stdlib.h
+-
+
