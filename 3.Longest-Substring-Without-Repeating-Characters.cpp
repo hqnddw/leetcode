@@ -61,20 +61,3 @@ public:
     }
 };
 
-
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-        unordered_set<char> set;
-        int left = 0, right = 0, len = INT_MIN;
-        while (right < s.size()) {
-            set.insert(s[right]);
-            while (set.count(s[right])) {
-                set.erase(left);
-                left++;
-            }
-            len = max(len, right - left + 1);
-        }
-        return len;
-    }
-};

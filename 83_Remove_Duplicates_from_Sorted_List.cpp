@@ -41,7 +41,7 @@ public:
 };
 
 
-class Solution {
+class Solution3 {
 public:
     ListNode *deleteDuplicates(ListNode *head) {
         ListNode dummy(-1);
@@ -53,5 +53,17 @@ public:
             else cur = cur->next;
         }
         return dummy.next;
+    }
+};
+
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        if (!head || !head->next)
+            return head;
+        head->next = deleteDuplicates(head->next);
+        if (head->val == head->next->val)
+            return head->next;
+        else return head;
     }
 };

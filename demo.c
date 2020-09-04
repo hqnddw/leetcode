@@ -3,18 +3,15 @@
 //
 
 #include<stdio.h>
-char *myString()
-{
-    char buffer[6] = {0};
-    char *s = "Hello World!";
-    for (int i = 0; i < sizeof(buffer) - 1; i++)
-    {
-        buffer[i] = *(s + i);
-    }
-    return buffer;
+#include <malloc.h>
+#include <string.h>
+
+void func(char *ptr) {
+    ptr = (char *) malloc(sizeof(char));
 }
-int main(int argc, char **argv)
-{
-    printf("%s\n", myString());
-    return 0;
+
+int main() {
+    char *ptr = NULL;
+    func(ptr);
+    strcpy(ptr, "hello world");
 }

@@ -11,6 +11,7 @@
 #include <set>
 #include <queue>
 #include <cstring>
+#include <thread>
 
 using namespace std;
 
@@ -39,3 +40,14 @@ public:
     Node *child;
 };
 
+
+template<class ... Types>
+void f(Types... args){
+
+}
+
+int main(){
+    f();
+    f(1);
+    f
+}
