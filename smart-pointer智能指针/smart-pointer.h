@@ -10,16 +10,16 @@ class smartPointer;
 
 
 template<typename T>
-class Ptr {
+class ControlBlock {
 private:
     T *p;
     int count;
 
     friend class smartPointer<T>;
 
-    Ptr(T *ptr) : p(ptr), count(1) {}
+    ControlBlock(T *ptr) : p(ptr), count(1) {}
 
-    ~Ptr() {
+    ~ControlBlock() {
         delete p;
     }
 };
@@ -27,9 +27,9 @@ private:
 template<typename T>
 class smartPointer {
 private:
-    Ptr<T> *ptr;
+    ControlBlock<T> *ptr;
 public:
-    smartPointer(T *t) : ptr(new Ptr<T>(t)) {};
+    smartPointer(T *t) : ptr(new ControlBlock<T>(t)) {};
 
     smartPointer(const smartPointer<T> &s) : ptr(s.ptr) {
         ptr->count++;

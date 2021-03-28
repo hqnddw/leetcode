@@ -33,6 +33,8 @@ public:
         while (queue.empty()){
             cv_noEmpty.wait(lock);
         }
+
+
         T tmp = queue.front();
         queue.pop();
         cv_noFull.notify_one();

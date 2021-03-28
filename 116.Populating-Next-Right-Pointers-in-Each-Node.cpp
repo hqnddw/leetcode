@@ -12,7 +12,7 @@ public:
     Node *right;
     Node *next;
 
-    Node() {}
+    Node(Node *pNode) {}
 
     Node(int _val, Node *_left, Node *_right, Node *_next) {
         val = _val;

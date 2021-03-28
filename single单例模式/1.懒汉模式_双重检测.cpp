@@ -11,16 +11,6 @@ private:
 
     single() {}
 
-    ~single() {}
-
-    class Deletor {
-    public:
-        ~Deletor() {
-            if(single::p != nullptr)
-                delete single::p;
-        }
-    };
-    static Deletor deletor;
 
 public:
     static single *getInstance() {
@@ -31,6 +21,10 @@ public:
             }
         }
         return p;
+    }
+    ~single(){
+        delete p;
+        p = nullptr;
     }
 };
 

@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\CLion 2020.1.2\workspace\leetcode"
+CMAKE_SOURCE_DIR = "D:\CLion 2020.3\workspace\leetcode"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\CLion 2020.3\workspace\leetcode\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leetcode.dir/depend.make
@@ -78,4241 +78,4462 @@ include CMakeFiles/leetcode.dir/flags.make
 
 CMakeFiles/leetcode.dir/86.Partition_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/86.Partition_List.cpp.obj: ../86.Partition_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/86.Partition_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\86.Partition_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\86.Partition_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/86.Partition_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\86.Partition_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\86.Partition_List.cpp"
 
 CMakeFiles/leetcode.dir/86.Partition_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/86.Partition_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\86.Partition_List.cpp" > CMakeFiles\leetcode.dir\86.Partition_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\86.Partition_List.cpp" > CMakeFiles\leetcode.dir\86.Partition_List.cpp.i
 
 CMakeFiles/leetcode.dir/86.Partition_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/86.Partition_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\86.Partition_List.cpp" -o CMakeFiles\leetcode.dir\86.Partition_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\86.Partition_List.cpp" -o CMakeFiles\leetcode.dir\86.Partition_List.cpp.s
 
 CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.obj: ../82.Remove_Duplicates_from_Sorted_List_II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\82.Remove_Duplicates_from_Sorted_List_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\82.Remove_Duplicates_from_Sorted_List_II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\82.Remove_Duplicates_from_Sorted_List_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\82.Remove_Duplicates_from_Sorted_List_II.cpp"
 
 CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\82.Remove_Duplicates_from_Sorted_List_II.cpp" > CMakeFiles\leetcode.dir\82.Remove_Duplicates_from_Sorted_List_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\82.Remove_Duplicates_from_Sorted_List_II.cpp" > CMakeFiles\leetcode.dir\82.Remove_Duplicates_from_Sorted_List_II.cpp.i
 
 CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/82.Remove_Duplicates_from_Sorted_List_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\82.Remove_Duplicates_from_Sorted_List_II.cpp" -o CMakeFiles\leetcode.dir\82.Remove_Duplicates_from_Sorted_List_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\82.Remove_Duplicates_from_Sorted_List_II.cpp" -o CMakeFiles\leetcode.dir\82.Remove_Duplicates_from_Sorted_List_II.cpp.s
 
 CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.obj: ../105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp"
 
 CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp" > CMakeFiles\leetcode.dir\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp" > CMakeFiles\leetcode.dir\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp" -o CMakeFiles\leetcode.dir\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp" -o CMakeFiles\leetcode.dir\105.Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.obj: ../98.Validate_Binary_Search_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\98.Validate_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\98.Validate_Binary_Search_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\98.Validate_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\98.Validate_Binary_Search_Tree.cpp"
 
 CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\98.Validate_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\98.Validate_Binary_Search_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\98.Validate_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\98.Validate_Binary_Search_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/98.Validate_Binary_Search_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\98.Validate_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\98.Validate_Binary_Search_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\98.Validate_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\98.Validate_Binary_Search_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.obj: ../96.Unique_Binary_Search_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\96.Unique_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\96.Unique_Binary_Search_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\96.Unique_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\96.Unique_Binary_Search_Tree.cpp"
 
 CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\96.Unique_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\96.Unique_Binary_Search_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\96.Unique_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\96.Unique_Binary_Search_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/96.Unique_Binary_Search_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\96.Unique_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\96.Unique_Binary_Search_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\96.Unique_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\96.Unique_Binary_Search_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.obj: ../160.Intersection_of_Two_Linked_Lists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\160.Intersection_of_Two_Linked_Lists.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\160.Intersection_of_Two_Linked_Lists.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\160.Intersection_of_Two_Linked_Lists.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\160.Intersection_of_Two_Linked_Lists.cpp"
 
 CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\160.Intersection_of_Two_Linked_Lists.cpp" > CMakeFiles\leetcode.dir\160.Intersection_of_Two_Linked_Lists.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\160.Intersection_of_Two_Linked_Lists.cpp" > CMakeFiles\leetcode.dir\160.Intersection_of_Two_Linked_Lists.cpp.i
 
 CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/160.Intersection_of_Two_Linked_Lists.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\160.Intersection_of_Two_Linked_Lists.cpp" -o CMakeFiles\leetcode.dir\160.Intersection_of_Two_Linked_Lists.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\160.Intersection_of_Two_Linked_Lists.cpp" -o CMakeFiles\leetcode.dir\160.Intersection_of_Two_Linked_Lists.cpp.s
 
 CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.obj: ../25.Reverse_Nodes_in_k-Group.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\25.Reverse_Nodes_in_k-Group.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\25.Reverse_Nodes_in_k-Group.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\25.Reverse_Nodes_in_k-Group.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\25.Reverse_Nodes_in_k-Group.cpp"
 
 CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\25.Reverse_Nodes_in_k-Group.cpp" > CMakeFiles\leetcode.dir\25.Reverse_Nodes_in_k-Group.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\25.Reverse_Nodes_in_k-Group.cpp" > CMakeFiles\leetcode.dir\25.Reverse_Nodes_in_k-Group.cpp.i
 
 CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/25.Reverse_Nodes_in_k-Group.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\25.Reverse_Nodes_in_k-Group.cpp" -o CMakeFiles\leetcode.dir\25.Reverse_Nodes_in_k-Group.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\25.Reverse_Nodes_in_k-Group.cpp" -o CMakeFiles\leetcode.dir\25.Reverse_Nodes_in_k-Group.cpp.s
 
 CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.obj: ../147.Insertion_Sort_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\147.Insertion_Sort_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\147.Insertion_Sort_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\147.Insertion_Sort_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\147.Insertion_Sort_List.cpp"
 
 CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\147.Insertion_Sort_List.cpp" > CMakeFiles\leetcode.dir\147.Insertion_Sort_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\147.Insertion_Sort_List.cpp" > CMakeFiles\leetcode.dir\147.Insertion_Sort_List.cpp.i
 
 CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/147.Insertion_Sort_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\147.Insertion_Sort_List.cpp" -o CMakeFiles\leetcode.dir\147.Insertion_Sort_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\147.Insertion_Sort_List.cpp" -o CMakeFiles\leetcode.dir\147.Insertion_Sort_List.cpp.s
 
 CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.obj: ../142.Linked_List_Cycle_II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\142.Linked_List_Cycle_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\142.Linked_List_Cycle_II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\142.Linked_List_Cycle_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\142.Linked_List_Cycle_II.cpp"
 
 CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\142.Linked_List_Cycle_II.cpp" > CMakeFiles\leetcode.dir\142.Linked_List_Cycle_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\142.Linked_List_Cycle_II.cpp" > CMakeFiles\leetcode.dir\142.Linked_List_Cycle_II.cpp.i
 
 CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/142.Linked_List_Cycle_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\142.Linked_List_Cycle_II.cpp" -o CMakeFiles\leetcode.dir\142.Linked_List_Cycle_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\142.Linked_List_Cycle_II.cpp" -o CMakeFiles\leetcode.dir\142.Linked_List_Cycle_II.cpp.s
 
 CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.obj: ../1025_DivisorGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1025_DivisorGame.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1025_DivisorGame.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1025_DivisorGame.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1025_DivisorGame.cpp"
 
 CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1025_DivisorGame.cpp" > CMakeFiles\leetcode.dir\1025_DivisorGame.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1025_DivisorGame.cpp" > CMakeFiles\leetcode.dir\1025_DivisorGame.cpp.i
 
 CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1025_DivisorGame.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1025_DivisorGame.cpp" -o CMakeFiles\leetcode.dir\1025_DivisorGame.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1025_DivisorGame.cpp" -o CMakeFiles\leetcode.dir\1025_DivisorGame.cpp.s
 
 CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.obj: ../32_Longest_Valid_Parentheses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\32_Longest_Valid_Parentheses.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\32_Longest_Valid_Parentheses.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\32_Longest_Valid_Parentheses.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\32_Longest_Valid_Parentheses.cpp"
 
 CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\32_Longest_Valid_Parentheses.cpp" > CMakeFiles\leetcode.dir\32_Longest_Valid_Parentheses.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\32_Longest_Valid_Parentheses.cpp" > CMakeFiles\leetcode.dir\32_Longest_Valid_Parentheses.cpp.i
 
 CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/32_Longest_Valid_Parentheses.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\32_Longest_Valid_Parentheses.cpp" -o CMakeFiles\leetcode.dir\32_Longest_Valid_Parentheses.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\32_Longest_Valid_Parentheses.cpp" -o CMakeFiles\leetcode.dir\32_Longest_Valid_Parentheses.cpp.s
 
 CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.obj: ../44_Wildcard_Matching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\44_Wildcard_Matching.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\44_Wildcard_Matching.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\44_Wildcard_Matching.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\44_Wildcard_Matching.cpp"
 
 CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\44_Wildcard_Matching.cpp" > CMakeFiles\leetcode.dir\44_Wildcard_Matching.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\44_Wildcard_Matching.cpp" > CMakeFiles\leetcode.dir\44_Wildcard_Matching.cpp.i
 
 CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/44_Wildcard_Matching.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\44_Wildcard_Matching.cpp" -o CMakeFiles\leetcode.dir\44_Wildcard_Matching.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\44_Wildcard_Matching.cpp" -o CMakeFiles\leetcode.dir\44_Wildcard_Matching.cpp.s
 
 CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.obj: ../53_Maximum_Subarray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\53_Maximum_Subarray.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\53_Maximum_Subarray.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\53_Maximum_Subarray.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\53_Maximum_Subarray.cpp"
 
 CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\53_Maximum_Subarray.cpp" > CMakeFiles\leetcode.dir\53_Maximum_Subarray.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\53_Maximum_Subarray.cpp" > CMakeFiles\leetcode.dir\53_Maximum_Subarray.cpp.i
 
 CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/53_Maximum_Subarray.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\53_Maximum_Subarray.cpp" -o CMakeFiles\leetcode.dir\53_Maximum_Subarray.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\53_Maximum_Subarray.cpp" -o CMakeFiles\leetcode.dir\53_Maximum_Subarray.cpp.s
 
 CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.obj: ../62_Unique_Paths.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\62_Unique_Paths.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\62_Unique_Paths.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\62_Unique_Paths.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\62_Unique_Paths.cpp"
 
 CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\62_Unique_Paths.cpp" > CMakeFiles\leetcode.dir\62_Unique_Paths.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\62_Unique_Paths.cpp" > CMakeFiles\leetcode.dir\62_Unique_Paths.cpp.i
 
 CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/62_Unique_Paths.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\62_Unique_Paths.cpp" -o CMakeFiles\leetcode.dir\62_Unique_Paths.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\62_Unique_Paths.cpp" -o CMakeFiles\leetcode.dir\62_Unique_Paths.cpp.s
 
 CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.obj: ../63_Unique_Paths_II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\63_Unique_Paths_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\63_Unique_Paths_II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\63_Unique_Paths_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\63_Unique_Paths_II.cpp"
 
 CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\63_Unique_Paths_II.cpp" > CMakeFiles\leetcode.dir\63_Unique_Paths_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\63_Unique_Paths_II.cpp" > CMakeFiles\leetcode.dir\63_Unique_Paths_II.cpp.i
 
 CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/63_Unique_Paths_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\63_Unique_Paths_II.cpp" -o CMakeFiles\leetcode.dir\63_Unique_Paths_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\63_Unique_Paths_II.cpp" -o CMakeFiles\leetcode.dir\63_Unique_Paths_II.cpp.s
 
 CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.obj: ../70_Climbing_Stairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\70_Climbing_Stairs.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\70_Climbing_Stairs.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\70_Climbing_Stairs.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\70_Climbing_Stairs.cpp"
 
 CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\70_Climbing_Stairs.cpp" > CMakeFiles\leetcode.dir\70_Climbing_Stairs.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\70_Climbing_Stairs.cpp" > CMakeFiles\leetcode.dir\70_Climbing_Stairs.cpp.i
 
 CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/70_Climbing_Stairs.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\70_Climbing_Stairs.cpp" -o CMakeFiles\leetcode.dir\70_Climbing_Stairs.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\70_Climbing_Stairs.cpp" -o CMakeFiles\leetcode.dir\70_Climbing_Stairs.cpp.s
 
 CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.obj: ../64_Minimum_Path_Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\64_Minimum_Path_Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\64_Minimum_Path_Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\64_Minimum_Path_Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\64_Minimum_Path_Sum.cpp"
 
 CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\64_Minimum_Path_Sum.cpp" > CMakeFiles\leetcode.dir\64_Minimum_Path_Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\64_Minimum_Path_Sum.cpp" > CMakeFiles\leetcode.dir\64_Minimum_Path_Sum.cpp.i
 
 CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/64_Minimum_Path_Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\64_Minimum_Path_Sum.cpp" -o CMakeFiles\leetcode.dir\64_Minimum_Path_Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\64_Minimum_Path_Sum.cpp" -o CMakeFiles\leetcode.dir\64_Minimum_Path_Sum.cpp.s
 
 CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.obj: ../72_Edit_Distance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\72_Edit_Distance.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\72_Edit_Distance.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\72_Edit_Distance.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\72_Edit_Distance.cpp"
 
 CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\72_Edit_Distance.cpp" > CMakeFiles\leetcode.dir\72_Edit_Distance.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\72_Edit_Distance.cpp" > CMakeFiles\leetcode.dir\72_Edit_Distance.cpp.i
 
 CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/72_Edit_Distance.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\72_Edit_Distance.cpp" -o CMakeFiles\leetcode.dir\72_Edit_Distance.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\72_Edit_Distance.cpp" -o CMakeFiles\leetcode.dir\72_Edit_Distance.cpp.s
 
 CMakeFiles/leetcode.dir/61_Rotate_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/61_Rotate_List.cpp.obj: ../61_Rotate_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/leetcode.dir/61_Rotate_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\61_Rotate_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\61_Rotate_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/leetcode.dir/61_Rotate_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\61_Rotate_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\61_Rotate_List.cpp"
 
 CMakeFiles/leetcode.dir/61_Rotate_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/61_Rotate_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\61_Rotate_List.cpp" > CMakeFiles\leetcode.dir\61_Rotate_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\61_Rotate_List.cpp" > CMakeFiles\leetcode.dir\61_Rotate_List.cpp.i
 
 CMakeFiles/leetcode.dir/61_Rotate_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/61_Rotate_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\61_Rotate_List.cpp" -o CMakeFiles\leetcode.dir\61_Rotate_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\61_Rotate_List.cpp" -o CMakeFiles\leetcode.dir\61_Rotate_List.cpp.s
 
 CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.obj: ../83_Remove_Duplicates_from_Sorted_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\83_Remove_Duplicates_from_Sorted_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\83_Remove_Duplicates_from_Sorted_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\83_Remove_Duplicates_from_Sorted_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\83_Remove_Duplicates_from_Sorted_List.cpp"
 
 CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\83_Remove_Duplicates_from_Sorted_List.cpp" > CMakeFiles\leetcode.dir\83_Remove_Duplicates_from_Sorted_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\83_Remove_Duplicates_from_Sorted_List.cpp" > CMakeFiles\leetcode.dir\83_Remove_Duplicates_from_Sorted_List.cpp.i
 
 CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/83_Remove_Duplicates_from_Sorted_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\83_Remove_Duplicates_from_Sorted_List.cpp" -o CMakeFiles\leetcode.dir\83_Remove_Duplicates_from_Sorted_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\83_Remove_Duplicates_from_Sorted_List.cpp" -o CMakeFiles\leetcode.dir\83_Remove_Duplicates_from_Sorted_List.cpp.s
 
 CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.obj: ../206_Reverse_Linked_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\206_Reverse_Linked_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\206_Reverse_Linked_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\206_Reverse_Linked_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\206_Reverse_Linked_List.cpp"
 
 CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\206_Reverse_Linked_List.cpp" > CMakeFiles\leetcode.dir\206_Reverse_Linked_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\206_Reverse_Linked_List.cpp" > CMakeFiles\leetcode.dir\206_Reverse_Linked_List.cpp.i
 
 CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/206_Reverse_Linked_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\206_Reverse_Linked_List.cpp" -o CMakeFiles\leetcode.dir\206_Reverse_Linked_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\206_Reverse_Linked_List.cpp" -o CMakeFiles\leetcode.dir\206_Reverse_Linked_List.cpp.s
 
 CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.obj: ../622_Design_Circular_Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\622_Design_Circular_Queue.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\622_Design_Circular_Queue.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\622_Design_Circular_Queue.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\622_Design_Circular_Queue.cpp"
 
 CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\622_Design_Circular_Queue.cpp" > CMakeFiles\leetcode.dir\622_Design_Circular_Queue.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\622_Design_Circular_Queue.cpp" > CMakeFiles\leetcode.dir\622_Design_Circular_Queue.cpp.i
 
 CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/622_Design_Circular_Queue.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\622_Design_Circular_Queue.cpp" -o CMakeFiles\leetcode.dir\622_Design_Circular_Queue.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\622_Design_Circular_Queue.cpp" -o CMakeFiles\leetcode.dir\622_Design_Circular_Queue.cpp.s
 
 CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.obj: ../200_Number_of_Islands.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\200_Number_of_Islands.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\200_Number_of_Islands.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\200_Number_of_Islands.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\200_Number_of_Islands.cpp"
 
 CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\200_Number_of_Islands.cpp" > CMakeFiles\leetcode.dir\200_Number_of_Islands.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\200_Number_of_Islands.cpp" > CMakeFiles\leetcode.dir\200_Number_of_Islands.cpp.i
 
 CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/200_Number_of_Islands.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\200_Number_of_Islands.cpp" -o CMakeFiles\leetcode.dir\200_Number_of_Islands.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\200_Number_of_Islands.cpp" -o CMakeFiles\leetcode.dir\200_Number_of_Islands.cpp.s
 
 CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.obj: ../752_Open_the_Lock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\752_Open_the_Lock.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\752_Open_the_Lock.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\752_Open_the_Lock.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\752_Open_the_Lock.cpp"
 
 CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\752_Open_the_Lock.cpp" > CMakeFiles\leetcode.dir\752_Open_the_Lock.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\752_Open_the_Lock.cpp" > CMakeFiles\leetcode.dir\752_Open_the_Lock.cpp.i
 
 CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/752_Open_the_Lock.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\752_Open_the_Lock.cpp" -o CMakeFiles\leetcode.dir\752_Open_the_Lock.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\752_Open_the_Lock.cpp" -o CMakeFiles\leetcode.dir\752_Open_the_Lock.cpp.s
 
 CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.obj: ../279_Perfect_Squares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\279_Perfect_Squares.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\279_Perfect_Squares.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\279_Perfect_Squares.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\279_Perfect_Squares.cpp"
 
 CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\279_Perfect_Squares.cpp" > CMakeFiles\leetcode.dir\279_Perfect_Squares.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\279_Perfect_Squares.cpp" > CMakeFiles\leetcode.dir\279_Perfect_Squares.cpp.i
 
 CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/279_Perfect_Squares.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\279_Perfect_Squares.cpp" -o CMakeFiles\leetcode.dir\279_Perfect_Squares.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\279_Perfect_Squares.cpp" -o CMakeFiles\leetcode.dir\279_Perfect_Squares.cpp.s
 
 CMakeFiles/leetcode.dir/155_Min_Stack.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/155_Min_Stack.cpp.obj: ../155_Min_Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/leetcode.dir/155_Min_Stack.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\155_Min_Stack.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\155_Min_Stack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/leetcode.dir/155_Min_Stack.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\155_Min_Stack.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\155_Min_Stack.cpp"
 
 CMakeFiles/leetcode.dir/155_Min_Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/155_Min_Stack.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\155_Min_Stack.cpp" > CMakeFiles\leetcode.dir\155_Min_Stack.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\155_Min_Stack.cpp" > CMakeFiles\leetcode.dir\155_Min_Stack.cpp.i
 
 CMakeFiles/leetcode.dir/155_Min_Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/155_Min_Stack.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\155_Min_Stack.cpp" -o CMakeFiles\leetcode.dir\155_Min_Stack.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\155_Min_Stack.cpp" -o CMakeFiles\leetcode.dir\155_Min_Stack.cpp.s
 
 CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.obj: ../20_Valid_Parentheses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\20_Valid_Parentheses.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\20_Valid_Parentheses.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\20_Valid_Parentheses.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\20_Valid_Parentheses.cpp"
 
 CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\20_Valid_Parentheses.cpp" > CMakeFiles\leetcode.dir\20_Valid_Parentheses.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\20_Valid_Parentheses.cpp" > CMakeFiles\leetcode.dir\20_Valid_Parentheses.cpp.i
 
 CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/20_Valid_Parentheses.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\20_Valid_Parentheses.cpp" -o CMakeFiles\leetcode.dir\20_Valid_Parentheses.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\20_Valid_Parentheses.cpp" -o CMakeFiles\leetcode.dir\20_Valid_Parentheses.cpp.s
 
 CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.obj: ../739_Daily_Temperatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\739_Daily_Temperatures.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\739_Daily_Temperatures.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\739_Daily_Temperatures.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\739_Daily_Temperatures.cpp"
 
 CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\739_Daily_Temperatures.cpp" > CMakeFiles\leetcode.dir\739_Daily_Temperatures.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\739_Daily_Temperatures.cpp" > CMakeFiles\leetcode.dir\739_Daily_Temperatures.cpp.i
 
 CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/739_Daily_Temperatures.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\739_Daily_Temperatures.cpp" -o CMakeFiles\leetcode.dir\739_Daily_Temperatures.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\739_Daily_Temperatures.cpp" -o CMakeFiles\leetcode.dir\739_Daily_Temperatures.cpp.s
 
 CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.obj: ../150_Evaluate_Reverse_Polish_Notation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\150_Evaluate_Reverse_Polish_Notation.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\150_Evaluate_Reverse_Polish_Notation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\150_Evaluate_Reverse_Polish_Notation.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\150_Evaluate_Reverse_Polish_Notation.cpp"
 
 CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\150_Evaluate_Reverse_Polish_Notation.cpp" > CMakeFiles\leetcode.dir\150_Evaluate_Reverse_Polish_Notation.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\150_Evaluate_Reverse_Polish_Notation.cpp" > CMakeFiles\leetcode.dir\150_Evaluate_Reverse_Polish_Notation.cpp.i
 
 CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/150_Evaluate_Reverse_Polish_Notation.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\150_Evaluate_Reverse_Polish_Notation.cpp" -o CMakeFiles\leetcode.dir\150_Evaluate_Reverse_Polish_Notation.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\150_Evaluate_Reverse_Polish_Notation.cpp" -o CMakeFiles\leetcode.dir\150_Evaluate_Reverse_Polish_Notation.cpp.s
 
 CMakeFiles/leetcode.dir/344_Reverse_String.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/344_Reverse_String.cpp.obj: ../344_Reverse_String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/leetcode.dir/344_Reverse_String.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\344_Reverse_String.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\344_Reverse_String.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/leetcode.dir/344_Reverse_String.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\344_Reverse_String.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\344_Reverse_String.cpp"
 
 CMakeFiles/leetcode.dir/344_Reverse_String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/344_Reverse_String.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\344_Reverse_String.cpp" > CMakeFiles\leetcode.dir\344_Reverse_String.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\344_Reverse_String.cpp" > CMakeFiles\leetcode.dir\344_Reverse_String.cpp.i
 
 CMakeFiles/leetcode.dir/344_Reverse_String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/344_Reverse_String.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\344_Reverse_String.cpp" -o CMakeFiles\leetcode.dir\344_Reverse_String.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\344_Reverse_String.cpp" -o CMakeFiles\leetcode.dir\344_Reverse_String.cpp.s
 
 CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.obj: ../24._Swap_Nodes_in_Pairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\24._Swap_Nodes_in_Pairs.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\24._Swap_Nodes_in_Pairs.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\24._Swap_Nodes_in_Pairs.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\24._Swap_Nodes_in_Pairs.cpp"
 
 CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\24._Swap_Nodes_in_Pairs.cpp" > CMakeFiles\leetcode.dir\24._Swap_Nodes_in_Pairs.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\24._Swap_Nodes_in_Pairs.cpp" > CMakeFiles\leetcode.dir\24._Swap_Nodes_in_Pairs.cpp.i
 
 CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/24._Swap_Nodes_in_Pairs.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\24._Swap_Nodes_in_Pairs.cpp" -o CMakeFiles\leetcode.dir\24._Swap_Nodes_in_Pairs.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\24._Swap_Nodes_in_Pairs.cpp" -o CMakeFiles\leetcode.dir\24._Swap_Nodes_in_Pairs.cpp.s
 
 CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.obj: ../21.Merge_Two_Sorted_Lists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\21.Merge_Two_Sorted_Lists.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\21.Merge_Two_Sorted_Lists.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\21.Merge_Two_Sorted_Lists.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\21.Merge_Two_Sorted_Lists.cpp"
 
 CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\21.Merge_Two_Sorted_Lists.cpp" > CMakeFiles\leetcode.dir\21.Merge_Two_Sorted_Lists.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\21.Merge_Two_Sorted_Lists.cpp" > CMakeFiles\leetcode.dir\21.Merge_Two_Sorted_Lists.cpp.i
 
 CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/21.Merge_Two_Sorted_Lists.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\21.Merge_Two_Sorted_Lists.cpp" -o CMakeFiles\leetcode.dir\21.Merge_Two_Sorted_Lists.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\21.Merge_Two_Sorted_Lists.cpp" -o CMakeFiles\leetcode.dir\21.Merge_Two_Sorted_Lists.cpp.s
 
 CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.obj: ../23.Merge_k_Sorted_Lists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\23.Merge_k_Sorted_Lists.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\23.Merge_k_Sorted_Lists.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\23.Merge_k_Sorted_Lists.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\23.Merge_k_Sorted_Lists.cpp"
 
 CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\23.Merge_k_Sorted_Lists.cpp" > CMakeFiles\leetcode.dir\23.Merge_k_Sorted_Lists.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\23.Merge_k_Sorted_Lists.cpp" > CMakeFiles\leetcode.dir\23.Merge_k_Sorted_Lists.cpp.i
 
 CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/23.Merge_k_Sorted_Lists.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\23.Merge_k_Sorted_Lists.cpp" -o CMakeFiles\leetcode.dir\23.Merge_k_Sorted_Lists.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\23.Merge_k_Sorted_Lists.cpp" -o CMakeFiles\leetcode.dir\23.Merge_k_Sorted_Lists.cpp.s
 
 CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.obj: ../92.Reverse_Linked_List_II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\92.Reverse_Linked_List_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\92.Reverse_Linked_List_II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\92.Reverse_Linked_List_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\92.Reverse_Linked_List_II.cpp"
 
 CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\92.Reverse_Linked_List_II.cpp" > CMakeFiles\leetcode.dir\92.Reverse_Linked_List_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\92.Reverse_Linked_List_II.cpp" > CMakeFiles\leetcode.dir\92.Reverse_Linked_List_II.cpp.i
 
 CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/92.Reverse_Linked_List_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\92.Reverse_Linked_List_II.cpp" -o CMakeFiles\leetcode.dir\92.Reverse_Linked_List_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\92.Reverse_Linked_List_II.cpp" -o CMakeFiles\leetcode.dir\92.Reverse_Linked_List_II.cpp.s
 
 CMakeFiles/leetcode.dir/143.Reorder_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/143.Reorder_List.cpp.obj: ../143.Reorder_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/leetcode.dir/143.Reorder_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\143.Reorder_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\143.Reorder_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/leetcode.dir/143.Reorder_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\143.Reorder_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\143.Reorder_List.cpp"
 
 CMakeFiles/leetcode.dir/143.Reorder_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/143.Reorder_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\143.Reorder_List.cpp" > CMakeFiles\leetcode.dir\143.Reorder_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\143.Reorder_List.cpp" > CMakeFiles\leetcode.dir\143.Reorder_List.cpp.i
 
 CMakeFiles/leetcode.dir/143.Reorder_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/143.Reorder_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\143.Reorder_List.cpp" -o CMakeFiles\leetcode.dir\143.Reorder_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\143.Reorder_List.cpp" -o CMakeFiles\leetcode.dir\143.Reorder_List.cpp.s
 
 CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.obj: ../141.Linked_List_Cycle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\141.Linked_List_Cycle.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\141.Linked_List_Cycle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\141.Linked_List_Cycle.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\141.Linked_List_Cycle.cpp"
 
 CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\141.Linked_List_Cycle.cpp" > CMakeFiles\leetcode.dir\141.Linked_List_Cycle.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\141.Linked_List_Cycle.cpp" > CMakeFiles\leetcode.dir\141.Linked_List_Cycle.cpp.i
 
 CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/141.Linked_List_Cycle.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\141.Linked_List_Cycle.cpp" -o CMakeFiles\leetcode.dir\141.Linked_List_Cycle.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\141.Linked_List_Cycle.cpp" -o CMakeFiles\leetcode.dir\141.Linked_List_Cycle.cpp.s
 
 CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.obj: ../94.Binary-Tree-Inorder-Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\94.Binary-Tree-Inorder-Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\94.Binary-Tree-Inorder-Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\94.Binary-Tree-Inorder-Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\94.Binary-Tree-Inorder-Traversal.cpp"
 
 CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\94.Binary-Tree-Inorder-Traversal.cpp" > CMakeFiles\leetcode.dir\94.Binary-Tree-Inorder-Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\94.Binary-Tree-Inorder-Traversal.cpp" > CMakeFiles\leetcode.dir\94.Binary-Tree-Inorder-Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/94.Binary-Tree-Inorder-Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\94.Binary-Tree-Inorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\94.Binary-Tree-Inorder-Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\94.Binary-Tree-Inorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\94.Binary-Tree-Inorder-Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.obj: ../203.Remove_Linked_List_Elements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\203.Remove_Linked_List_Elements.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\203.Remove_Linked_List_Elements.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\203.Remove_Linked_List_Elements.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\203.Remove_Linked_List_Elements.cpp"
 
 CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\203.Remove_Linked_List_Elements.cpp" > CMakeFiles\leetcode.dir\203.Remove_Linked_List_Elements.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\203.Remove_Linked_List_Elements.cpp" > CMakeFiles\leetcode.dir\203.Remove_Linked_List_Elements.cpp.i
 
 CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/203.Remove_Linked_List_Elements.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\203.Remove_Linked_List_Elements.cpp" -o CMakeFiles\leetcode.dir\203.Remove_Linked_List_Elements.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\203.Remove_Linked_List_Elements.cpp" -o CMakeFiles\leetcode.dir\203.Remove_Linked_List_Elements.cpp.s
 
 CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.obj: ../144.Binary_Tree_Preorder_Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\144.Binary_Tree_Preorder_Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\144.Binary_Tree_Preorder_Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\144.Binary_Tree_Preorder_Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\144.Binary_Tree_Preorder_Traversal.cpp"
 
 CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\144.Binary_Tree_Preorder_Traversal.cpp" > CMakeFiles\leetcode.dir\144.Binary_Tree_Preorder_Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\144.Binary_Tree_Preorder_Traversal.cpp" > CMakeFiles\leetcode.dir\144.Binary_Tree_Preorder_Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/144.Binary_Tree_Preorder_Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\144.Binary_Tree_Preorder_Traversal.cpp" -o CMakeFiles\leetcode.dir\144.Binary_Tree_Preorder_Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\144.Binary_Tree_Preorder_Traversal.cpp" -o CMakeFiles\leetcode.dir\144.Binary_Tree_Preorder_Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.obj: ../145.Binary_Tree_Postorder_Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\145.Binary_Tree_Postorder_Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\145.Binary_Tree_Postorder_Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\145.Binary_Tree_Postorder_Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\145.Binary_Tree_Postorder_Traversal.cpp"
 
 CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\145.Binary_Tree_Postorder_Traversal.cpp" > CMakeFiles\leetcode.dir\145.Binary_Tree_Postorder_Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\145.Binary_Tree_Postorder_Traversal.cpp" > CMakeFiles\leetcode.dir\145.Binary_Tree_Postorder_Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/145.Binary_Tree_Postorder_Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\145.Binary_Tree_Postorder_Traversal.cpp" -o CMakeFiles\leetcode.dir\145.Binary_Tree_Postorder_Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\145.Binary_Tree_Postorder_Traversal.cpp" -o CMakeFiles\leetcode.dir\145.Binary_Tree_Postorder_Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.obj: ../102.Binary_Tree\ Level_Order_Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\102.Binary_Tree_Level_Order_Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\102.Binary_Tree Level_Order_Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\102.Binary_Tree_Level_Order_Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\102.Binary_Tree Level_Order_Traversal.cpp"
 
 CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\102.Binary_Tree Level_Order_Traversal.cpp" > CMakeFiles\leetcode.dir\102.Binary_Tree_Level_Order_Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\102.Binary_Tree Level_Order_Traversal.cpp" > CMakeFiles\leetcode.dir\102.Binary_Tree_Level_Order_Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/102.Binary_Tree_Level_Order_Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\102.Binary_Tree Level_Order_Traversal.cpp" -o CMakeFiles\leetcode.dir\102.Binary_Tree_Level_Order_Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\102.Binary_Tree Level_Order_Traversal.cpp" -o CMakeFiles\leetcode.dir\102.Binary_Tree_Level_Order_Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/100.Same_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/100.Same_Tree.cpp.obj: ../100.Same_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/leetcode.dir/100.Same_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\100.Same_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\100.Same_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/leetcode.dir/100.Same_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\100.Same_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\100.Same_Tree.cpp"
 
 CMakeFiles/leetcode.dir/100.Same_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/100.Same_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\100.Same_Tree.cpp" > CMakeFiles\leetcode.dir\100.Same_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\100.Same_Tree.cpp" > CMakeFiles\leetcode.dir\100.Same_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/100.Same_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/100.Same_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\100.Same_Tree.cpp" -o CMakeFiles\leetcode.dir\100.Same_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\100.Same_Tree.cpp" -o CMakeFiles\leetcode.dir\100.Same_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.obj: ../99.Recover_Binary_Search_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\99.Recover_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\99.Recover_Binary_Search_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\99.Recover_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\99.Recover_Binary_Search_Tree.cpp"
 
 CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\99.Recover_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\99.Recover_Binary_Search_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\99.Recover_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\99.Recover_Binary_Search_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/99.Recover_Binary_Search_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\99.Recover_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\99.Recover_Binary_Search_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\99.Recover_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\99.Recover_Binary_Search_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.obj: ../101.Symmetric_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\101.Symmetric_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\101.Symmetric_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\101.Symmetric_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\101.Symmetric_Tree.cpp"
 
 CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\101.Symmetric_Tree.cpp" > CMakeFiles\leetcode.dir\101.Symmetric_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\101.Symmetric_Tree.cpp" > CMakeFiles\leetcode.dir\101.Symmetric_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/101.Symmetric_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\101.Symmetric_Tree.cpp" -o CMakeFiles\leetcode.dir\101.Symmetric_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\101.Symmetric_Tree.cpp" -o CMakeFiles\leetcode.dir\101.Symmetric_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.obj: ../103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp"
 
 CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp" > CMakeFiles\leetcode.dir\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp" > CMakeFiles\leetcode.dir\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp" -o CMakeFiles\leetcode.dir\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp" -o CMakeFiles\leetcode.dir\103.Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.obj: ../104.Maximum_Depth_of\ Binary_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\104.Maximum_Depth_of_Binary_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\104.Maximum_Depth_of Binary_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\104.Maximum_Depth_of_Binary_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\104.Maximum_Depth_of Binary_Tree.cpp"
 
 CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\104.Maximum_Depth_of Binary_Tree.cpp" > CMakeFiles\leetcode.dir\104.Maximum_Depth_of_Binary_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\104.Maximum_Depth_of Binary_Tree.cpp" > CMakeFiles\leetcode.dir\104.Maximum_Depth_of_Binary_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/104.Maximum_Depth_of_Binary_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\104.Maximum_Depth_of Binary_Tree.cpp" -o CMakeFiles\leetcode.dir\104.Maximum_Depth_of_Binary_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\104.Maximum_Depth_of Binary_Tree.cpp" -o CMakeFiles\leetcode.dir\104.Maximum_Depth_of_Binary_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.obj: ../107.Binary_Tree_Level_Order_Traversal_II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\107.Binary_Tree_Level_Order_Traversal_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\107.Binary_Tree_Level_Order_Traversal_II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\107.Binary_Tree_Level_Order_Traversal_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\107.Binary_Tree_Level_Order_Traversal_II.cpp"
 
 CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\107.Binary_Tree_Level_Order_Traversal_II.cpp" > CMakeFiles\leetcode.dir\107.Binary_Tree_Level_Order_Traversal_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\107.Binary_Tree_Level_Order_Traversal_II.cpp" > CMakeFiles\leetcode.dir\107.Binary_Tree_Level_Order_Traversal_II.cpp.i
 
 CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/107.Binary_Tree_Level_Order_Traversal_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\107.Binary_Tree_Level_Order_Traversal_II.cpp" -o CMakeFiles\leetcode.dir\107.Binary_Tree_Level_Order_Traversal_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\107.Binary_Tree_Level_Order_Traversal_II.cpp" -o CMakeFiles\leetcode.dir\107.Binary_Tree_Level_Order_Traversal_II.cpp.s
 
 CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.obj: ../108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp"
 
 CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp" > CMakeFiles\leetcode.dir\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp" -o CMakeFiles\leetcode.dir\108.Convert_Sorted_Array_to_Binary_Search_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.obj: ../110.Balanced_Binary_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\110.Balanced_Binary_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\110.Balanced_Binary_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\110.Balanced_Binary_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\110.Balanced_Binary_Tree.cpp"
 
 CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\110.Balanced_Binary_Tree.cpp" > CMakeFiles\leetcode.dir\110.Balanced_Binary_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\110.Balanced_Binary_Tree.cpp" > CMakeFiles\leetcode.dir\110.Balanced_Binary_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/110.Balanced_Binary_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\110.Balanced_Binary_Tree.cpp" -o CMakeFiles\leetcode.dir\110.Balanced_Binary_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\110.Balanced_Binary_Tree.cpp" -o CMakeFiles\leetcode.dir\110.Balanced_Binary_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.obj: ../111.Minimum_Depth_of_Binary_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\111.Minimum_Depth_of_Binary_Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\111.Minimum_Depth_of_Binary_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\111.Minimum_Depth_of_Binary_Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\111.Minimum_Depth_of_Binary_Tree.cpp"
 
 CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\111.Minimum_Depth_of_Binary_Tree.cpp" > CMakeFiles\leetcode.dir\111.Minimum_Depth_of_Binary_Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\111.Minimum_Depth_of_Binary_Tree.cpp" > CMakeFiles\leetcode.dir\111.Minimum_Depth_of_Binary_Tree.cpp.i
 
 CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/111.Minimum_Depth_of_Binary_Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\111.Minimum_Depth_of_Binary_Tree.cpp" -o CMakeFiles\leetcode.dir\111.Minimum_Depth_of_Binary_Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\111.Minimum_Depth_of_Binary_Tree.cpp" -o CMakeFiles\leetcode.dir\111.Minimum_Depth_of_Binary_Tree.cpp.s
 
 CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.obj: ../106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp"
 
 CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp" > CMakeFiles\leetcode.dir\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp" > CMakeFiles\leetcode.dir\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/112.Path_Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/112.Path_Sum.cpp.obj: ../112.Path_Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/leetcode.dir/112.Path_Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\112.Path_Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\112.Path_Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/leetcode.dir/112.Path_Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\112.Path_Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\112.Path_Sum.cpp"
 
 CMakeFiles/leetcode.dir/112.Path_Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/112.Path_Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\112.Path_Sum.cpp" > CMakeFiles\leetcode.dir\112.Path_Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\112.Path_Sum.cpp" > CMakeFiles\leetcode.dir\112.Path_Sum.cpp.i
 
 CMakeFiles/leetcode.dir/112.Path_Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/112.Path_Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\112.Path_Sum.cpp" -o CMakeFiles\leetcode.dir\112.Path_Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\112.Path_Sum.cpp" -o CMakeFiles\leetcode.dir\112.Path_Sum.cpp.s
 
 CMakeFiles/leetcode.dir/1.Two_Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1.Two_Sum.cpp.obj: ../1.Two_Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/leetcode.dir/1.Two_Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1.Two_Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1.Two_Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/leetcode.dir/1.Two_Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1.Two_Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1.Two_Sum.cpp"
 
 CMakeFiles/leetcode.dir/1.Two_Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1.Two_Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1.Two_Sum.cpp" > CMakeFiles\leetcode.dir\1.Two_Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1.Two_Sum.cpp" > CMakeFiles\leetcode.dir\1.Two_Sum.cpp.i
 
 CMakeFiles/leetcode.dir/1.Two_Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1.Two_Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1.Two_Sum.cpp" -o CMakeFiles\leetcode.dir\1.Two_Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1.Two_Sum.cpp" -o CMakeFiles\leetcode.dir\1.Two_Sum.cpp.s
 
 CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.obj: ../4.Median-of-Two-Sorted-Arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\4.Median-of-Two-Sorted-Arrays.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\4.Median-of-Two-Sorted-Arrays.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\4.Median-of-Two-Sorted-Arrays.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\4.Median-of-Two-Sorted-Arrays.cpp"
 
 CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\4.Median-of-Two-Sorted-Arrays.cpp" > CMakeFiles\leetcode.dir\4.Median-of-Two-Sorted-Arrays.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\4.Median-of-Two-Sorted-Arrays.cpp" > CMakeFiles\leetcode.dir\4.Median-of-Two-Sorted-Arrays.cpp.i
 
 CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/4.Median-of-Two-Sorted-Arrays.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\4.Median-of-Two-Sorted-Arrays.cpp" -o CMakeFiles\leetcode.dir\4.Median-of-Two-Sorted-Arrays.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\4.Median-of-Two-Sorted-Arrays.cpp" -o CMakeFiles\leetcode.dir\4.Median-of-Two-Sorted-Arrays.cpp.s
 
 CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.obj: ../114.Flatten_Binary_Tree\ to_Linked_List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\114.Flatten_Binary_Tree_to_Linked_List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\114.Flatten_Binary_Tree to_Linked_List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\114.Flatten_Binary_Tree_to_Linked_List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\114.Flatten_Binary_Tree to_Linked_List.cpp"
 
 CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\114.Flatten_Binary_Tree to_Linked_List.cpp" > CMakeFiles\leetcode.dir\114.Flatten_Binary_Tree_to_Linked_List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\114.Flatten_Binary_Tree to_Linked_List.cpp" > CMakeFiles\leetcode.dir\114.Flatten_Binary_Tree_to_Linked_List.cpp.i
 
 CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/114.Flatten_Binary_Tree_to_Linked_List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\114.Flatten_Binary_Tree to_Linked_List.cpp" -o CMakeFiles\leetcode.dir\114.Flatten_Binary_Tree_to_Linked_List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\114.Flatten_Binary_Tree to_Linked_List.cpp" -o CMakeFiles\leetcode.dir\114.Flatten_Binary_Tree_to_Linked_List.cpp.s
 
 CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.obj: ../124.Binary_Tree_Maximum_Path_Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\124.Binary_Tree_Maximum_Path_Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\124.Binary_Tree_Maximum_Path_Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\124.Binary_Tree_Maximum_Path_Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\124.Binary_Tree_Maximum_Path_Sum.cpp"
 
 CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\124.Binary_Tree_Maximum_Path_Sum.cpp" > CMakeFiles\leetcode.dir\124.Binary_Tree_Maximum_Path_Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\124.Binary_Tree_Maximum_Path_Sum.cpp" > CMakeFiles\leetcode.dir\124.Binary_Tree_Maximum_Path_Sum.cpp.i
 
 CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/124.Binary_Tree_Maximum_Path_Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\124.Binary_Tree_Maximum_Path_Sum.cpp" -o CMakeFiles\leetcode.dir\124.Binary_Tree_Maximum_Path_Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\124.Binary_Tree_Maximum_Path_Sum.cpp" -o CMakeFiles\leetcode.dir\124.Binary_Tree_Maximum_Path_Sum.cpp.s
 
 CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.obj: ../11.Container_With_Most_Water.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\11.Container_With_Most_Water.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\11.Container_With_Most_Water.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\11.Container_With_Most_Water.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\11.Container_With_Most_Water.cpp"
 
 CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\11.Container_With_Most_Water.cpp" > CMakeFiles\leetcode.dir\11.Container_With_Most_Water.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\11.Container_With_Most_Water.cpp" > CMakeFiles\leetcode.dir\11.Container_With_Most_Water.cpp.i
 
 CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/11.Container_With_Most_Water.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\11.Container_With_Most_Water.cpp" -o CMakeFiles\leetcode.dir\11.Container_With_Most_Water.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\11.Container_With_Most_Water.cpp" -o CMakeFiles\leetcode.dir\11.Container_With_Most_Water.cpp.s
 
 CMakeFiles/leetcode.dir/15.3Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/15.3Sum.cpp.obj: ../15.3Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/leetcode.dir/15.3Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\15.3Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\15.3Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/leetcode.dir/15.3Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\15.3Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\15.3Sum.cpp"
 
 CMakeFiles/leetcode.dir/15.3Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/15.3Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\15.3Sum.cpp" > CMakeFiles\leetcode.dir\15.3Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\15.3Sum.cpp" > CMakeFiles\leetcode.dir\15.3Sum.cpp.i
 
 CMakeFiles/leetcode.dir/15.3Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/15.3Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\15.3Sum.cpp" -o CMakeFiles\leetcode.dir\15.3Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\15.3Sum.cpp" -o CMakeFiles\leetcode.dir\15.3Sum.cpp.s
 
 CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.obj: ../16.3Sum_Closest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\16.3Sum_Closest.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\16.3Sum_Closest.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\16.3Sum_Closest.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\16.3Sum_Closest.cpp"
 
 CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\16.3Sum_Closest.cpp" > CMakeFiles\leetcode.dir\16.3Sum_Closest.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\16.3Sum_Closest.cpp" > CMakeFiles\leetcode.dir\16.3Sum_Closest.cpp.i
 
 CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/16.3Sum_Closest.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\16.3Sum_Closest.cpp" -o CMakeFiles\leetcode.dir\16.3Sum_Closest.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\16.3Sum_Closest.cpp" -o CMakeFiles\leetcode.dir\16.3Sum_Closest.cpp.s
 
 CMakeFiles/leetcode.dir/18.4Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/18.4Sum.cpp.obj: ../18.4Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/leetcode.dir/18.4Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\18.4Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\18.4Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/leetcode.dir/18.4Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\18.4Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\18.4Sum.cpp"
 
 CMakeFiles/leetcode.dir/18.4Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/18.4Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\18.4Sum.cpp" > CMakeFiles\leetcode.dir\18.4Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\18.4Sum.cpp" > CMakeFiles\leetcode.dir\18.4Sum.cpp.i
 
 CMakeFiles/leetcode.dir/18.4Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/18.4Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\18.4Sum.cpp" -o CMakeFiles\leetcode.dir\18.4Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\18.4Sum.cpp" -o CMakeFiles\leetcode.dir\18.4Sum.cpp.s
 
 CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.obj: ../26.Remove_Duplicates_from_Sorted_Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\26.Remove_Duplicates_from_Sorted_Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\26.Remove_Duplicates_from_Sorted_Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\26.Remove_Duplicates_from_Sorted_Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\26.Remove_Duplicates_from_Sorted_Array.cpp"
 
 CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\26.Remove_Duplicates_from_Sorted_Array.cpp" > CMakeFiles\leetcode.dir\26.Remove_Duplicates_from_Sorted_Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\26.Remove_Duplicates_from_Sorted_Array.cpp" > CMakeFiles\leetcode.dir\26.Remove_Duplicates_from_Sorted_Array.cpp.i
 
 CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/26.Remove_Duplicates_from_Sorted_Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\26.Remove_Duplicates_from_Sorted_Array.cpp" -o CMakeFiles\leetcode.dir\26.Remove_Duplicates_from_Sorted_Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\26.Remove_Duplicates_from_Sorted_Array.cpp" -o CMakeFiles\leetcode.dir\26.Remove_Duplicates_from_Sorted_Array.cpp.s
 
 CMakeFiles/leetcode.dir/27.Remove_Element.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/27.Remove_Element.cpp.obj: ../27.Remove_Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/leetcode.dir/27.Remove_Element.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\27.Remove_Element.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\27.Remove_Element.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/leetcode.dir/27.Remove_Element.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\27.Remove_Element.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\27.Remove_Element.cpp"
 
 CMakeFiles/leetcode.dir/27.Remove_Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/27.Remove_Element.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\27.Remove_Element.cpp" > CMakeFiles\leetcode.dir\27.Remove_Element.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\27.Remove_Element.cpp" > CMakeFiles\leetcode.dir\27.Remove_Element.cpp.i
 
 CMakeFiles/leetcode.dir/27.Remove_Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/27.Remove_Element.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\27.Remove_Element.cpp" -o CMakeFiles\leetcode.dir\27.Remove_Element.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\27.Remove_Element.cpp" -o CMakeFiles\leetcode.dir\27.Remove_Element.cpp.s
 
 CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.obj: ../39.Combination_Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\39.Combination_Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\39.Combination_Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\39.Combination_Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\39.Combination_Sum.cpp"
 
 CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\39.Combination_Sum.cpp" > CMakeFiles\leetcode.dir\39.Combination_Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\39.Combination_Sum.cpp" > CMakeFiles\leetcode.dir\39.Combination_Sum.cpp.i
 
 CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/39.Combination_Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\39.Combination_Sum.cpp" -o CMakeFiles\leetcode.dir\39.Combination_Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\39.Combination_Sum.cpp" -o CMakeFiles\leetcode.dir\39.Combination_Sum.cpp.s
 
 CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.obj: ../40.Combination_Sum_II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\40.Combination_Sum_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\40.Combination_Sum_II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\40.Combination_Sum_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\40.Combination_Sum_II.cpp"
 
 CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\40.Combination_Sum_II.cpp" > CMakeFiles\leetcode.dir\40.Combination_Sum_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\40.Combination_Sum_II.cpp" > CMakeFiles\leetcode.dir\40.Combination_Sum_II.cpp.i
 
 CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/40.Combination_Sum_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\40.Combination_Sum_II.cpp" -o CMakeFiles\leetcode.dir\40.Combination_Sum_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\40.Combination_Sum_II.cpp" -o CMakeFiles\leetcode.dir\40.Combination_Sum_II.cpp.s
 
 CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.obj: ../22.Generate_Parentheses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\22.Generate_Parentheses.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\22.Generate_Parentheses.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\22.Generate_Parentheses.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\22.Generate_Parentheses.cpp"
 
 CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\22.Generate_Parentheses.cpp" > CMakeFiles\leetcode.dir\22.Generate_Parentheses.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\22.Generate_Parentheses.cpp" > CMakeFiles\leetcode.dir\22.Generate_Parentheses.cpp.i
 
 CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/22.Generate_Parentheses.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\22.Generate_Parentheses.cpp" -o CMakeFiles\leetcode.dir\22.Generate_Parentheses.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\22.Generate_Parentheses.cpp" -o CMakeFiles\leetcode.dir\22.Generate_Parentheses.cpp.s
 
 CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.obj: ../17.Letter_Combinations_of_a_Phone_Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\17.Letter_Combinations_of_a_Phone_Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\17.Letter_Combinations_of_a_Phone_Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\17.Letter_Combinations_of_a_Phone_Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\17.Letter_Combinations_of_a_Phone_Number.cpp"
 
 CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\17.Letter_Combinations_of_a_Phone_Number.cpp" > CMakeFiles\leetcode.dir\17.Letter_Combinations_of_a_Phone_Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\17.Letter_Combinations_of_a_Phone_Number.cpp" > CMakeFiles\leetcode.dir\17.Letter_Combinations_of_a_Phone_Number.cpp.i
 
 CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/17.Letter_Combinations_of_a_Phone_Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\17.Letter_Combinations_of_a_Phone_Number.cpp" -o CMakeFiles\leetcode.dir\17.Letter_Combinations_of_a_Phone_Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\17.Letter_Combinations_of_a_Phone_Number.cpp" -o CMakeFiles\leetcode.dir\17.Letter_Combinations_of_a_Phone_Number.cpp.s
 
 CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.obj: ../37.Sudoku_Solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\37.Sudoku_Solver.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\37.Sudoku_Solver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\37.Sudoku_Solver.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\37.Sudoku_Solver.cpp"
 
 CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\37.Sudoku_Solver.cpp" > CMakeFiles\leetcode.dir\37.Sudoku_Solver.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\37.Sudoku_Solver.cpp" > CMakeFiles\leetcode.dir\37.Sudoku_Solver.cpp.i
 
 CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/37.Sudoku_Solver.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\37.Sudoku_Solver.cpp" -o CMakeFiles\leetcode.dir\37.Sudoku_Solver.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\37.Sudoku_Solver.cpp" -o CMakeFiles\leetcode.dir\37.Sudoku_Solver.cpp.s
 
 CMakeFiles/leetcode.dir/78.Subsets.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/78.Subsets.cpp.obj: ../78.Subsets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/leetcode.dir/78.Subsets.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\78.Subsets.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\78.Subsets.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/leetcode.dir/78.Subsets.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\78.Subsets.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\78.Subsets.cpp"
 
 CMakeFiles/leetcode.dir/78.Subsets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/78.Subsets.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\78.Subsets.cpp" > CMakeFiles\leetcode.dir\78.Subsets.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\78.Subsets.cpp" > CMakeFiles\leetcode.dir\78.Subsets.cpp.i
 
 CMakeFiles/leetcode.dir/78.Subsets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/78.Subsets.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\78.Subsets.cpp" -o CMakeFiles\leetcode.dir\78.Subsets.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\78.Subsets.cpp" -o CMakeFiles\leetcode.dir\78.Subsets.cpp.s
 
 CMakeFiles/leetcode.dir/90.Subsets_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/90.Subsets_II.cpp.obj: ../90.Subsets\ II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/leetcode.dir/90.Subsets_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\90.Subsets_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\90.Subsets II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/leetcode.dir/90.Subsets_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\90.Subsets_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\90.Subsets II.cpp"
 
 CMakeFiles/leetcode.dir/90.Subsets_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/90.Subsets_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\90.Subsets II.cpp" > CMakeFiles\leetcode.dir\90.Subsets_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\90.Subsets II.cpp" > CMakeFiles\leetcode.dir\90.Subsets_II.cpp.i
 
 CMakeFiles/leetcode.dir/90.Subsets_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/90.Subsets_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\90.Subsets II.cpp" -o CMakeFiles\leetcode.dir\90.Subsets_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\90.Subsets II.cpp" -o CMakeFiles\leetcode.dir\90.Subsets_II.cpp.s
 
 CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.obj: ../36.Valid-Sudoku.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\36.Valid-Sudoku.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\36.Valid-Sudoku.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\36.Valid-Sudoku.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\36.Valid-Sudoku.cpp"
 
 CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\36.Valid-Sudoku.cpp" > CMakeFiles\leetcode.dir\36.Valid-Sudoku.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\36.Valid-Sudoku.cpp" > CMakeFiles\leetcode.dir\36.Valid-Sudoku.cpp.i
 
 CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/36.Valid-Sudoku.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\36.Valid-Sudoku.cpp" -o CMakeFiles\leetcode.dir\36.Valid-Sudoku.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\36.Valid-Sudoku.cpp" -o CMakeFiles\leetcode.dir\36.Valid-Sudoku.cpp.s
 
 CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.obj: ../41.First_Missing_Positive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\41.First_Missing_Positive.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\41.First_Missing_Positive.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\41.First_Missing_Positive.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\41.First_Missing_Positive.cpp"
 
 CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\41.First_Missing_Positive.cpp" > CMakeFiles\leetcode.dir\41.First_Missing_Positive.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\41.First_Missing_Positive.cpp" > CMakeFiles\leetcode.dir\41.First_Missing_Positive.cpp.i
 
 CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/41.First_Missing_Positive.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\41.First_Missing_Positive.cpp" -o CMakeFiles\leetcode.dir\41.First_Missing_Positive.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\41.First_Missing_Positive.cpp" -o CMakeFiles\leetcode.dir\41.First_Missing_Positive.cpp.s
 
 CMakeFiles/leetcode.dir/test.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/leetcode.dir/test.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\test.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/leetcode.dir/test.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\test.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\test.cpp"
 
 CMakeFiles/leetcode.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/test.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\test.cpp" > CMakeFiles\leetcode.dir\test.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\test.cpp" > CMakeFiles\leetcode.dir\test.cpp.i
 
 CMakeFiles/leetcode.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/test.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\test.cpp" -o CMakeFiles\leetcode.dir\test.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\test.cpp" -o CMakeFiles\leetcode.dir\test.cpp.s
 
 CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.obj: ../2.Add-Two-Numbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\2.Add-Two-Numbers.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\2.Add-Two-Numbers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\2.Add-Two-Numbers.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\2.Add-Two-Numbers.cpp"
 
 CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\2.Add-Two-Numbers.cpp" > CMakeFiles\leetcode.dir\2.Add-Two-Numbers.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\2.Add-Two-Numbers.cpp" > CMakeFiles\leetcode.dir\2.Add-Two-Numbers.cpp.i
 
 CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/2.Add-Two-Numbers.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\2.Add-Two-Numbers.cpp" -o CMakeFiles\leetcode.dir\2.Add-Two-Numbers.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\2.Add-Two-Numbers.cpp" -o CMakeFiles\leetcode.dir\2.Add-Two-Numbers.cpp.s
 
 CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.obj: ../42.Trapping-Rain-Water.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\42.Trapping-Rain-Water.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\42.Trapping-Rain-Water.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\42.Trapping-Rain-Water.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\42.Trapping-Rain-Water.cpp"
 
 CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\42.Trapping-Rain-Water.cpp" > CMakeFiles\leetcode.dir\42.Trapping-Rain-Water.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\42.Trapping-Rain-Water.cpp" > CMakeFiles\leetcode.dir\42.Trapping-Rain-Water.cpp.i
 
 CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/42.Trapping-Rain-Water.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\42.Trapping-Rain-Water.cpp" -o CMakeFiles\leetcode.dir\42.Trapping-Rain-Water.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\42.Trapping-Rain-Water.cpp" -o CMakeFiles\leetcode.dir\42.Trapping-Rain-Water.cpp.s
 
 CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.obj: ../43.Multiply-Strings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\43.Multiply-Strings.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\43.Multiply-Strings.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\43.Multiply-Strings.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\43.Multiply-Strings.cpp"
 
 CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\43.Multiply-Strings.cpp" > CMakeFiles\leetcode.dir\43.Multiply-Strings.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\43.Multiply-Strings.cpp" > CMakeFiles\leetcode.dir\43.Multiply-Strings.cpp.i
 
 CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/43.Multiply-Strings.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\43.Multiply-Strings.cpp" -o CMakeFiles\leetcode.dir\43.Multiply-Strings.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\43.Multiply-Strings.cpp" -o CMakeFiles\leetcode.dir\43.Multiply-Strings.cpp.s
 
 CMakeFiles/leetcode.dir/55.Jump-Game.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/55.Jump-Game.cpp.obj: ../55.Jump-Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/leetcode.dir/55.Jump-Game.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\55.Jump-Game.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\55.Jump-Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/leetcode.dir/55.Jump-Game.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\55.Jump-Game.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\55.Jump-Game.cpp"
 
 CMakeFiles/leetcode.dir/55.Jump-Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/55.Jump-Game.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\55.Jump-Game.cpp" > CMakeFiles\leetcode.dir\55.Jump-Game.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\55.Jump-Game.cpp" > CMakeFiles\leetcode.dir\55.Jump-Game.cpp.i
 
 CMakeFiles/leetcode.dir/55.Jump-Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/55.Jump-Game.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\55.Jump-Game.cpp" -o CMakeFiles\leetcode.dir\55.Jump-Game.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\55.Jump-Game.cpp" -o CMakeFiles\leetcode.dir\55.Jump-Game.cpp.s
 
 CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.obj: ../109.Convert-Sorted-List-to-Binary-Search-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp"
 
 CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp" > CMakeFiles\leetcode.dir\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp" > CMakeFiles\leetcode.dir\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\109.Convert-Sorted-List-to-Binary-Search-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.obj: ../45.Jump-Game-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\45.Jump-Game-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\45.Jump-Game-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\45.Jump-Game-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\45.Jump-Game-II.cpp"
 
 CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\45.Jump-Game-II.cpp" > CMakeFiles\leetcode.dir\45.Jump-Game-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\45.Jump-Game-II.cpp" > CMakeFiles\leetcode.dir\45.Jump-Game-II.cpp.i
 
 CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/45.Jump-Game-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\45.Jump-Game-II.cpp" -o CMakeFiles\leetcode.dir\45.Jump-Game-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\45.Jump-Game-II.cpp" -o CMakeFiles\leetcode.dir\45.Jump-Game-II.cpp.s
 
 CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.obj: ../48.Rotate-Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\48.Rotate-Image.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\48.Rotate-Image.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\48.Rotate-Image.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\48.Rotate-Image.cpp"
 
 CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\48.Rotate-Image.cpp" > CMakeFiles\leetcode.dir\48.Rotate-Image.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\48.Rotate-Image.cpp" > CMakeFiles\leetcode.dir\48.Rotate-Image.cpp.i
 
 CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/48.Rotate-Image.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\48.Rotate-Image.cpp" -o CMakeFiles\leetcode.dir\48.Rotate-Image.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\48.Rotate-Image.cpp" -o CMakeFiles\leetcode.dir\48.Rotate-Image.cpp.s
 
 CMakeFiles/leetcode.dir/46.Permutations.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/46.Permutations.cpp.obj: ../46.Permutations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/leetcode.dir/46.Permutations.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\46.Permutations.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\46.Permutations.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/leetcode.dir/46.Permutations.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\46.Permutations.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\46.Permutations.cpp"
 
 CMakeFiles/leetcode.dir/46.Permutations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/46.Permutations.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\46.Permutations.cpp" > CMakeFiles\leetcode.dir\46.Permutations.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\46.Permutations.cpp" > CMakeFiles\leetcode.dir\46.Permutations.cpp.i
 
 CMakeFiles/leetcode.dir/46.Permutations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/46.Permutations.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\46.Permutations.cpp" -o CMakeFiles\leetcode.dir\46.Permutations.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\46.Permutations.cpp" -o CMakeFiles\leetcode.dir\46.Permutations.cpp.s
 
 CMakeFiles/leetcode.dir/47.Permutations-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/47.Permutations-II.cpp.obj: ../47.Permutations-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/leetcode.dir/47.Permutations-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\47.Permutations-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\47.Permutations-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/leetcode.dir/47.Permutations-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\47.Permutations-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\47.Permutations-II.cpp"
 
 CMakeFiles/leetcode.dir/47.Permutations-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/47.Permutations-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\47.Permutations-II.cpp" > CMakeFiles\leetcode.dir\47.Permutations-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\47.Permutations-II.cpp" > CMakeFiles\leetcode.dir\47.Permutations-II.cpp.i
 
 CMakeFiles/leetcode.dir/47.Permutations-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/47.Permutations-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\47.Permutations-II.cpp" -o CMakeFiles\leetcode.dir\47.Permutations-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\47.Permutations-II.cpp" -o CMakeFiles\leetcode.dir\47.Permutations-II.cpp.s
 
 CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.obj: ../138.Copy-List-with-Random-Pointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\138.Copy-List-with-Random-Pointer.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\138.Copy-List-with-Random-Pointer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\138.Copy-List-with-Random-Pointer.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\138.Copy-List-with-Random-Pointer.cpp"
 
 CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\138.Copy-List-with-Random-Pointer.cpp" > CMakeFiles\leetcode.dir\138.Copy-List-with-Random-Pointer.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\138.Copy-List-with-Random-Pointer.cpp" > CMakeFiles\leetcode.dir\138.Copy-List-with-Random-Pointer.cpp.i
 
 CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/138.Copy-List-with-Random-Pointer.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\138.Copy-List-with-Random-Pointer.cpp" -o CMakeFiles\leetcode.dir\138.Copy-List-with-Random-Pointer.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\138.Copy-List-with-Random-Pointer.cpp" -o CMakeFiles\leetcode.dir\138.Copy-List-with-Random-Pointer.cpp.s
 
 CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.obj: ../49.Group-Anagrams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\49.Group-Anagrams.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\49.Group-Anagrams.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\49.Group-Anagrams.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\49.Group-Anagrams.cpp"
 
 CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\49.Group-Anagrams.cpp" > CMakeFiles\leetcode.dir\49.Group-Anagrams.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\49.Group-Anagrams.cpp" > CMakeFiles\leetcode.dir\49.Group-Anagrams.cpp.i
 
 CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/49.Group-Anagrams.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\49.Group-Anagrams.cpp" -o CMakeFiles\leetcode.dir\49.Group-Anagrams.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\49.Group-Anagrams.cpp" -o CMakeFiles\leetcode.dir\49.Group-Anagrams.cpp.s
 
 CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.obj: ../54.Spiral-Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\54.Spiral-Matrix.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\54.Spiral-Matrix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\54.Spiral-Matrix.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\54.Spiral-Matrix.cpp"
 
 CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\54.Spiral-Matrix.cpp" > CMakeFiles\leetcode.dir\54.Spiral-Matrix.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\54.Spiral-Matrix.cpp" > CMakeFiles\leetcode.dir\54.Spiral-Matrix.cpp.i
 
 CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/54.Spiral-Matrix.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\54.Spiral-Matrix.cpp" -o CMakeFiles\leetcode.dir\54.Spiral-Matrix.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\54.Spiral-Matrix.cpp" -o CMakeFiles\leetcode.dir\54.Spiral-Matrix.cpp.s
 
 CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.obj: ../59.Spiral-Matrix-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\59.Spiral-Matrix-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\59.Spiral-Matrix-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\59.Spiral-Matrix-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\59.Spiral-Matrix-II.cpp"
 
 CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\59.Spiral-Matrix-II.cpp" > CMakeFiles\leetcode.dir\59.Spiral-Matrix-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\59.Spiral-Matrix-II.cpp" > CMakeFiles\leetcode.dir\59.Spiral-Matrix-II.cpp.i
 
 CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/59.Spiral-Matrix-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\59.Spiral-Matrix-II.cpp" -o CMakeFiles\leetcode.dir\59.Spiral-Matrix-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\59.Spiral-Matrix-II.cpp" -o CMakeFiles\leetcode.dir\59.Spiral-Matrix-II.cpp.s
 
 CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.obj: ../56.Merge-Intervals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\56.Merge-Intervals.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\56.Merge-Intervals.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\56.Merge-Intervals.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\56.Merge-Intervals.cpp"
 
 CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\56.Merge-Intervals.cpp" > CMakeFiles\leetcode.dir\56.Merge-Intervals.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\56.Merge-Intervals.cpp" > CMakeFiles\leetcode.dir\56.Merge-Intervals.cpp.i
 
 CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/56.Merge-Intervals.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\56.Merge-Intervals.cpp" -o CMakeFiles\leetcode.dir\56.Merge-Intervals.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\56.Merge-Intervals.cpp" -o CMakeFiles\leetcode.dir\56.Merge-Intervals.cpp.s
 
 CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.obj: ../57.Insert-Interval\ .cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\57.Insert-Interval_.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\57.Insert-Interval .cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\57.Insert-Interval_.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\57.Insert-Interval .cpp"
 
 CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\57.Insert-Interval .cpp" > CMakeFiles\leetcode.dir\57.Insert-Interval_.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\57.Insert-Interval .cpp" > CMakeFiles\leetcode.dir\57.Insert-Interval_.cpp.i
 
 CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/57.Insert-Interval_.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\57.Insert-Interval .cpp" -o CMakeFiles\leetcode.dir\57.Insert-Interval_.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\57.Insert-Interval .cpp" -o CMakeFiles\leetcode.dir\57.Insert-Interval_.cpp.s
 
 CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.obj: ../116.Populating-Next-Right-Pointers-in-Each-Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\116.Populating-Next-Right-Pointers-in-Each-Node.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\116.Populating-Next-Right-Pointers-in-Each-Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\116.Populating-Next-Right-Pointers-in-Each-Node.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\116.Populating-Next-Right-Pointers-in-Each-Node.cpp"
 
 CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\116.Populating-Next-Right-Pointers-in-Each-Node.cpp" > CMakeFiles\leetcode.dir\116.Populating-Next-Right-Pointers-in-Each-Node.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\116.Populating-Next-Right-Pointers-in-Each-Node.cpp" > CMakeFiles\leetcode.dir\116.Populating-Next-Right-Pointers-in-Each-Node.cpp.i
 
 CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/116.Populating-Next-Right-Pointers-in-Each-Node.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\116.Populating-Next-Right-Pointers-in-Each-Node.cpp" -o CMakeFiles\leetcode.dir\116.Populating-Next-Right-Pointers-in-Each-Node.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\116.Populating-Next-Right-Pointers-in-Each-Node.cpp" -o CMakeFiles\leetcode.dir\116.Populating-Next-Right-Pointers-in-Each-Node.cpp.s
 
 CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.obj: ../117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp"
 
 CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp" > CMakeFiles\leetcode.dir\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp" > CMakeFiles\leetcode.dir\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.i
 
 CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp" -o CMakeFiles\leetcode.dir\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp" -o CMakeFiles\leetcode.dir\117.Populating-Next-Right-Pointers-in-Each-Node-II.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.obj: ../now剑指offer/用两个栈实现队列.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\用两个栈实现队列.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\用两个栈实现队列.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\用两个栈实现队列.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\用两个栈实现队列.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\用两个栈实现队列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\用两个栈实现队列.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\用两个栈实现队列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\用两个栈实现队列.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/用两个栈实现队列.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\用两个栈实现队列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\用两个栈实现队列.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\用两个栈实现队列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\用两个栈实现队列.cpp.s
 
 CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.obj: ../232.Implement-Queue-using-Stacks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\232.Implement-Queue-using-Stacks.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\232.Implement-Queue-using-Stacks.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\232.Implement-Queue-using-Stacks.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\232.Implement-Queue-using-Stacks.cpp"
 
 CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\232.Implement-Queue-using-Stacks.cpp" > CMakeFiles\leetcode.dir\232.Implement-Queue-using-Stacks.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\232.Implement-Queue-using-Stacks.cpp" > CMakeFiles\leetcode.dir\232.Implement-Queue-using-Stacks.cpp.i
 
 CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/232.Implement-Queue-using-Stacks.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\232.Implement-Queue-using-Stacks.cpp" -o CMakeFiles\leetcode.dir\232.Implement-Queue-using-Stacks.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\232.Implement-Queue-using-Stacks.cpp" -o CMakeFiles\leetcode.dir\232.Implement-Queue-using-Stacks.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.obj: ../now剑指offer/反转链表.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\反转链表.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\反转链表.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\反转链表.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\反转链表.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\反转链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\反转链表.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\反转链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\反转链表.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/反转链表.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\反转链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\反转链表.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\反转链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\反转链表.cpp.s
 
 CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.obj: ../74.Search-a-2D-Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\74.Search-a-2D-Matrix.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\74.Search-a-2D-Matrix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\74.Search-a-2D-Matrix.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\74.Search-a-2D-Matrix.cpp"
 
 CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\74.Search-a-2D-Matrix.cpp" > CMakeFiles\leetcode.dir\74.Search-a-2D-Matrix.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\74.Search-a-2D-Matrix.cpp" > CMakeFiles\leetcode.dir\74.Search-a-2D-Matrix.cpp.i
 
 CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/74.Search-a-2D-Matrix.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\74.Search-a-2D-Matrix.cpp" -o CMakeFiles\leetcode.dir\74.Search-a-2D-Matrix.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\74.Search-a-2D-Matrix.cpp" -o CMakeFiles\leetcode.dir\74.Search-a-2D-Matrix.cpp.s
 
 CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.obj: ../240.Search-a-2D-Matrix\ II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\240.Search-a-2D-Matrix_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\240.Search-a-2D-Matrix II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\240.Search-a-2D-Matrix_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\240.Search-a-2D-Matrix II.cpp"
 
 CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\240.Search-a-2D-Matrix II.cpp" > CMakeFiles\leetcode.dir\240.Search-a-2D-Matrix_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\240.Search-a-2D-Matrix II.cpp" > CMakeFiles\leetcode.dir\240.Search-a-2D-Matrix_II.cpp.i
 
 CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/240.Search-a-2D-Matrix_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\240.Search-a-2D-Matrix II.cpp" -o CMakeFiles\leetcode.dir\240.Search-a-2D-Matrix_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\240.Search-a-2D-Matrix II.cpp" -o CMakeFiles\leetcode.dir\240.Search-a-2D-Matrix_II.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.obj: ../now剑指offer/二叉树的镜像.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的镜像.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树的镜像.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的镜像.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树的镜像.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树的镜像.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉树的镜像.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树的镜像.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉树的镜像.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二叉树的镜像.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树的镜像.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的镜像.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树的镜像.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的镜像.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.obj: ../now剑指offer/二维数组中的查找.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二维数组中的查找.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二维数组中的查找.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二维数组中的查找.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二维数组中的查找.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二维数组中的查找.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二维数组中的查找.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二维数组中的查找.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二维数组中的查找.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二维数组中的查找.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二维数组中的查找.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二维数组中的查找.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二维数组中的查找.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二维数组中的查找.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.obj: ../now剑指offer/从尾到头打印链表.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\从尾到头打印链表.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\从尾到头打印链表.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\从尾到头打印链表.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\从尾到头打印链表.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\从尾到头打印链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\从尾到头打印链表.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\从尾到头打印链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\从尾到头打印链表.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/从尾到头打印链表.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\从尾到头打印链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\从尾到头打印链表.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\从尾到头打印链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\从尾到头打印链表.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.obj: ../now剑指offer/顺时针打印矩阵.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\顺时针打印矩阵.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\顺时针打印矩阵.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\顺时针打印矩阵.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\顺时针打印矩阵.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\顺时针打印矩阵.cpp" > CMakeFiles\leetcode.dir\now剑指offer\顺时针打印矩阵.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\顺时针打印矩阵.cpp" > CMakeFiles\leetcode.dir\now剑指offer\顺时针打印矩阵.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/顺时针打印矩阵.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\顺时针打印矩阵.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\顺时针打印矩阵.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\顺时针打印矩阵.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\顺时针打印矩阵.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.obj: ../now剑指offer/从上往下打印二叉树.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\从上往下打印二叉树.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\从上往下打印二叉树.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\从上往下打印二叉树.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\从上往下打印二叉树.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\从上往下打印二叉树.cpp" > CMakeFiles\leetcode.dir\now剑指offer\从上往下打印二叉树.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\从上往下打印二叉树.cpp" > CMakeFiles\leetcode.dir\now剑指offer\从上往下打印二叉树.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/从上往下打印二叉树.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\从上往下打印二叉树.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\从上往下打印二叉树.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\从上往下打印二叉树.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\从上往下打印二叉树.cpp.s
 
 CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.obj: ../173.Binary-Search-Tree-Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\173.Binary-Search-Tree-Iterator.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\173.Binary-Search-Tree-Iterator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\173.Binary-Search-Tree-Iterator.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\173.Binary-Search-Tree-Iterator.cpp"
 
 CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\173.Binary-Search-Tree-Iterator.cpp" > CMakeFiles\leetcode.dir\173.Binary-Search-Tree-Iterator.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\173.Binary-Search-Tree-Iterator.cpp" > CMakeFiles\leetcode.dir\173.Binary-Search-Tree-Iterator.cpp.i
 
 CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/173.Binary-Search-Tree-Iterator.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\173.Binary-Search-Tree-Iterator.cpp" -o CMakeFiles\leetcode.dir\173.Binary-Search-Tree-Iterator.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\173.Binary-Search-Tree-Iterator.cpp" -o CMakeFiles\leetcode.dir\173.Binary-Search-Tree-Iterator.cpp.s
 
 CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.obj: ../226.Invert-Binary-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\226.Invert-Binary-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\226.Invert-Binary-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\226.Invert-Binary-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\226.Invert-Binary-Tree.cpp"
 
 CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\226.Invert-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\226.Invert-Binary-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\226.Invert-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\226.Invert-Binary-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/226.Invert-Binary-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\226.Invert-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\226.Invert-Binary-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\226.Invert-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\226.Invert-Binary-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.obj: ../946.Validate-Stack-Sequences.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\946.Validate-Stack-Sequences.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\946.Validate-Stack-Sequences.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\946.Validate-Stack-Sequences.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\946.Validate-Stack-Sequences.cpp"
 
 CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\946.Validate-Stack-Sequences.cpp" > CMakeFiles\leetcode.dir\946.Validate-Stack-Sequences.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\946.Validate-Stack-Sequences.cpp" > CMakeFiles\leetcode.dir\946.Validate-Stack-Sequences.cpp.i
 
 CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/946.Validate-Stack-Sequences.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\946.Validate-Stack-Sequences.cpp" -o CMakeFiles\leetcode.dir\946.Validate-Stack-Sequences.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\946.Validate-Stack-Sequences.cpp" -o CMakeFiles\leetcode.dir\946.Validate-Stack-Sequences.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.obj: ../now剑指offer/栈的压入、弹出序列.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\栈的压入、弹出序列.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\栈的压入、弹出序列.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\栈的压入、弹出序列.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\栈的压入、弹出序列.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\栈的压入、弹出序列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\栈的压入、弹出序列.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\栈的压入、弹出序列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\栈的压入、弹出序列.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/栈的压入、弹出序列.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\栈的压入、弹出序列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\栈的压入、弹出序列.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\栈的压入、弹出序列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\栈的压入、弹出序列.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.obj: ../now剑指offer/二叉搜索树的后序遍历序列.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树的后序遍历序列.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉搜索树的后序遍历序列.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树的后序遍历序列.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉搜索树的后序遍历序列.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉搜索树的后序遍历序列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树的后序遍历序列.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉搜索树的后序遍历序列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树的后序遍历序列.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树的后序遍历序列.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉搜索树的后序遍历序列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树的后序遍历序列.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉搜索树的后序遍历序列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树的后序遍历序列.cpp.s
 
 CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.obj: ../153.Find-Minimum-in-Rotated-Sorted-Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\153.Find-Minimum-in-Rotated-Sorted-Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\153.Find-Minimum-in-Rotated-Sorted-Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\153.Find-Minimum-in-Rotated-Sorted-Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\153.Find-Minimum-in-Rotated-Sorted-Array.cpp"
 
 CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\153.Find-Minimum-in-Rotated-Sorted-Array.cpp" > CMakeFiles\leetcode.dir\153.Find-Minimum-in-Rotated-Sorted-Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\153.Find-Minimum-in-Rotated-Sorted-Array.cpp" > CMakeFiles\leetcode.dir\153.Find-Minimum-in-Rotated-Sorted-Array.cpp.i
 
 CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/153.Find-Minimum-in-Rotated-Sorted-Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\153.Find-Minimum-in-Rotated-Sorted-Array.cpp" -o CMakeFiles\leetcode.dir\153.Find-Minimum-in-Rotated-Sorted-Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\153.Find-Minimum-in-Rotated-Sorted-Array.cpp" -o CMakeFiles\leetcode.dir\153.Find-Minimum-in-Rotated-Sorted-Array.cpp.s
 
 CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.obj: ../69.Sqrt(x).cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\69.Sqrt(x).cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\69.Sqrt(x).cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\69.Sqrt(x).cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\69.Sqrt(x).cpp"
 
 CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\69.Sqrt(x).cpp" > CMakeFiles\leetcode.dir\69.Sqrt(x).cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\69.Sqrt(x).cpp" > CMakeFiles\leetcode.dir\69.Sqrt(x).cpp.i
 
 CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/69.Sqrt(x).cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\69.Sqrt(x).cpp" -o CMakeFiles\leetcode.dir\69.Sqrt(x).cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\69.Sqrt(x).cpp" -o CMakeFiles\leetcode.dir\69.Sqrt(x).cpp.s
 
 CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.obj: ../374.Guess-Number-Higher-or-Lower.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\374.Guess-Number-Higher-or-Lower.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\374.Guess-Number-Higher-or-Lower.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\374.Guess-Number-Higher-or-Lower.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\374.Guess-Number-Higher-or-Lower.cpp"
 
 CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\374.Guess-Number-Higher-or-Lower.cpp" > CMakeFiles\leetcode.dir\374.Guess-Number-Higher-or-Lower.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\374.Guess-Number-Higher-or-Lower.cpp" > CMakeFiles\leetcode.dir\374.Guess-Number-Higher-or-Lower.cpp.i
 
 CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/374.Guess-Number-Higher-or-Lower.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\374.Guess-Number-Higher-or-Lower.cpp" -o CMakeFiles\leetcode.dir\374.Guess-Number-Higher-or-Lower.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\374.Guess-Number-Higher-or-Lower.cpp" -o CMakeFiles\leetcode.dir\374.Guess-Number-Higher-or-Lower.cpp.s
 
 CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.obj: ../33.Search-in-Rotated-Sorted-Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\33.Search-in-Rotated-Sorted-Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\33.Search-in-Rotated-Sorted-Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\33.Search-in-Rotated-Sorted-Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\33.Search-in-Rotated-Sorted-Array.cpp"
 
 CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\33.Search-in-Rotated-Sorted-Array.cpp" > CMakeFiles\leetcode.dir\33.Search-in-Rotated-Sorted-Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\33.Search-in-Rotated-Sorted-Array.cpp" > CMakeFiles\leetcode.dir\33.Search-in-Rotated-Sorted-Array.cpp.i
 
 CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/33.Search-in-Rotated-Sorted-Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\33.Search-in-Rotated-Sorted-Array.cpp" -o CMakeFiles\leetcode.dir\33.Search-in-Rotated-Sorted-Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\33.Search-in-Rotated-Sorted-Array.cpp" -o CMakeFiles\leetcode.dir\33.Search-in-Rotated-Sorted-Array.cpp.s
 
 CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.obj: ../146.LRU-Cache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\146.LRU-Cache.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\146.LRU-Cache.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\146.LRU-Cache.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\146.LRU-Cache.cpp"
 
 CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\146.LRU-Cache.cpp" > CMakeFiles\leetcode.dir\146.LRU-Cache.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\146.LRU-Cache.cpp" > CMakeFiles\leetcode.dir\146.LRU-Cache.cpp.i
 
 CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/146.LRU-Cache.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\146.LRU-Cache.cpp" -o CMakeFiles\leetcode.dir\146.LRU-Cache.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\146.LRU-Cache.cpp" -o CMakeFiles\leetcode.dir\146.LRU-Cache.cpp.s
 
 CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.obj: ../387.First-Unique-Character-in-a-String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\387.First-Unique-Character-in-a-String.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\387.First-Unique-Character-in-a-String.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\387.First-Unique-Character-in-a-String.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\387.First-Unique-Character-in-a-String.cpp"
 
 CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\387.First-Unique-Character-in-a-String.cpp" > CMakeFiles\leetcode.dir\387.First-Unique-Character-in-a-String.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\387.First-Unique-Character-in-a-String.cpp" > CMakeFiles\leetcode.dir\387.First-Unique-Character-in-a-String.cpp.i
 
 CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/387.First-Unique-Character-in-a-String.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\387.First-Unique-Character-in-a-String.cpp" -o CMakeFiles\leetcode.dir\387.First-Unique-Character-in-a-String.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\387.First-Unique-Character-in-a-String.cpp" -o CMakeFiles\leetcode.dir\387.First-Unique-Character-in-a-String.cpp.s
 
 CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.obj: ../572.Subtree-of-Another-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\572.Subtree-of-Another-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\572.Subtree-of-Another-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\572.Subtree-of-Another-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\572.Subtree-of-Another-Tree.cpp"
 
 CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\572.Subtree-of-Another-Tree.cpp" > CMakeFiles\leetcode.dir\572.Subtree-of-Another-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\572.Subtree-of-Another-Tree.cpp" > CMakeFiles\leetcode.dir\572.Subtree-of-Another-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/572.Subtree-of-Another-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\572.Subtree-of-Another-Tree.cpp" -o CMakeFiles\leetcode.dir\572.Subtree-of-Another-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\572.Subtree-of-Another-Tree.cpp" -o CMakeFiles\leetcode.dir\572.Subtree-of-Another-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/66.Plus-One.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/66.Plus-One.cpp.obj: ../66.Plus-One.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/leetcode.dir/66.Plus-One.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\66.Plus-One.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\66.Plus-One.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/leetcode.dir/66.Plus-One.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\66.Plus-One.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\66.Plus-One.cpp"
 
 CMakeFiles/leetcode.dir/66.Plus-One.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/66.Plus-One.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\66.Plus-One.cpp" > CMakeFiles\leetcode.dir\66.Plus-One.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\66.Plus-One.cpp" > CMakeFiles\leetcode.dir\66.Plus-One.cpp.i
 
 CMakeFiles/leetcode.dir/66.Plus-One.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/66.Plus-One.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\66.Plus-One.cpp" -o CMakeFiles\leetcode.dir\66.Plus-One.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\66.Plus-One.cpp" -o CMakeFiles\leetcode.dir\66.Plus-One.cpp.s
 
 CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.obj: ../80.Remove-Duplicates-from-Sorted-Array-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\80.Remove-Duplicates-from-Sorted-Array-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\80.Remove-Duplicates-from-Sorted-Array-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\80.Remove-Duplicates-from-Sorted-Array-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\80.Remove-Duplicates-from-Sorted-Array-II.cpp"
 
 CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\80.Remove-Duplicates-from-Sorted-Array-II.cpp" > CMakeFiles\leetcode.dir\80.Remove-Duplicates-from-Sorted-Array-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\80.Remove-Duplicates-from-Sorted-Array-II.cpp" > CMakeFiles\leetcode.dir\80.Remove-Duplicates-from-Sorted-Array-II.cpp.i
 
 CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/80.Remove-Duplicates-from-Sorted-Array-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\80.Remove-Duplicates-from-Sorted-Array-II.cpp" -o CMakeFiles\leetcode.dir\80.Remove-Duplicates-from-Sorted-Array-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\80.Remove-Duplicates-from-Sorted-Array-II.cpp" -o CMakeFiles\leetcode.dir\80.Remove-Duplicates-from-Sorted-Array-II.cpp.s
 
 CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.obj: ../73.Set-Matrix-Zeroes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\73.Set-Matrix-Zeroes.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\73.Set-Matrix-Zeroes.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\73.Set-Matrix-Zeroes.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\73.Set-Matrix-Zeroes.cpp"
 
 CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\73.Set-Matrix-Zeroes.cpp" > CMakeFiles\leetcode.dir\73.Set-Matrix-Zeroes.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\73.Set-Matrix-Zeroes.cpp" > CMakeFiles\leetcode.dir\73.Set-Matrix-Zeroes.cpp.i
 
 CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/73.Set-Matrix-Zeroes.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\73.Set-Matrix-Zeroes.cpp" -o CMakeFiles\leetcode.dir\73.Set-Matrix-Zeroes.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\73.Set-Matrix-Zeroes.cpp" -o CMakeFiles\leetcode.dir\73.Set-Matrix-Zeroes.cpp.s
 
 CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.obj: ../75.Sort-Colors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\75.Sort-Colors.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\75.Sort-Colors.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\75.Sort-Colors.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\75.Sort-Colors.cpp"
 
 CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\75.Sort-Colors.cpp" > CMakeFiles\leetcode.dir\75.Sort-Colors.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\75.Sort-Colors.cpp" > CMakeFiles\leetcode.dir\75.Sort-Colors.cpp.i
 
 CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/75.Sort-Colors.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\75.Sort-Colors.cpp" -o CMakeFiles\leetcode.dir\75.Sort-Colors.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\75.Sort-Colors.cpp" -o CMakeFiles\leetcode.dir\75.Sort-Colors.cpp.s
 
 CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.obj: ../230.Kth-Smallest-Element-in-a-BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\230.Kth-Smallest-Element-in-a-BST.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\230.Kth-Smallest-Element-in-a-BST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\230.Kth-Smallest-Element-in-a-BST.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\230.Kth-Smallest-Element-in-a-BST.cpp"
 
 CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\230.Kth-Smallest-Element-in-a-BST.cpp" > CMakeFiles\leetcode.dir\230.Kth-Smallest-Element-in-a-BST.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\230.Kth-Smallest-Element-in-a-BST.cpp" > CMakeFiles\leetcode.dir\230.Kth-Smallest-Element-in-a-BST.cpp.i
 
 CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/230.Kth-Smallest-Element-in-a-BST.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\230.Kth-Smallest-Element-in-a-BST.cpp" -o CMakeFiles\leetcode.dir\230.Kth-Smallest-Element-in-a-BST.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\230.Kth-Smallest-Element-in-a-BST.cpp" -o CMakeFiles\leetcode.dir\230.Kth-Smallest-Element-in-a-BST.cpp.s
 
 CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.obj: ../297.Serialize-and-Deserialize-Binary-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\297.Serialize-and-Deserialize-Binary-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\297.Serialize-and-Deserialize-Binary-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\297.Serialize-and-Deserialize-Binary-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\297.Serialize-and-Deserialize-Binary-Tree.cpp"
 
 CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\297.Serialize-and-Deserialize-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\297.Serialize-and-Deserialize-Binary-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\297.Serialize-and-Deserialize-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\297.Serialize-and-Deserialize-Binary-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/297.Serialize-and-Deserialize-Binary-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\297.Serialize-and-Deserialize-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\297.Serialize-and-Deserialize-Binary-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\297.Serialize-and-Deserialize-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\297.Serialize-and-Deserialize-Binary-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/myString.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/myString.cpp.obj: ../myString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/leetcode.dir/myString.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\myString.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\myString.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/leetcode.dir/myString.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\myString.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\myString.cpp"
 
 CMakeFiles/leetcode.dir/myString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/myString.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\myString.cpp" > CMakeFiles\leetcode.dir\myString.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\myString.cpp" > CMakeFiles\leetcode.dir\myString.cpp.i
 
 CMakeFiles/leetcode.dir/myString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/myString.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\myString.cpp" -o CMakeFiles\leetcode.dir\myString.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\myString.cpp" -o CMakeFiles\leetcode.dir\myString.cpp.s
 
 CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.obj: ../3.Longest-Substring-Without-Repeating-Characters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\3.Longest-Substring-Without-Repeating-Characters.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\3.Longest-Substring-Without-Repeating-Characters.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\3.Longest-Substring-Without-Repeating-Characters.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\3.Longest-Substring-Without-Repeating-Characters.cpp"
 
 CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\3.Longest-Substring-Without-Repeating-Characters.cpp" > CMakeFiles\leetcode.dir\3.Longest-Substring-Without-Repeating-Characters.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\3.Longest-Substring-Without-Repeating-Characters.cpp" > CMakeFiles\leetcode.dir\3.Longest-Substring-Without-Repeating-Characters.cpp.i
 
 CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/3.Longest-Substring-Without-Repeating-Characters.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\3.Longest-Substring-Without-Repeating-Characters.cpp" -o CMakeFiles\leetcode.dir\3.Longest-Substring-Without-Repeating-Characters.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\3.Longest-Substring-Without-Repeating-Characters.cpp" -o CMakeFiles\leetcode.dir\3.Longest-Substring-Without-Repeating-Characters.cpp.s
 
 CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.obj: ../1235.Maximum-Profit-in-Job-Scheduling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1235.Maximum-Profit-in-Job-Scheduling.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1235.Maximum-Profit-in-Job-Scheduling.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1235.Maximum-Profit-in-Job-Scheduling.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1235.Maximum-Profit-in-Job-Scheduling.cpp"
 
 CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1235.Maximum-Profit-in-Job-Scheduling.cpp" > CMakeFiles\leetcode.dir\1235.Maximum-Profit-in-Job-Scheduling.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1235.Maximum-Profit-in-Job-Scheduling.cpp" > CMakeFiles\leetcode.dir\1235.Maximum-Profit-in-Job-Scheduling.cpp.i
 
 CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1235.Maximum-Profit-in-Job-Scheduling.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1235.Maximum-Profit-in-Job-Scheduling.cpp" -o CMakeFiles\leetcode.dir\1235.Maximum-Profit-in-Job-Scheduling.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1235.Maximum-Profit-in-Job-Scheduling.cpp" -o CMakeFiles\leetcode.dir\1235.Maximum-Profit-in-Job-Scheduling.cpp.s
 
 CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.obj: ../5.Longest-Palindromic-Substring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\5.Longest-Palindromic-Substring.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\5.Longest-Palindromic-Substring.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\5.Longest-Palindromic-Substring.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\5.Longest-Palindromic-Substring.cpp"
 
 CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\5.Longest-Palindromic-Substring.cpp" > CMakeFiles\leetcode.dir\5.Longest-Palindromic-Substring.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\5.Longest-Palindromic-Substring.cpp" > CMakeFiles\leetcode.dir\5.Longest-Palindromic-Substring.cpp.i
 
 CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/5.Longest-Palindromic-Substring.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\5.Longest-Palindromic-Substring.cpp" -o CMakeFiles\leetcode.dir\5.Longest-Palindromic-Substring.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\5.Longest-Palindromic-Substring.cpp" -o CMakeFiles\leetcode.dir\5.Longest-Palindromic-Substring.cpp.s
 
 CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.obj: ../8.String-to-Integer(atoi).cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\8.String-to-Integer(atoi).cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\8.String-to-Integer(atoi).cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\8.String-to-Integer(atoi).cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\8.String-to-Integer(atoi).cpp"
 
 CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\8.String-to-Integer(atoi).cpp" > CMakeFiles\leetcode.dir\8.String-to-Integer(atoi).cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\8.String-to-Integer(atoi).cpp" > CMakeFiles\leetcode.dir\8.String-to-Integer(atoi).cpp.i
 
 CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/8.String-to-Integer(atoi).cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\8.String-to-Integer(atoi).cpp" -o CMakeFiles\leetcode.dir\8.String-to-Integer(atoi).cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\8.String-to-Integer(atoi).cpp" -o CMakeFiles\leetcode.dir\8.String-to-Integer(atoi).cpp.s
 
 CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.obj: ../13.Roman-to-Integer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\13.Roman-to-Integer.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\13.Roman-to-Integer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\13.Roman-to-Integer.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\13.Roman-to-Integer.cpp"
 
 CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\13.Roman-to-Integer.cpp" > CMakeFiles\leetcode.dir\13.Roman-to-Integer.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\13.Roman-to-Integer.cpp" > CMakeFiles\leetcode.dir\13.Roman-to-Integer.cpp.i
 
 CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/13.Roman-to-Integer.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\13.Roman-to-Integer.cpp" -o CMakeFiles\leetcode.dir\13.Roman-to-Integer.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\13.Roman-to-Integer.cpp" -o CMakeFiles\leetcode.dir\13.Roman-to-Integer.cpp.s
 
 CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.obj: ../121.BestTime-to-Buy-and-Sell-Stock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\121.BestTime-to-Buy-and-Sell-Stock.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\121.BestTime-to-Buy-and-Sell-Stock.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\121.BestTime-to-Buy-and-Sell-Stock.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\121.BestTime-to-Buy-and-Sell-Stock.cpp"
 
 CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\121.BestTime-to-Buy-and-Sell-Stock.cpp" > CMakeFiles\leetcode.dir\121.BestTime-to-Buy-and-Sell-Stock.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\121.BestTime-to-Buy-and-Sell-Stock.cpp" > CMakeFiles\leetcode.dir\121.BestTime-to-Buy-and-Sell-Stock.cpp.i
 
 CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/121.BestTime-to-Buy-and-Sell-Stock.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\121.BestTime-to-Buy-and-Sell-Stock.cpp" -o CMakeFiles\leetcode.dir\121.BestTime-to-Buy-and-Sell-Stock.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\121.BestTime-to-Buy-and-Sell-Stock.cpp" -o CMakeFiles\leetcode.dir\121.BestTime-to-Buy-and-Sell-Stock.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.obj: ../now剑指offer/替换空格.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\替换空格.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\替换空格.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\替换空格.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\替换空格.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\替换空格.cpp" > CMakeFiles\leetcode.dir\now剑指offer\替换空格.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\替换空格.cpp" > CMakeFiles\leetcode.dir\now剑指offer\替换空格.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/替换空格.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\替换空格.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\替换空格.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\替换空格.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\替换空格.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.obj: ../now剑指offer/斐波那契数列.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\斐波那契数列.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\斐波那契数列.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\斐波那契数列.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\斐波那契数列.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\斐波那契数列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\斐波那契数列.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\斐波那契数列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\斐波那契数列.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/斐波那契数列.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\斐波那契数列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\斐波那契数列.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\斐波那契数列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\斐波那契数列.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.obj: ../now剑指offer/跳台阶.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\跳台阶.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\跳台阶.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\跳台阶.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\跳台阶.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\跳台阶.cpp" > CMakeFiles\leetcode.dir\now剑指offer\跳台阶.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\跳台阶.cpp" > CMakeFiles\leetcode.dir\now剑指offer\跳台阶.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/跳台阶.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\跳台阶.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\跳台阶.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\跳台阶.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\跳台阶.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.obj: ../now剑指offer/变态跳台阶.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\变态跳台阶.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\变态跳台阶.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\变态跳台阶.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\变态跳台阶.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\变态跳台阶.cpp" > CMakeFiles\leetcode.dir\now剑指offer\变态跳台阶.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\变态跳台阶.cpp" > CMakeFiles\leetcode.dir\now剑指offer\变态跳台阶.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/变态跳台阶.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\变态跳台阶.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\变态跳台阶.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\变态跳台阶.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\变态跳台阶.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.obj: ../now剑指offer/链表中倒数第k个结点.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\链表中倒数第k个结点.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\链表中倒数第k个结点.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\链表中倒数第k个结点.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\链表中倒数第k个结点.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\链表中倒数第k个结点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\链表中倒数第k个结点.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\链表中倒数第k个结点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\链表中倒数第k个结点.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/链表中倒数第k个结点.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\链表中倒数第k个结点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\链表中倒数第k个结点.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\链表中倒数第k个结点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\链表中倒数第k个结点.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.obj: ../now剑指offer/二进制中1的个数.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二进制中1的个数.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二进制中1的个数.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二进制中1的个数.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二进制中1的个数.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二进制中1的个数.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二进制中1的个数.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二进制中1的个数.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二进制中1的个数.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二进制中1的个数.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二进制中1的个数.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二进制中1的个数.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二进制中1的个数.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二进制中1的个数.cpp.s
 
 CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.obj: ../191.Number-of-1-Bits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\191.Number-of-1-Bits.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\191.Number-of-1-Bits.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\191.Number-of-1-Bits.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\191.Number-of-1-Bits.cpp"
 
 CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\191.Number-of-1-Bits.cpp" > CMakeFiles\leetcode.dir\191.Number-of-1-Bits.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\191.Number-of-1-Bits.cpp" > CMakeFiles\leetcode.dir\191.Number-of-1-Bits.cpp.i
 
 CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/191.Number-of-1-Bits.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\191.Number-of-1-Bits.cpp" -o CMakeFiles\leetcode.dir\191.Number-of-1-Bits.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\191.Number-of-1-Bits.cpp" -o CMakeFiles\leetcode.dir\191.Number-of-1-Bits.cpp.s
 
 CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.obj: ../122.Best-Time-to-Buy-and-Sell-Stock-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp"
 
 CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp" > CMakeFiles\leetcode.dir\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp" > CMakeFiles\leetcode.dir\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.i
 
 CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp" -o CMakeFiles\leetcode.dir\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp" -o CMakeFiles\leetcode.dir\122.Best-Time-to-Buy-and-Sell-Stock-II.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.obj: ../now剑指offer/数组中重复的数字.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\数组中重复的数字.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数组中重复的数字.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\数组中重复的数字.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数组中重复的数字.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数组中重复的数字.cpp" > CMakeFiles\leetcode.dir\now剑指offer\数组中重复的数字.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数组中重复的数字.cpp" > CMakeFiles\leetcode.dir\now剑指offer\数组中重复的数字.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/数组中重复的数字.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数组中重复的数字.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\数组中重复的数字.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数组中重复的数字.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\数组中重复的数字.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.obj: ../now剑指offer/二叉树的下一个结点.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的下一个结点.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树的下一个结点.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的下一个结点.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树的下一个结点.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树的下一个结点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉树的下一个结点.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树的下一个结点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉树的下一个结点.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二叉树的下一个结点.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树的下一个结点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的下一个结点.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树的下一个结点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉树的下一个结点.cpp.s
 
 CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.obj: ../225.Implement-Stack-using-Queues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\225.Implement-Stack-using-Queues.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\225.Implement-Stack-using-Queues.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\225.Implement-Stack-using-Queues.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\225.Implement-Stack-using-Queues.cpp"
 
 CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\225.Implement-Stack-using-Queues.cpp" > CMakeFiles\leetcode.dir\225.Implement-Stack-using-Queues.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\225.Implement-Stack-using-Queues.cpp" > CMakeFiles\leetcode.dir\225.Implement-Stack-using-Queues.cpp.i
 
 CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/225.Implement-Stack-using-Queues.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\225.Implement-Stack-using-Queues.cpp" -o CMakeFiles\leetcode.dir\225.Implement-Stack-using-Queues.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\225.Implement-Stack-using-Queues.cpp" -o CMakeFiles\leetcode.dir\225.Implement-Stack-using-Queues.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.obj: ../now剑指offer/矩形覆盖.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\矩形覆盖.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\矩形覆盖.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\矩形覆盖.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\矩形覆盖.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\矩形覆盖.cpp" > CMakeFiles\leetcode.dir\now剑指offer\矩形覆盖.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\矩形覆盖.cpp" > CMakeFiles\leetcode.dir\now剑指offer\矩形覆盖.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/矩形覆盖.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\矩形覆盖.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\矩形覆盖.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\矩形覆盖.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\矩形覆盖.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.obj: ../now剑指offer/旋转数组的最小数字.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\旋转数组的最小数字.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\旋转数组的最小数字.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\旋转数组的最小数字.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\旋转数组的最小数字.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\旋转数组的最小数字.cpp" > CMakeFiles\leetcode.dir\now剑指offer\旋转数组的最小数字.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\旋转数组的最小数字.cpp" > CMakeFiles\leetcode.dir\now剑指offer\旋转数组的最小数字.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/旋转数组的最小数字.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\旋转数组的最小数字.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\旋转数组的最小数字.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\旋转数组的最小数字.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\旋转数组的最小数字.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.obj: ../now剑指offer/矩阵中的路径.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\矩阵中的路径.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\矩阵中的路径.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\矩阵中的路径.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\矩阵中的路径.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\矩阵中的路径.cpp" > CMakeFiles\leetcode.dir\now剑指offer\矩阵中的路径.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\矩阵中的路径.cpp" > CMakeFiles\leetcode.dir\now剑指offer\矩阵中的路径.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/矩阵中的路径.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\矩阵中的路径.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\矩阵中的路径.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\矩阵中的路径.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\矩阵中的路径.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.obj: ../now剑指offer/机器人的运动范围.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\机器人的运动范围.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\机器人的运动范围.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\机器人的运动范围.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\机器人的运动范围.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\机器人的运动范围.cpp" > CMakeFiles\leetcode.dir\now剑指offer\机器人的运动范围.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\机器人的运动范围.cpp" > CMakeFiles\leetcode.dir\now剑指offer\机器人的运动范围.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/机器人的运动范围.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\机器人的运动范围.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\机器人的运动范围.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\机器人的运动范围.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\机器人的运动范围.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.obj: ../now剑指offer/剪绳子.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\剪绳子.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\剪绳子.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\剪绳子.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\剪绳子.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\剪绳子.cpp" > CMakeFiles\leetcode.dir\now剑指offer\剪绳子.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\剪绳子.cpp" > CMakeFiles\leetcode.dir\now剑指offer\剪绳子.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/剪绳子.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\剪绳子.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\剪绳子.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\剪绳子.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\剪绳子.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.obj: ../now剑指offer/数值的整数次方.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\数值的整数次方.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数值的整数次方.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\数值的整数次方.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数值的整数次方.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数值的整数次方.cpp" > CMakeFiles\leetcode.dir\now剑指offer\数值的整数次方.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数值的整数次方.cpp" > CMakeFiles\leetcode.dir\now剑指offer\数值的整数次方.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/数值的整数次方.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数值的整数次方.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\数值的整数次方.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数值的整数次方.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\数值的整数次方.cpp.s
 
 CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.obj: ../50.Pow(x,\ n).cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\50.Pow(x,_n).cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\50.Pow(x, n).cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\50.Pow(x,_n).cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\50.Pow(x, n).cpp"
 
 CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\50.Pow(x, n).cpp" > CMakeFiles\leetcode.dir\50.Pow(x,_n).cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\50.Pow(x, n).cpp" > CMakeFiles\leetcode.dir\50.Pow(x,_n).cpp.i
 
 CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/50.Pow(x,_n).cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\50.Pow(x, n).cpp" -o CMakeFiles\leetcode.dir\50.Pow(x,_n).cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\50.Pow(x, n).cpp" -o CMakeFiles\leetcode.dir\50.Pow(x,_n).cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.obj: ../now剑指offer/删除链表中重复的节点.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\删除链表中重复的节点.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\删除链表中重复的节点.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\删除链表中重复的节点.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\删除链表中重复的节点.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\删除链表中重复的节点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\删除链表中重复的节点.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\删除链表中重复的节点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\删除链表中重复的节点.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/删除链表中重复的节点.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\删除链表中重复的节点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\删除链表中重复的节点.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\删除链表中重复的节点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\删除链表中重复的节点.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.obj: ../now剑指offer/正则表达式匹配.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\正则表达式匹配.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\正则表达式匹配.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\正则表达式匹配.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\正则表达式匹配.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\正则表达式匹配.cpp" > CMakeFiles\leetcode.dir\now剑指offer\正则表达式匹配.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\正则表达式匹配.cpp" > CMakeFiles\leetcode.dir\now剑指offer\正则表达式匹配.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/正则表达式匹配.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\正则表达式匹配.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\正则表达式匹配.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\正则表达式匹配.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\正则表达式匹配.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.obj: ../now剑指offer/表示数值的字符串.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\表示数值的字符串.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\表示数值的字符串.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\表示数值的字符串.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\表示数值的字符串.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\表示数值的字符串.cpp" > CMakeFiles\leetcode.dir\now剑指offer\表示数值的字符串.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\表示数值的字符串.cpp" > CMakeFiles\leetcode.dir\now剑指offer\表示数值的字符串.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/表示数值的字符串.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\表示数值的字符串.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\表示数值的字符串.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\表示数值的字符串.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\表示数值的字符串.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.obj: ../now剑指offer/调整数组顺序使奇数位于偶数前面.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp" > CMakeFiles\leetcode.dir\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp" > CMakeFiles\leetcode.dir\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/调整数组顺序使奇数位于偶数前面.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\调整数组顺序使奇数位于偶数前面.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.obj: ../now剑指offer/链表中环的入口结点.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\链表中环的入口结点.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\链表中环的入口结点.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\链表中环的入口结点.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\链表中环的入口结点.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\链表中环的入口结点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\链表中环的入口结点.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\链表中环的入口结点.cpp" > CMakeFiles\leetcode.dir\now剑指offer\链表中环的入口结点.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/链表中环的入口结点.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\链表中环的入口结点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\链表中环的入口结点.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\链表中环的入口结点.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\链表中环的入口结点.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.obj: ../now剑指offer/合并两个排序的链表.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\合并两个排序的链表.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\合并两个排序的链表.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\合并两个排序的链表.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\合并两个排序的链表.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\合并两个排序的链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\合并两个排序的链表.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\合并两个排序的链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\合并两个排序的链表.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/合并两个排序的链表.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\合并两个排序的链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\合并两个排序的链表.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\合并两个排序的链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\合并两个排序的链表.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.obj: ../now剑指offer/树的子结构.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\树的子结构.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\树的子结构.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\树的子结构.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\树的子结构.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\树的子结构.cpp" > CMakeFiles\leetcode.dir\now剑指offer\树的子结构.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\树的子结构.cpp" > CMakeFiles\leetcode.dir\now剑指offer\树的子结构.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/树的子结构.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\树的子结构.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\树的子结构.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\树的子结构.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\树的子结构.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.obj: ../now剑指offer/对称的二叉树.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\对称的二叉树.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\对称的二叉树.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\对称的二叉树.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\对称的二叉树.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\对称的二叉树.cpp" > CMakeFiles\leetcode.dir\now剑指offer\对称的二叉树.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\对称的二叉树.cpp" > CMakeFiles\leetcode.dir\now剑指offer\对称的二叉树.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/对称的二叉树.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\对称的二叉树.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\对称的二叉树.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\对称的二叉树.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\对称的二叉树.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.obj: ../now剑指offer/包含min函数的栈.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\包含min函数的栈.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\包含min函数的栈.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\包含min函数的栈.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\包含min函数的栈.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\包含min函数的栈.cpp" > CMakeFiles\leetcode.dir\now剑指offer\包含min函数的栈.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\包含min函数的栈.cpp" > CMakeFiles\leetcode.dir\now剑指offer\包含min函数的栈.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/包含min函数的栈.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\包含min函数的栈.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\包含min函数的栈.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\包含min函数的栈.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\包含min函数的栈.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.obj: ../now剑指offer/把二叉树打印成多行.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\把二叉树打印成多行.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\把二叉树打印成多行.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\把二叉树打印成多行.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\把二叉树打印成多行.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\把二叉树打印成多行.cpp" > CMakeFiles\leetcode.dir\now剑指offer\把二叉树打印成多行.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\把二叉树打印成多行.cpp" > CMakeFiles\leetcode.dir\now剑指offer\把二叉树打印成多行.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/把二叉树打印成多行.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\把二叉树打印成多行.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\把二叉树打印成多行.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\把二叉树打印成多行.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\把二叉树打印成多行.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.obj: ../now剑指offer/按之字形顺序打印二叉树.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\按之字形顺序打印二叉树.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\按之字形顺序打印二叉树.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\按之字形顺序打印二叉树.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\按之字形顺序打印二叉树.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\按之字形顺序打印二叉树.cpp" > CMakeFiles\leetcode.dir\now剑指offer\按之字形顺序打印二叉树.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\按之字形顺序打印二叉树.cpp" > CMakeFiles\leetcode.dir\now剑指offer\按之字形顺序打印二叉树.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/按之字形顺序打印二叉树.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\按之字形顺序打印二叉树.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\按之字形顺序打印二叉树.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\按之字形顺序打印二叉树.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\按之字形顺序打印二叉树.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.obj: ../now剑指offer/二叉树中和为某一值的路径.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉树中和为某一值的路径.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树中和为某一值的路径.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉树中和为某一值的路径.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树中和为某一值的路径.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树中和为某一值的路径.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉树中和为某一值的路径.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树中和为某一值的路径.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉树中和为某一值的路径.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二叉树中和为某一值的路径.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉树中和为某一值的路径.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉树中和为某一值的路径.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉树中和为某一值的路径.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉树中和为某一值的路径.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.obj: ../now剑指offer/复杂链表的复制.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\复杂链表的复制.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\复杂链表的复制.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\复杂链表的复制.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\复杂链表的复制.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\复杂链表的复制.cpp" > CMakeFiles\leetcode.dir\now剑指offer\复杂链表的复制.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\复杂链表的复制.cpp" > CMakeFiles\leetcode.dir\now剑指offer\复杂链表的复制.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/复杂链表的复制.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\复杂链表的复制.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\复杂链表的复制.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\复杂链表的复制.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\复杂链表的复制.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.obj: ../now剑指offer/二叉搜索树与双向链表.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树与双向链表.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉搜索树与双向链表.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树与双向链表.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉搜索树与双向链表.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉搜索树与双向链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树与双向链表.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉搜索树与双向链表.cpp" > CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树与双向链表.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/二叉搜索树与双向链表.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\二叉搜索树与双向链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树与双向链表.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\二叉搜索树与双向链表.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\二叉搜索树与双向链表.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.obj: ../now剑指offer/字符串的排列.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\字符串的排列.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\字符串的排列.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\字符串的排列.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\字符串的排列.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\字符串的排列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\字符串的排列.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\字符串的排列.cpp" > CMakeFiles\leetcode.dir\now剑指offer\字符串的排列.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/字符串的排列.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\字符串的排列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\字符串的排列.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\字符串的排列.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\字符串的排列.cpp.s
 
 CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.obj: ../now剑指offer/数组中出现次数超过一半的数字.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\数组中出现次数超过一半的数字.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数组中出现次数超过一半的数字.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\now剑指offer\数组中出现次数超过一半的数字.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数组中出现次数超过一半的数字.cpp"
 
 CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数组中出现次数超过一半的数字.cpp" > CMakeFiles\leetcode.dir\now剑指offer\数组中出现次数超过一半的数字.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数组中出现次数超过一半的数字.cpp" > CMakeFiles\leetcode.dir\now剑指offer\数组中出现次数超过一半的数字.cpp.i
 
 CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/now剑指offer/数组中出现次数超过一半的数字.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\now剑指offer\数组中出现次数超过一半的数字.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\数组中出现次数超过一半的数字.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\now剑指offer\数组中出现次数超过一半的数字.cpp" -o CMakeFiles\leetcode.dir\now剑指offer\数组中出现次数超过一半的数字.cpp.s
 
 CMakeFiles/leetcode.dir/136.Single-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/136.Single-Number.cpp.obj: ../136.Single-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/leetcode.dir/136.Single-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\136.Single-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\136.Single-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/leetcode.dir/136.Single-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\136.Single-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\136.Single-Number.cpp"
 
 CMakeFiles/leetcode.dir/136.Single-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/136.Single-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\136.Single-Number.cpp" > CMakeFiles\leetcode.dir\136.Single-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\136.Single-Number.cpp" > CMakeFiles\leetcode.dir\136.Single-Number.cpp.i
 
 CMakeFiles/leetcode.dir/136.Single-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/136.Single-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\136.Single-Number.cpp" -o CMakeFiles\leetcode.dir\136.Single-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\136.Single-Number.cpp" -o CMakeFiles\leetcode.dir\136.Single-Number.cpp.s
 
 CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.obj: ../125.Valid-Palindrome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\125.Valid-Palindrome.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\125.Valid-Palindrome.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\125.Valid-Palindrome.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\125.Valid-Palindrome.cpp"
 
 CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\125.Valid-Palindrome.cpp" > CMakeFiles\leetcode.dir\125.Valid-Palindrome.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\125.Valid-Palindrome.cpp" > CMakeFiles\leetcode.dir\125.Valid-Palindrome.cpp.i
 
 CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/125.Valid-Palindrome.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\125.Valid-Palindrome.cpp" -o CMakeFiles\leetcode.dir\125.Valid-Palindrome.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\125.Valid-Palindrome.cpp" -o CMakeFiles\leetcode.dir\125.Valid-Palindrome.cpp.s
 
 CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.obj: ../127.Word-Ladder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\127.Word-Ladder.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\127.Word-Ladder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\127.Word-Ladder.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\127.Word-Ladder.cpp"
 
 CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\127.Word-Ladder.cpp" > CMakeFiles\leetcode.dir\127.Word-Ladder.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\127.Word-Ladder.cpp" > CMakeFiles\leetcode.dir\127.Word-Ladder.cpp.i
 
 CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/127.Word-Ladder.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\127.Word-Ladder.cpp" -o CMakeFiles\leetcode.dir\127.Word-Ladder.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\127.Word-Ladder.cpp" -o CMakeFiles\leetcode.dir\127.Word-Ladder.cpp.s
 
 CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.obj: ../543.Diameter-of-Binary-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\543.Diameter-of-Binary-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\543.Diameter-of-Binary-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\543.Diameter-of-Binary-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\543.Diameter-of-Binary-Tree.cpp"
 
 CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\543.Diameter-of-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\543.Diameter-of-Binary-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\543.Diameter-of-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\543.Diameter-of-Binary-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/543.Diameter-of-Binary-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\543.Diameter-of-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\543.Diameter-of-Binary-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\543.Diameter-of-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\543.Diameter-of-Binary-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.obj: ../130.Surrounded-Regions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\130.Surrounded-Regions.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\130.Surrounded-Regions.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\130.Surrounded-Regions.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\130.Surrounded-Regions.cpp"
 
 CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\130.Surrounded-Regions.cpp" > CMakeFiles\leetcode.dir\130.Surrounded-Regions.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\130.Surrounded-Regions.cpp" > CMakeFiles\leetcode.dir\130.Surrounded-Regions.cpp.i
 
 CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/130.Surrounded-Regions.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\130.Surrounded-Regions.cpp" -o CMakeFiles\leetcode.dir\130.Surrounded-Regions.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\130.Surrounded-Regions.cpp" -o CMakeFiles\leetcode.dir\130.Surrounded-Regions.cpp.s
 
 CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.obj: ../131.Palindrome-Partitioning.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\131.Palindrome-Partitioning.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\131.Palindrome-Partitioning.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\131.Palindrome-Partitioning.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\131.Palindrome-Partitioning.cpp"
 
 CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\131.Palindrome-Partitioning.cpp" > CMakeFiles\leetcode.dir\131.Palindrome-Partitioning.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\131.Palindrome-Partitioning.cpp" > CMakeFiles\leetcode.dir\131.Palindrome-Partitioning.cpp.i
 
 CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/131.Palindrome-Partitioning.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\131.Palindrome-Partitioning.cpp" -o CMakeFiles\leetcode.dir\131.Palindrome-Partitioning.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\131.Palindrome-Partitioning.cpp" -o CMakeFiles\leetcode.dir\131.Palindrome-Partitioning.cpp.s
 
 CMakeFiles/leetcode.dir/134.Gas-Station.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/134.Gas-Station.cpp.obj: ../134.Gas-Station.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/leetcode.dir/134.Gas-Station.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\134.Gas-Station.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\134.Gas-Station.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/leetcode.dir/134.Gas-Station.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\134.Gas-Station.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\134.Gas-Station.cpp"
 
 CMakeFiles/leetcode.dir/134.Gas-Station.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/134.Gas-Station.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\134.Gas-Station.cpp" > CMakeFiles\leetcode.dir\134.Gas-Station.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\134.Gas-Station.cpp" > CMakeFiles\leetcode.dir\134.Gas-Station.cpp.i
 
 CMakeFiles/leetcode.dir/134.Gas-Station.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/134.Gas-Station.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\134.Gas-Station.cpp" -o CMakeFiles\leetcode.dir\134.Gas-Station.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\134.Gas-Station.cpp" -o CMakeFiles\leetcode.dir\134.Gas-Station.cpp.s
 
 CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.obj: ../81.Search-in-Rotated-Sorted-Array-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\81.Search-in-Rotated-Sorted-Array-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\81.Search-in-Rotated-Sorted-Array-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\81.Search-in-Rotated-Sorted-Array-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\81.Search-in-Rotated-Sorted-Array-II.cpp"
 
 CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\81.Search-in-Rotated-Sorted-Array-II.cpp" > CMakeFiles\leetcode.dir\81.Search-in-Rotated-Sorted-Array-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\81.Search-in-Rotated-Sorted-Array-II.cpp" > CMakeFiles\leetcode.dir\81.Search-in-Rotated-Sorted-Array-II.cpp.i
 
 CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/81.Search-in-Rotated-Sorted-Array-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\81.Search-in-Rotated-Sorted-Array-II.cpp" -o CMakeFiles\leetcode.dir\81.Search-in-Rotated-Sorted-Array-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\81.Search-in-Rotated-Sorted-Array-II.cpp" -o CMakeFiles\leetcode.dir\81.Search-in-Rotated-Sorted-Array-II.cpp.s
 
 CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.obj: ../209.Minimum-Size-Subarray-Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\209.Minimum-Size-Subarray-Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\209.Minimum-Size-Subarray-Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\209.Minimum-Size-Subarray-Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\209.Minimum-Size-Subarray-Sum.cpp"
 
 CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\209.Minimum-Size-Subarray-Sum.cpp" > CMakeFiles\leetcode.dir\209.Minimum-Size-Subarray-Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\209.Minimum-Size-Subarray-Sum.cpp" > CMakeFiles\leetcode.dir\209.Minimum-Size-Subarray-Sum.cpp.i
 
 CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/209.Minimum-Size-Subarray-Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\209.Minimum-Size-Subarray-Sum.cpp" -o CMakeFiles\leetcode.dir\209.Minimum-Size-Subarray-Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\209.Minimum-Size-Subarray-Sum.cpp" -o CMakeFiles\leetcode.dir\209.Minimum-Size-Subarray-Sum.cpp.s
 
 CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.obj: ../221.Maximal-Square.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\221.Maximal-Square.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\221.Maximal-Square.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\221.Maximal-Square.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\221.Maximal-Square.cpp"
 
 CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\221.Maximal-Square.cpp" > CMakeFiles\leetcode.dir\221.Maximal-Square.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\221.Maximal-Square.cpp" > CMakeFiles\leetcode.dir\221.Maximal-Square.cpp.i
 
 CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/221.Maximal-Square.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\221.Maximal-Square.cpp" -o CMakeFiles\leetcode.dir\221.Maximal-Square.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\221.Maximal-Square.cpp" -o CMakeFiles\leetcode.dir\221.Maximal-Square.cpp.s
 
 CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.obj: ../85.Maximal-Rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\85.Maximal-Rectangle.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\85.Maximal-Rectangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\85.Maximal-Rectangle.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\85.Maximal-Rectangle.cpp"
 
 CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\85.Maximal-Rectangle.cpp" > CMakeFiles\leetcode.dir\85.Maximal-Rectangle.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\85.Maximal-Rectangle.cpp" > CMakeFiles\leetcode.dir\85.Maximal-Rectangle.cpp.i
 
 CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/85.Maximal-Rectangle.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\85.Maximal-Rectangle.cpp" -o CMakeFiles\leetcode.dir\85.Maximal-Rectangle.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\85.Maximal-Rectangle.cpp" -o CMakeFiles\leetcode.dir\85.Maximal-Rectangle.cpp.s
 
 CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.obj: ../287.Find-the-Duplicate-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\287.Find-the-Duplicate-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\287.Find-the-Duplicate-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\287.Find-the-Duplicate-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\287.Find-the-Duplicate-Number.cpp"
 
 CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\287.Find-the-Duplicate-Number.cpp" > CMakeFiles\leetcode.dir\287.Find-the-Duplicate-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\287.Find-the-Duplicate-Number.cpp" > CMakeFiles\leetcode.dir\287.Find-the-Duplicate-Number.cpp.i
 
 CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/287.Find-the-Duplicate-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\287.Find-the-Duplicate-Number.cpp" -o CMakeFiles\leetcode.dir\287.Find-the-Duplicate-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\287.Find-the-Duplicate-Number.cpp" -o CMakeFiles\leetcode.dir\287.Find-the-Duplicate-Number.cpp.s
 
 CMakeFiles/leetcode.dir/202.Happy-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/202.Happy-Number.cpp.obj: ../202.Happy-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/leetcode.dir/202.Happy-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\202.Happy-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\202.Happy-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/leetcode.dir/202.Happy-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\202.Happy-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\202.Happy-Number.cpp"
 
 CMakeFiles/leetcode.dir/202.Happy-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/202.Happy-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\202.Happy-Number.cpp" > CMakeFiles\leetcode.dir\202.Happy-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\202.Happy-Number.cpp" > CMakeFiles\leetcode.dir\202.Happy-Number.cpp.i
 
 CMakeFiles/leetcode.dir/202.Happy-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/202.Happy-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\202.Happy-Number.cpp" -o CMakeFiles\leetcode.dir\202.Happy-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\202.Happy-Number.cpp" -o CMakeFiles\leetcode.dir\202.Happy-Number.cpp.s
 
 CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.obj: ../129.Sum-Root-to-Leaf-Numbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\129.Sum-Root-to-Leaf-Numbers.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\129.Sum-Root-to-Leaf-Numbers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\129.Sum-Root-to-Leaf-Numbers.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\129.Sum-Root-to-Leaf-Numbers.cpp"
 
 CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\129.Sum-Root-to-Leaf-Numbers.cpp" > CMakeFiles\leetcode.dir\129.Sum-Root-to-Leaf-Numbers.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\129.Sum-Root-to-Leaf-Numbers.cpp" > CMakeFiles\leetcode.dir\129.Sum-Root-to-Leaf-Numbers.cpp.i
 
 CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/129.Sum-Root-to-Leaf-Numbers.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\129.Sum-Root-to-Leaf-Numbers.cpp" -o CMakeFiles\leetcode.dir\129.Sum-Root-to-Leaf-Numbers.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\129.Sum-Root-to-Leaf-Numbers.cpp" -o CMakeFiles\leetcode.dir\129.Sum-Root-to-Leaf-Numbers.cpp.s
 
 CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.obj: ../278.First-Bad-Version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\278.First-Bad-Version.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\278.First-Bad-Version.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\278.First-Bad-Version.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\278.First-Bad-Version.cpp"
 
 CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\278.First-Bad-Version.cpp" > CMakeFiles\leetcode.dir\278.First-Bad-Version.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\278.First-Bad-Version.cpp" > CMakeFiles\leetcode.dir\278.First-Bad-Version.cpp.i
 
 CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/278.First-Bad-Version.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\278.First-Bad-Version.cpp" -o CMakeFiles\leetcode.dir\278.First-Bad-Version.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\278.First-Bad-Version.cpp" -o CMakeFiles\leetcode.dir\278.First-Bad-Version.cpp.s
 
 CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.obj: ../1346.Check-if-N-and-ts-Double-Exist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1346.Check-if-N-and-ts-Double-Exist.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1346.Check-if-N-and-ts-Double-Exist.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1346.Check-if-N-and-ts-Double-Exist.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1346.Check-if-N-and-ts-Double-Exist.cpp"
 
 CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1346.Check-if-N-and-ts-Double-Exist.cpp" > CMakeFiles\leetcode.dir\1346.Check-if-N-and-ts-Double-Exist.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1346.Check-if-N-and-ts-Double-Exist.cpp" > CMakeFiles\leetcode.dir\1346.Check-if-N-and-ts-Double-Exist.cpp.i
 
 CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1346.Check-if-N-and-ts-Double-Exist.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1346.Check-if-N-and-ts-Double-Exist.cpp" -o CMakeFiles\leetcode.dir\1346.Check-if-N-and-ts-Double-Exist.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1346.Check-if-N-and-ts-Double-Exist.cpp" -o CMakeFiles\leetcode.dir\1346.Check-if-N-and-ts-Double-Exist.cpp.s
 
 CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.obj: ../941.Valid-Mountain-Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\941.Valid-Mountain-Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\941.Valid-Mountain-Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\941.Valid-Mountain-Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\941.Valid-Mountain-Array.cpp"
 
 CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\941.Valid-Mountain-Array.cpp" > CMakeFiles\leetcode.dir\941.Valid-Mountain-Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\941.Valid-Mountain-Array.cpp" > CMakeFiles\leetcode.dir\941.Valid-Mountain-Array.cpp.i
 
 CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/941.Valid-Mountain-Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\941.Valid-Mountain-Array.cpp" -o CMakeFiles\leetcode.dir\941.Valid-Mountain-Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\941.Valid-Mountain-Array.cpp" -o CMakeFiles\leetcode.dir\941.Valid-Mountain-Array.cpp.s
 
 CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.obj: ../448.Find-All-Numbers-Disappeared-in-an-Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\448.Find-All-Numbers-Disappeared-in-an-Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\448.Find-All-Numbers-Disappeared-in-an-Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\448.Find-All-Numbers-Disappeared-in-an-Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\448.Find-All-Numbers-Disappeared-in-an-Array.cpp"
 
 CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\448.Find-All-Numbers-Disappeared-in-an-Array.cpp" > CMakeFiles\leetcode.dir\448.Find-All-Numbers-Disappeared-in-an-Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\448.Find-All-Numbers-Disappeared-in-an-Array.cpp" > CMakeFiles\leetcode.dir\448.Find-All-Numbers-Disappeared-in-an-Array.cpp.i
 
 CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/448.Find-All-Numbers-Disappeared-in-an-Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\448.Find-All-Numbers-Disappeared-in-an-Array.cpp" -o CMakeFiles\leetcode.dir\448.Find-All-Numbers-Disappeared-in-an-Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\448.Find-All-Numbers-Disappeared-in-an-Array.cpp" -o CMakeFiles\leetcode.dir\448.Find-All-Numbers-Disappeared-in-an-Array.cpp.s
 
 CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.obj: ../383.Ransom-Note.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\383.Ransom-Note.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\383.Ransom-Note.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\383.Ransom-Note.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\383.Ransom-Note.cpp"
 
 CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\383.Ransom-Note.cpp" > CMakeFiles\leetcode.dir\383.Ransom-Note.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\383.Ransom-Note.cpp" > CMakeFiles\leetcode.dir\383.Ransom-Note.cpp.i
 
 CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/383.Ransom-Note.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\383.Ransom-Note.cpp" -o CMakeFiles\leetcode.dir\383.Ransom-Note.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\383.Ransom-Note.cpp" -o CMakeFiles\leetcode.dir\383.Ransom-Note.cpp.s
 
 CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.obj: ../707.Design-Linked-List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\707.Design-Linked-List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\707.Design-Linked-List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\707.Design-Linked-List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\707.Design-Linked-List.cpp"
 
 CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\707.Design-Linked-List.cpp" > CMakeFiles\leetcode.dir\707.Design-Linked-List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\707.Design-Linked-List.cpp" > CMakeFiles\leetcode.dir\707.Design-Linked-List.cpp.i
 
 CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/707.Design-Linked-List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\707.Design-Linked-List.cpp" -o CMakeFiles\leetcode.dir\707.Design-Linked-List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\707.Design-Linked-List.cpp" -o CMakeFiles\leetcode.dir\707.Design-Linked-List.cpp.s
 
 CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.obj: ../19.Remove-Nth-Node-From-End-of-List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\19.Remove-Nth-Node-From-End-of-List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\19.Remove-Nth-Node-From-End-of-List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\19.Remove-Nth-Node-From-End-of-List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\19.Remove-Nth-Node-From-End-of-List.cpp"
 
 CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\19.Remove-Nth-Node-From-End-of-List.cpp" > CMakeFiles\leetcode.dir\19.Remove-Nth-Node-From-End-of-List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\19.Remove-Nth-Node-From-End-of-List.cpp" > CMakeFiles\leetcode.dir\19.Remove-Nth-Node-From-End-of-List.cpp.i
 
 CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/19.Remove-Nth-Node-From-End-of-List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\19.Remove-Nth-Node-From-End-of-List.cpp" -o CMakeFiles\leetcode.dir\19.Remove-Nth-Node-From-End-of-List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\19.Remove-Nth-Node-From-End-of-List.cpp" -o CMakeFiles\leetcode.dir\19.Remove-Nth-Node-From-End-of-List.cpp.s
 
 CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.obj: ../328.Odd-Even-Linked-List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\328.Odd-Even-Linked-List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\328.Odd-Even-Linked-List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\328.Odd-Even-Linked-List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\328.Odd-Even-Linked-List.cpp"
 
 CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\328.Odd-Even-Linked-List.cpp" > CMakeFiles\leetcode.dir\328.Odd-Even-Linked-List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\328.Odd-Even-Linked-List.cpp" > CMakeFiles\leetcode.dir\328.Odd-Even-Linked-List.cpp.i
 
 CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/328.Odd-Even-Linked-List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\328.Odd-Even-Linked-List.cpp" -o CMakeFiles\leetcode.dir\328.Odd-Even-Linked-List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\328.Odd-Even-Linked-List.cpp" -o CMakeFiles\leetcode.dir\328.Odd-Even-Linked-List.cpp.s
 
 CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.obj: ../234.Palindrome-Linked-List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\234.Palindrome-Linked-List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\234.Palindrome-Linked-List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\234.Palindrome-Linked-List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\234.Palindrome-Linked-List.cpp"
 
 CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\234.Palindrome-Linked-List.cpp" > CMakeFiles\leetcode.dir\234.Palindrome-Linked-List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\234.Palindrome-Linked-List.cpp" > CMakeFiles\leetcode.dir\234.Palindrome-Linked-List.cpp.i
 
 CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/234.Palindrome-Linked-List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\234.Palindrome-Linked-List.cpp" -o CMakeFiles\leetcode.dir\234.Palindrome-Linked-List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\234.Palindrome-Linked-List.cpp" -o CMakeFiles\leetcode.dir\234.Palindrome-Linked-List.cpp.s
 
 CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.obj: ../430.Flatten-a-Multilevel-Doubly-Linked-List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp"
 
 CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp" > CMakeFiles\leetcode.dir\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp" > CMakeFiles\leetcode.dir\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.i
 
 CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp" -o CMakeFiles\leetcode.dir\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp" -o CMakeFiles\leetcode.dir\430.Flatten-a-Multilevel-Doubly-Linked-List.cpp.s
 
 CMakeFiles/leetcode.dir/476.Number-Complement.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/476.Number-Complement.cpp.obj: ../476.Number-Complement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/leetcode.dir/476.Number-Complement.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\476.Number-Complement.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\476.Number-Complement.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/leetcode.dir/476.Number-Complement.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\476.Number-Complement.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\476.Number-Complement.cpp"
 
 CMakeFiles/leetcode.dir/476.Number-Complement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/476.Number-Complement.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\476.Number-Complement.cpp" > CMakeFiles\leetcode.dir\476.Number-Complement.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\476.Number-Complement.cpp" > CMakeFiles\leetcode.dir\476.Number-Complement.cpp.i
 
 CMakeFiles/leetcode.dir/476.Number-Complement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/476.Number-Complement.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\476.Number-Complement.cpp" -o CMakeFiles\leetcode.dir\476.Number-Complement.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\476.Number-Complement.cpp" -o CMakeFiles\leetcode.dir\476.Number-Complement.cpp.s
 
 CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.obj: ../746.Min-Cost-Climbing-Stairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\746.Min-Cost-Climbing-Stairs.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\746.Min-Cost-Climbing-Stairs.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\746.Min-Cost-Climbing-Stairs.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\746.Min-Cost-Climbing-Stairs.cpp"
 
 CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\746.Min-Cost-Climbing-Stairs.cpp" > CMakeFiles\leetcode.dir\746.Min-Cost-Climbing-Stairs.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\746.Min-Cost-Climbing-Stairs.cpp" > CMakeFiles\leetcode.dir\746.Min-Cost-Climbing-Stairs.cpp.i
 
 CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/746.Min-Cost-Climbing-Stairs.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\746.Min-Cost-Climbing-Stairs.cpp" -o CMakeFiles\leetcode.dir\746.Min-Cost-Climbing-Stairs.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\746.Min-Cost-Climbing-Stairs.cpp" -o CMakeFiles\leetcode.dir\746.Min-Cost-Climbing-Stairs.cpp.s
 
 CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.obj: ../91.Decode-Ways.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\91.Decode-Ways.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\91.Decode-Ways.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\91.Decode-Ways.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\91.Decode-Ways.cpp"
 
 CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\91.Decode-Ways.cpp" > CMakeFiles\leetcode.dir\91.Decode-Ways.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\91.Decode-Ways.cpp" > CMakeFiles\leetcode.dir\91.Decode-Ways.cpp.i
 
 CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/91.Decode-Ways.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\91.Decode-Ways.cpp" -o CMakeFiles\leetcode.dir\91.Decode-Ways.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\91.Decode-Ways.cpp" -o CMakeFiles\leetcode.dir\91.Decode-Ways.cpp.s
 
 CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.obj: ../509.Fibonacci-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\509.Fibonacci-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\509.Fibonacci-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\509.Fibonacci-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\509.Fibonacci-Number.cpp"
 
 CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\509.Fibonacci-Number.cpp" > CMakeFiles\leetcode.dir\509.Fibonacci-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\509.Fibonacci-Number.cpp" > CMakeFiles\leetcode.dir\509.Fibonacci-Number.cpp.i
 
 CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/509.Fibonacci-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\509.Fibonacci-Number.cpp" -o CMakeFiles\leetcode.dir\509.Fibonacci-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\509.Fibonacci-Number.cpp" -o CMakeFiles\leetcode.dir\509.Fibonacci-Number.cpp.s
 
 CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.obj: ../392.Is-Subsequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\392.Is-Subsequence.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\392.Is-Subsequence.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\392.Is-Subsequence.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\392.Is-Subsequence.cpp"
 
 CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\392.Is-Subsequence.cpp" > CMakeFiles\leetcode.dir\392.Is-Subsequence.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\392.Is-Subsequence.cpp" > CMakeFiles\leetcode.dir\392.Is-Subsequence.cpp.i
 
 CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/392.Is-Subsequence.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\392.Is-Subsequence.cpp" -o CMakeFiles\leetcode.dir\392.Is-Subsequence.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\392.Is-Subsequence.cpp" -o CMakeFiles\leetcode.dir\392.Is-Subsequence.cpp.s
 
 CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.obj: ../792.Number-of-Matching-Subsequences.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\792.Number-of-Matching-Subsequences.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\792.Number-of-Matching-Subsequences.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\792.Number-of-Matching-Subsequences.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\792.Number-of-Matching-Subsequences.cpp"
 
 CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\792.Number-of-Matching-Subsequences.cpp" > CMakeFiles\leetcode.dir\792.Number-of-Matching-Subsequences.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\792.Number-of-Matching-Subsequences.cpp" > CMakeFiles\leetcode.dir\792.Number-of-Matching-Subsequences.cpp.i
 
 CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/792.Number-of-Matching-Subsequences.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\792.Number-of-Matching-Subsequences.cpp" -o CMakeFiles\leetcode.dir\792.Number-of-Matching-Subsequences.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\792.Number-of-Matching-Subsequences.cpp" -o CMakeFiles\leetcode.dir\792.Number-of-Matching-Subsequences.cpp.s
 
 CMakeFiles/leetcode.dir/169.Majority-Element.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/169.Majority-Element.cpp.obj: ../169.Majority-Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/leetcode.dir/169.Majority-Element.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\169.Majority-Element.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\169.Majority-Element.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/leetcode.dir/169.Majority-Element.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\169.Majority-Element.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\169.Majority-Element.cpp"
 
 CMakeFiles/leetcode.dir/169.Majority-Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/169.Majority-Element.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\169.Majority-Element.cpp" > CMakeFiles\leetcode.dir\169.Majority-Element.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\169.Majority-Element.cpp" > CMakeFiles\leetcode.dir\169.Majority-Element.cpp.i
 
 CMakeFiles/leetcode.dir/169.Majority-Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/169.Majority-Element.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\169.Majority-Element.cpp" -o CMakeFiles\leetcode.dir\169.Majority-Element.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\169.Majority-Element.cpp" -o CMakeFiles\leetcode.dir\169.Majority-Element.cpp.s
 
 CMakeFiles/leetcode.dir/198.House-Robber.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/198.House-Robber.cpp.obj: ../198.House-Robber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/leetcode.dir/198.House-Robber.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\198.House-Robber.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\198.House-Robber.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/leetcode.dir/198.House-Robber.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\198.House-Robber.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\198.House-Robber.cpp"
 
 CMakeFiles/leetcode.dir/198.House-Robber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/198.House-Robber.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\198.House-Robber.cpp" > CMakeFiles\leetcode.dir\198.House-Robber.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\198.House-Robber.cpp" > CMakeFiles\leetcode.dir\198.House-Robber.cpp.i
 
 CMakeFiles/leetcode.dir/198.House-Robber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/198.House-Robber.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\198.House-Robber.cpp" -o CMakeFiles\leetcode.dir\198.House-Robber.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\198.House-Robber.cpp" -o CMakeFiles\leetcode.dir\198.House-Robber.cpp.s
 
 CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.obj: ../338.Counting-Bits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\338.Counting-Bits.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\338.Counting-Bits.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\338.Counting-Bits.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\338.Counting-Bits.cpp"
 
 CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\338.Counting-Bits.cpp" > CMakeFiles\leetcode.dir\338.Counting-Bits.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\338.Counting-Bits.cpp" > CMakeFiles\leetcode.dir\338.Counting-Bits.cpp.i
 
 CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/338.Counting-Bits.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\338.Counting-Bits.cpp" -o CMakeFiles\leetcode.dir\338.Counting-Bits.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\338.Counting-Bits.cpp" -o CMakeFiles\leetcode.dir\338.Counting-Bits.cpp.s
 
 CMakeFiles/leetcode.dir/120.Triangle.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/120.Triangle.cpp.obj: ../120.Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/leetcode.dir/120.Triangle.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\120.Triangle.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\120.Triangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/leetcode.dir/120.Triangle.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\120.Triangle.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\120.Triangle.cpp"
 
 CMakeFiles/leetcode.dir/120.Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/120.Triangle.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\120.Triangle.cpp" > CMakeFiles\leetcode.dir\120.Triangle.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\120.Triangle.cpp" > CMakeFiles\leetcode.dir\120.Triangle.cpp.i
 
 CMakeFiles/leetcode.dir/120.Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/120.Triangle.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\120.Triangle.cpp" -o CMakeFiles\leetcode.dir\120.Triangle.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\120.Triangle.cpp" -o CMakeFiles\leetcode.dir\120.Triangle.cpp.s
 
 CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.obj: ../213.House-Robber-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\213.House-Robber-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\213.House-Robber-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\213.House-Robber-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\213.House-Robber-II.cpp"
 
 CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\213.House-Robber-II.cpp" > CMakeFiles\leetcode.dir\213.House-Robber-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\213.House-Robber-II.cpp" > CMakeFiles\leetcode.dir\213.House-Robber-II.cpp.i
 
 CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/213.House-Robber-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\213.House-Robber-II.cpp" -o CMakeFiles\leetcode.dir\213.House-Robber-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\213.House-Robber-II.cpp" -o CMakeFiles\leetcode.dir\213.House-Robber-II.cpp.s
 
 CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.obj: ../263.Ugly-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\263.Ugly-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\263.Ugly-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\263.Ugly-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\263.Ugly-Number.cpp"
 
 CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\263.Ugly-Number.cpp" > CMakeFiles\leetcode.dir\263.Ugly-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\263.Ugly-Number.cpp" > CMakeFiles\leetcode.dir\263.Ugly-Number.cpp.i
 
 CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/263.Ugly-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\263.Ugly-Number.cpp" -o CMakeFiles\leetcode.dir\263.Ugly-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\263.Ugly-Number.cpp" -o CMakeFiles\leetcode.dir\263.Ugly-Number.cpp.s
 
 CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.obj: ../264.Ugly-Number-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\264.Ugly-Number-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\264.Ugly-Number-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\264.Ugly-Number-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\264.Ugly-Number-II.cpp"
 
 CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\264.Ugly-Number-II.cpp" > CMakeFiles\leetcode.dir\264.Ugly-Number-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\264.Ugly-Number-II.cpp" > CMakeFiles\leetcode.dir\264.Ugly-Number-II.cpp.i
 
 CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/264.Ugly-Number-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\264.Ugly-Number-II.cpp" -o CMakeFiles\leetcode.dir\264.Ugly-Number-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\264.Ugly-Number-II.cpp" -o CMakeFiles\leetcode.dir\264.Ugly-Number-II.cpp.s
 
 CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.obj: ../993.Cousins-in-Binary-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\993.Cousins-in-Binary-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\993.Cousins-in-Binary-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\993.Cousins-in-Binary-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\993.Cousins-in-Binary-Tree.cpp"
 
 CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\993.Cousins-in-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\993.Cousins-in-Binary-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\993.Cousins-in-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\993.Cousins-in-Binary-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/993.Cousins-in-Binary-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\993.Cousins-in-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\993.Cousins-in-Binary-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\993.Cousins-in-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\993.Cousins-in-Binary-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.obj: ../217.Contains-Duplicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\217.Contains-Duplicate.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\217.Contains-Duplicate.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\217.Contains-Duplicate.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\217.Contains-Duplicate.cpp"
 
 CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\217.Contains-Duplicate.cpp" > CMakeFiles\leetcode.dir\217.Contains-Duplicate.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\217.Contains-Duplicate.cpp" > CMakeFiles\leetcode.dir\217.Contains-Duplicate.cpp.i
 
 CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/217.Contains-Duplicate.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\217.Contains-Duplicate.cpp" -o CMakeFiles\leetcode.dir\217.Contains-Duplicate.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\217.Contains-Duplicate.cpp" -o CMakeFiles\leetcode.dir\217.Contains-Duplicate.cpp.s
 
 CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.obj: ../219.Contains-Duplicate-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\219.Contains-Duplicate-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\219.Contains-Duplicate-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\219.Contains-Duplicate-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\219.Contains-Duplicate-II.cpp"
 
 CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\219.Contains-Duplicate-II.cpp" > CMakeFiles\leetcode.dir\219.Contains-Duplicate-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\219.Contains-Duplicate-II.cpp" > CMakeFiles\leetcode.dir\219.Contains-Duplicate-II.cpp.i
 
 CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/219.Contains-Duplicate-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\219.Contains-Duplicate-II.cpp" -o CMakeFiles\leetcode.dir\219.Contains-Duplicate-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\219.Contains-Duplicate-II.cpp" -o CMakeFiles\leetcode.dir\219.Contains-Duplicate-II.cpp.s
 
 CMakeFiles/leetcode.dir/204.Count-Primes.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/204.Count-Primes.cpp.obj: ../204.Count-Primes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/leetcode.dir/204.Count-Primes.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\204.Count-Primes.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\204.Count-Primes.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/leetcode.dir/204.Count-Primes.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\204.Count-Primes.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\204.Count-Primes.cpp"
 
 CMakeFiles/leetcode.dir/204.Count-Primes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/204.Count-Primes.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\204.Count-Primes.cpp" > CMakeFiles\leetcode.dir\204.Count-Primes.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\204.Count-Primes.cpp" > CMakeFiles\leetcode.dir\204.Count-Primes.cpp.i
 
 CMakeFiles/leetcode.dir/204.Count-Primes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/204.Count-Primes.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\204.Count-Primes.cpp" -o CMakeFiles\leetcode.dir\204.Count-Primes.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\204.Count-Primes.cpp" -o CMakeFiles\leetcode.dir\204.Count-Primes.cpp.s
 
 CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.obj: ../222.Count-Complete-Tree-Nodes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\222.Count-Complete-Tree-Nodes.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\222.Count-Complete-Tree-Nodes.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\222.Count-Complete-Tree-Nodes.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\222.Count-Complete-Tree-Nodes.cpp"
 
 CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\222.Count-Complete-Tree-Nodes.cpp" > CMakeFiles\leetcode.dir\222.Count-Complete-Tree-Nodes.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\222.Count-Complete-Tree-Nodes.cpp" > CMakeFiles\leetcode.dir\222.Count-Complete-Tree-Nodes.cpp.i
 
 CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/222.Count-Complete-Tree-Nodes.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\222.Count-Complete-Tree-Nodes.cpp" -o CMakeFiles\leetcode.dir\222.Count-Complete-Tree-Nodes.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\222.Count-Complete-Tree-Nodes.cpp" -o CMakeFiles\leetcode.dir\222.Count-Complete-Tree-Nodes.cpp.s
 
 CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.obj: ../199.Binary-Tree-Right-Side-View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\199.Binary-Tree-Right-Side-View.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\199.Binary-Tree-Right-Side-View.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\199.Binary-Tree-Right-Side-View.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\199.Binary-Tree-Right-Side-View.cpp"
 
 CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\199.Binary-Tree-Right-Side-View.cpp" > CMakeFiles\leetcode.dir\199.Binary-Tree-Right-Side-View.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\199.Binary-Tree-Right-Side-View.cpp" > CMakeFiles\leetcode.dir\199.Binary-Tree-Right-Side-View.cpp.i
 
 CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/199.Binary-Tree-Right-Side-View.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\199.Binary-Tree-Right-Side-View.cpp" -o CMakeFiles\leetcode.dir\199.Binary-Tree-Right-Side-View.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\199.Binary-Tree-Right-Side-View.cpp" -o CMakeFiles\leetcode.dir\199.Binary-Tree-Right-Side-View.cpp.s
 
 CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.obj: ../113.Path-Sum-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\113.Path-Sum-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\113.Path-Sum-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\113.Path-Sum-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\113.Path-Sum-II.cpp"
 
 CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\113.Path-Sum-II.cpp" > CMakeFiles\leetcode.dir\113.Path-Sum-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\113.Path-Sum-II.cpp" > CMakeFiles\leetcode.dir\113.Path-Sum-II.cpp.i
 
 CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/113.Path-Sum-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\113.Path-Sum-II.cpp" -o CMakeFiles\leetcode.dir\113.Path-Sum-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\113.Path-Sum-II.cpp" -o CMakeFiles\leetcode.dir\113.Path-Sum-II.cpp.s
 
 CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.obj: ../367.Valid-Perfect-Square.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\367.Valid-Perfect-Square.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\367.Valid-Perfect-Square.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\367.Valid-Perfect-Square.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\367.Valid-Perfect-Square.cpp"
 
 CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\367.Valid-Perfect-Square.cpp" > CMakeFiles\leetcode.dir\367.Valid-Perfect-Square.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\367.Valid-Perfect-Square.cpp" > CMakeFiles\leetcode.dir\367.Valid-Perfect-Square.cpp.i
 
 CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/367.Valid-Perfect-Square.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\367.Valid-Perfect-Square.cpp" -o CMakeFiles\leetcode.dir\367.Valid-Perfect-Square.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\367.Valid-Perfect-Square.cpp" -o CMakeFiles\leetcode.dir\367.Valid-Perfect-Square.cpp.s
 
 CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.obj: ../162.Find-Peak-Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\162.Find-Peak-Element.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\162.Find-Peak-Element.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\162.Find-Peak-Element.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\162.Find-Peak-Element.cpp"
 
 CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\162.Find-Peak-Element.cpp" > CMakeFiles\leetcode.dir\162.Find-Peak-Element.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\162.Find-Peak-Element.cpp" > CMakeFiles\leetcode.dir\162.Find-Peak-Element.cpp.i
 
 CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/162.Find-Peak-Element.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\162.Find-Peak-Element.cpp" -o CMakeFiles\leetcode.dir\162.Find-Peak-Element.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\162.Find-Peak-Element.cpp" -o CMakeFiles\leetcode.dir\162.Find-Peak-Element.cpp.s
 
 CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.obj: ../658.Find-K-Closest-Elements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\658.Find-K-Closest-Elements.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\658.Find-K-Closest-Elements.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\658.Find-K-Closest-Elements.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\658.Find-K-Closest-Elements.cpp"
 
 CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\658.Find-K-Closest-Elements.cpp" > CMakeFiles\leetcode.dir\658.Find-K-Closest-Elements.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\658.Find-K-Closest-Elements.cpp" > CMakeFiles\leetcode.dir\658.Find-K-Closest-Elements.cpp.i
 
 CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/658.Find-K-Closest-Elements.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\658.Find-K-Closest-Elements.cpp" -o CMakeFiles\leetcode.dir\658.Find-K-Closest-Elements.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\658.Find-K-Closest-Elements.cpp" -o CMakeFiles\leetcode.dir\658.Find-K-Closest-Elements.cpp.s
 
 CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.obj: ../997.Find-the-Town-Judge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\997.Find-the-Town-Judge.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\997.Find-the-Town-Judge.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\997.Find-the-Town-Judge.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\997.Find-the-Town-Judge.cpp"
 
 CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\997.Find-the-Town-Judge.cpp" > CMakeFiles\leetcode.dir\997.Find-the-Town-Judge.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\997.Find-the-Town-Judge.cpp" > CMakeFiles\leetcode.dir\997.Find-the-Town-Judge.cpp.i
 
 CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/997.Find-the-Town-Judge.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\997.Find-the-Town-Judge.cpp" -o CMakeFiles\leetcode.dir\997.Find-the-Town-Judge.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\997.Find-the-Town-Judge.cpp" -o CMakeFiles\leetcode.dir\997.Find-the-Town-Judge.cpp.s
 
 CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.obj: ../95.Unique-Binary-Search-Trees-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\95.Unique-Binary-Search-Trees-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\95.Unique-Binary-Search-Trees-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\95.Unique-Binary-Search-Trees-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\95.Unique-Binary-Search-Trees-II.cpp"
 
 CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\95.Unique-Binary-Search-Trees-II.cpp" > CMakeFiles\leetcode.dir\95.Unique-Binary-Search-Trees-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\95.Unique-Binary-Search-Trees-II.cpp" > CMakeFiles\leetcode.dir\95.Unique-Binary-Search-Trees-II.cpp.i
 
 CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/95.Unique-Binary-Search-Trees-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\95.Unique-Binary-Search-Trees-II.cpp" -o CMakeFiles\leetcode.dir\95.Unique-Binary-Search-Trees-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\95.Unique-Binary-Search-Trees-II.cpp" -o CMakeFiles\leetcode.dir\95.Unique-Binary-Search-Trees-II.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.obj: ../dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/1.0-1-Knapsack-Problem.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\1.0-1-Knapsack-Problem.cpp.s
 
 CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.obj: ../540.Single-Element-in-a-Sorted\ Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\540.Single-Element-in-a-Sorted_Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\540.Single-Element-in-a-Sorted Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\540.Single-Element-in-a-Sorted_Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\540.Single-Element-in-a-Sorted Array.cpp"
 
 CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\540.Single-Element-in-a-Sorted Array.cpp" > CMakeFiles\leetcode.dir\540.Single-Element-in-a-Sorted_Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\540.Single-Element-in-a-Sorted Array.cpp" > CMakeFiles\leetcode.dir\540.Single-Element-in-a-Sorted_Array.cpp.i
 
 CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/540.Single-Element-in-a-Sorted_Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\540.Single-Element-in-a-Sorted Array.cpp" -o CMakeFiles\leetcode.dir\540.Single-Element-in-a-Sorted_Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\540.Single-Element-in-a-Sorted Array.cpp" -o CMakeFiles\leetcode.dir\540.Single-Element-in-a-Sorted_Array.cpp.s
 
 CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.obj: ../208.implement-Trie-(Prefix\ Tree).cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\208.implement-Trie-(Prefix_Tree).cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\208.implement-Trie-(Prefix Tree).cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\208.implement-Trie-(Prefix_Tree).cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\208.implement-Trie-(Prefix Tree).cpp"
 
 CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\208.implement-Trie-(Prefix Tree).cpp" > CMakeFiles\leetcode.dir\208.implement-Trie-(Prefix_Tree).cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\208.implement-Trie-(Prefix Tree).cpp" > CMakeFiles\leetcode.dir\208.implement-Trie-(Prefix_Tree).cpp.i
 
 CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/208.implement-Trie-(Prefix_Tree).cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\208.implement-Trie-(Prefix Tree).cpp" -o CMakeFiles\leetcode.dir\208.implement-Trie-(Prefix_Tree).cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\208.implement-Trie-(Prefix Tree).cpp" -o CMakeFiles\leetcode.dir\208.implement-Trie-(Prefix_Tree).cpp.s
 
 CMakeFiles/leetcode.dir/679.24-Game.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/679.24-Game.cpp.obj: ../679.24-Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/leetcode.dir/679.24-Game.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\679.24-Game.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\679.24-Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/leetcode.dir/679.24-Game.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\679.24-Game.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\679.24-Game.cpp"
 
 CMakeFiles/leetcode.dir/679.24-Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/679.24-Game.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\679.24-Game.cpp" > CMakeFiles\leetcode.dir\679.24-Game.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\679.24-Game.cpp" > CMakeFiles\leetcode.dir\679.24-Game.cpp.i
 
 CMakeFiles/leetcode.dir/679.24-Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/679.24-Game.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\679.24-Game.cpp" -o CMakeFiles\leetcode.dir\679.24-Game.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\679.24-Game.cpp" -o CMakeFiles\leetcode.dir\679.24-Game.cpp.s
 
 CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.obj: ../733.Flood-Fill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\733.Flood-Fill.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\733.Flood-Fill.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\733.Flood-Fill.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\733.Flood-Fill.cpp"
 
 CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\733.Flood-Fill.cpp" > CMakeFiles\leetcode.dir\733.Flood-Fill.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\733.Flood-Fill.cpp" > CMakeFiles\leetcode.dir\733.Flood-Fill.cpp.i
 
 CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/733.Flood-Fill.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\733.Flood-Fill.cpp" -o CMakeFiles\leetcode.dir\733.Flood-Fill.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\733.Flood-Fill.cpp" -o CMakeFiles\leetcode.dir\733.Flood-Fill.cpp.s
 
 CMakeFiles/leetcode.dir/DenseGraph.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/DenseGraph.cpp.obj: ../DenseGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/leetcode.dir/DenseGraph.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\DenseGraph.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\DenseGraph.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/leetcode.dir/DenseGraph.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\DenseGraph.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\DenseGraph.cpp"
 
 CMakeFiles/leetcode.dir/DenseGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/DenseGraph.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\DenseGraph.cpp" > CMakeFiles\leetcode.dir\DenseGraph.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\DenseGraph.cpp" > CMakeFiles\leetcode.dir\DenseGraph.cpp.i
 
 CMakeFiles/leetcode.dir/DenseGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/DenseGraph.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\DenseGraph.cpp" -o CMakeFiles\leetcode.dir\DenseGraph.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\DenseGraph.cpp" -o CMakeFiles\leetcode.dir\DenseGraph.cpp.s
 
 CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.obj: ../918.Maximum-Sum-Circular-Subarray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\918.Maximum-Sum-Circular-Subarray.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\918.Maximum-Sum-Circular-Subarray.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\918.Maximum-Sum-Circular-Subarray.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\918.Maximum-Sum-Circular-Subarray.cpp"
 
 CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\918.Maximum-Sum-Circular-Subarray.cpp" > CMakeFiles\leetcode.dir\918.Maximum-Sum-Circular-Subarray.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\918.Maximum-Sum-Circular-Subarray.cpp" > CMakeFiles\leetcode.dir\918.Maximum-Sum-Circular-Subarray.cpp.i
 
 CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/918.Maximum-Sum-Circular-Subarray.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\918.Maximum-Sum-Circular-Subarray.cpp" -o CMakeFiles\leetcode.dir\918.Maximum-Sum-Circular-Subarray.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\918.Maximum-Sum-Circular-Subarray.cpp" -o CMakeFiles\leetcode.dir\918.Maximum-Sum-Circular-Subarray.cpp.s
 
 CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.obj: ../438.Find-All-Anagrams-in-a-String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\438.Find-All-Anagrams-in-a-String.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\438.Find-All-Anagrams-in-a-String.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\438.Find-All-Anagrams-in-a-String.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\438.Find-All-Anagrams-in-a-String.cpp"
 
 CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\438.Find-All-Anagrams-in-a-String.cpp" > CMakeFiles\leetcode.dir\438.Find-All-Anagrams-in-a-String.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\438.Find-All-Anagrams-in-a-String.cpp" > CMakeFiles\leetcode.dir\438.Find-All-Anagrams-in-a-String.cpp.i
 
 CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/438.Find-All-Anagrams-in-a-String.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\438.Find-All-Anagrams-in-a-String.cpp" -o CMakeFiles\leetcode.dir\438.Find-All-Anagrams-in-a-String.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\438.Find-All-Anagrams-in-a-String.cpp" -o CMakeFiles\leetcode.dir\438.Find-All-Anagrams-in-a-String.cpp.s
 
 CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.obj: ../463.Island-Perimeter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\463.Island-Perimeter.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\463.Island-Perimeter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\463.Island-Perimeter.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\463.Island-Perimeter.cpp"
 
 CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\463.Island-Perimeter.cpp" > CMakeFiles\leetcode.dir\463.Island-Perimeter.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\463.Island-Perimeter.cpp" > CMakeFiles\leetcode.dir\463.Island-Perimeter.cpp.i
 
 CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/463.Island-Perimeter.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\463.Island-Perimeter.cpp" -o CMakeFiles\leetcode.dir\463.Island-Perimeter.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\463.Island-Perimeter.cpp" -o CMakeFiles\leetcode.dir\463.Island-Perimeter.cpp.s
 
 CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.obj: ../349.Intersection-of-Two-Arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\349.Intersection-of-Two-Arrays.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\349.Intersection-of-Two-Arrays.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\349.Intersection-of-Two-Arrays.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\349.Intersection-of-Two-Arrays.cpp"
 
 CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\349.Intersection-of-Two-Arrays.cpp" > CMakeFiles\leetcode.dir\349.Intersection-of-Two-Arrays.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\349.Intersection-of-Two-Arrays.cpp" > CMakeFiles\leetcode.dir\349.Intersection-of-Two-Arrays.cpp.i
 
 CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/349.Intersection-of-Two-Arrays.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\349.Intersection-of-Two-Arrays.cpp" -o CMakeFiles\leetcode.dir\349.Intersection-of-Two-Arrays.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\349.Intersection-of-Two-Arrays.cpp" -o CMakeFiles\leetcode.dir\349.Intersection-of-Two-Arrays.cpp.s
 
 CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.obj: ../350.Intersection-of-Two-Arrays-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\350.Intersection-of-Two-Arrays-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\350.Intersection-of-Two-Arrays-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\350.Intersection-of-Two-Arrays-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\350.Intersection-of-Two-Arrays-II.cpp"
 
 CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\350.Intersection-of-Two-Arrays-II.cpp" > CMakeFiles\leetcode.dir\350.Intersection-of-Two-Arrays-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\350.Intersection-of-Two-Arrays-II.cpp" > CMakeFiles\leetcode.dir\350.Intersection-of-Two-Arrays-II.cpp.i
 
 CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/350.Intersection-of-Two-Arrays-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\350.Intersection-of-Two-Arrays-II.cpp" -o CMakeFiles\leetcode.dir\350.Intersection-of-Two-Arrays-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\350.Intersection-of-Two-Arrays-II.cpp" -o CMakeFiles\leetcode.dir\350.Intersection-of-Two-Arrays-II.cpp.s
 
 CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.obj: ../300.Longest-Increasing-Subsequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\300.Longest-Increasing-Subsequence.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\300.Longest-Increasing-Subsequence.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\300.Longest-Increasing-Subsequence.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\300.Longest-Increasing-Subsequence.cpp"
 
 CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\300.Longest-Increasing-Subsequence.cpp" > CMakeFiles\leetcode.dir\300.Longest-Increasing-Subsequence.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\300.Longest-Increasing-Subsequence.cpp" > CMakeFiles\leetcode.dir\300.Longest-Increasing-Subsequence.cpp.i
 
 CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/300.Longest-Increasing-Subsequence.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\300.Longest-Increasing-Subsequence.cpp" -o CMakeFiles\leetcode.dir\300.Longest-Increasing-Subsequence.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\300.Longest-Increasing-Subsequence.cpp" -o CMakeFiles\leetcode.dir\300.Longest-Increasing-Subsequence.cpp.s
 
 CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.obj: ../257.Binary-Tree-Paths.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\257.Binary-Tree-Paths.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\257.Binary-Tree-Paths.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\257.Binary-Tree-Paths.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\257.Binary-Tree-Paths.cpp"
 
 CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\257.Binary-Tree-Paths.cpp" > CMakeFiles\leetcode.dir\257.Binary-Tree-Paths.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\257.Binary-Tree-Paths.cpp" > CMakeFiles\leetcode.dir\257.Binary-Tree-Paths.cpp.i
 
 CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/257.Binary-Tree-Paths.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\257.Binary-Tree-Paths.cpp" -o CMakeFiles\leetcode.dir\257.Binary-Tree-Paths.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\257.Binary-Tree-Paths.cpp" -o CMakeFiles\leetcode.dir\257.Binary-Tree-Paths.cpp.s
 
 CMakeFiles/leetcode.dir/322.Coin-Change.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/322.Coin-Change.cpp.obj: ../322.Coin-Change.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/leetcode.dir/322.Coin-Change.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\322.Coin-Change.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\322.Coin-Change.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/leetcode.dir/322.Coin-Change.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\322.Coin-Change.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\322.Coin-Change.cpp"
 
 CMakeFiles/leetcode.dir/322.Coin-Change.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/322.Coin-Change.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\322.Coin-Change.cpp" > CMakeFiles\leetcode.dir\322.Coin-Change.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\322.Coin-Change.cpp" > CMakeFiles\leetcode.dir\322.Coin-Change.cpp.i
 
 CMakeFiles/leetcode.dir/322.Coin-Change.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/322.Coin-Change.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\322.Coin-Change.cpp" -o CMakeFiles\leetcode.dir\322.Coin-Change.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\322.Coin-Change.cpp" -o CMakeFiles\leetcode.dir\322.Coin-Change.cpp.s
 
 CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.obj: ../416.Partition-Equal-Subset-Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\416.Partition-Equal-Subset-Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\416.Partition-Equal-Subset-Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\416.Partition-Equal-Subset-Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\416.Partition-Equal-Subset-Sum.cpp"
 
 CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\416.Partition-Equal-Subset-Sum.cpp" > CMakeFiles\leetcode.dir\416.Partition-Equal-Subset-Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\416.Partition-Equal-Subset-Sum.cpp" > CMakeFiles\leetcode.dir\416.Partition-Equal-Subset-Sum.cpp.i
 
 CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/416.Partition-Equal-Subset-Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\416.Partition-Equal-Subset-Sum.cpp" -o CMakeFiles\leetcode.dir\416.Partition-Equal-Subset-Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\416.Partition-Equal-Subset-Sum.cpp" -o CMakeFiles\leetcode.dir\416.Partition-Equal-Subset-Sum.cpp.s
 
 CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.obj: ../518.Coin-Change-2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\518.Coin-Change-2.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\518.Coin-Change-2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\518.Coin-Change-2.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\518.Coin-Change-2.cpp"
 
 CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\518.Coin-Change-2.cpp" > CMakeFiles\leetcode.dir\518.Coin-Change-2.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\518.Coin-Change-2.cpp" > CMakeFiles\leetcode.dir\518.Coin-Change-2.cpp.i
 
 CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/518.Coin-Change-2.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\518.Coin-Change-2.cpp" -o CMakeFiles\leetcode.dir\518.Coin-Change-2.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\518.Coin-Change-2.cpp" -o CMakeFiles\leetcode.dir\518.Coin-Change-2.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.obj: ../dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/2.Subset-Sum-Problem.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\2.Subset-Sum-Problem.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.obj: ../dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/3.Equal-Subset-Sum-Partition.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\3.Equal-Subset-Sum-Partition.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.obj: ../dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/4.Minimum-Subset-Sum-Difference.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\4.Minimum-Subset-Sum-Difference.cpp.s
 
 CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.obj: ../901.Online-Stock-Span.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\901.Online-Stock-Span.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\901.Online-Stock-Span.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\901.Online-Stock-Span.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\901.Online-Stock-Span.cpp"
 
 CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\901.Online-Stock-Span.cpp" > CMakeFiles\leetcode.dir\901.Online-Stock-Span.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\901.Online-Stock-Span.cpp" > CMakeFiles\leetcode.dir\901.Online-Stock-Span.cpp.i
 
 CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/901.Online-Stock-Span.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\901.Online-Stock-Span.cpp" -o CMakeFiles\leetcode.dir\901.Online-Stock-Span.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\901.Online-Stock-Span.cpp" -o CMakeFiles\leetcode.dir\901.Online-Stock-Span.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.obj: ../dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern1-0-1Knapsack/5.Count-of-subset-sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern1-0-1Knapsack\5.Count-of-subset-sum.cpp.s
 
 CMakeFiles/leetcode.dir/494.Target-Sum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/494.Target-Sum.cpp.obj: ../494.Target-Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/leetcode.dir/494.Target-Sum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\494.Target-Sum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\494.Target-Sum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/leetcode.dir/494.Target-Sum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\494.Target-Sum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\494.Target-Sum.cpp"
 
 CMakeFiles/leetcode.dir/494.Target-Sum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/494.Target-Sum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\494.Target-Sum.cpp" > CMakeFiles\leetcode.dir\494.Target-Sum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\494.Target-Sum.cpp" > CMakeFiles\leetcode.dir\494.Target-Sum.cpp.i
 
 CMakeFiles/leetcode.dir/494.Target-Sum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/494.Target-Sum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\494.Target-Sum.cpp" -o CMakeFiles\leetcode.dir\494.Target-Sum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\494.Target-Sum.cpp" -o CMakeFiles\leetcode.dir\494.Target-Sum.cpp.s
 
 CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.obj: ../728.Self-Dividing-Numbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\728.Self-Dividing-Numbers.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\728.Self-Dividing-Numbers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\728.Self-Dividing-Numbers.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\728.Self-Dividing-Numbers.cpp"
 
 CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\728.Self-Dividing-Numbers.cpp" > CMakeFiles\leetcode.dir\728.Self-Dividing-Numbers.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\728.Self-Dividing-Numbers.cpp" > CMakeFiles\leetcode.dir\728.Self-Dividing-Numbers.cpp.i
 
 CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/728.Self-Dividing-Numbers.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\728.Self-Dividing-Numbers.cpp" -o CMakeFiles\leetcode.dir\728.Self-Dividing-Numbers.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\728.Self-Dividing-Numbers.cpp" -o CMakeFiles\leetcode.dir\728.Self-Dividing-Numbers.cpp.s
 
 CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.obj: ../84.Largest-Rectangle-in-Histogram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\84.Largest-Rectangle-in-Histogram.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\84.Largest-Rectangle-in-Histogram.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\84.Largest-Rectangle-in-Histogram.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\84.Largest-Rectangle-in-Histogram.cpp"
 
 CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\84.Largest-Rectangle-in-Histogram.cpp" > CMakeFiles\leetcode.dir\84.Largest-Rectangle-in-Histogram.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\84.Largest-Rectangle-in-Histogram.cpp" > CMakeFiles\leetcode.dir\84.Largest-Rectangle-in-Histogram.cpp.i
 
 CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/84.Largest-Rectangle-in-Histogram.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\84.Largest-Rectangle-in-Histogram.cpp" -o CMakeFiles\leetcode.dir\84.Largest-Rectangle-in-Histogram.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\84.Largest-Rectangle-in-Histogram.cpp" -o CMakeFiles\leetcode.dir\84.Largest-Rectangle-in-Histogram.cpp.s
 
 CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.obj: ../496.Next-Greater-Element-I\ .cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\496.Next-Greater-Element-I_.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\496.Next-Greater-Element-I .cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\496.Next-Greater-Element-I_.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\496.Next-Greater-Element-I .cpp"
 
 CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\496.Next-Greater-Element-I .cpp" > CMakeFiles\leetcode.dir\496.Next-Greater-Element-I_.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\496.Next-Greater-Element-I .cpp" > CMakeFiles\leetcode.dir\496.Next-Greater-Element-I_.cpp.i
 
 CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/496.Next-Greater-Element-I_.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\496.Next-Greater-Element-I .cpp" -o CMakeFiles\leetcode.dir\496.Next-Greater-Element-I_.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\496.Next-Greater-Element-I .cpp" -o CMakeFiles\leetcode.dir\496.Next-Greater-Element-I_.cpp.s
 
 CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.obj: ../503.Next-Greater-Element-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\503.Next-Greater-Element-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\503.Next-Greater-Element-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\503.Next-Greater-Element-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\503.Next-Greater-Element-II.cpp"
 
 CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\503.Next-Greater-Element-II.cpp" > CMakeFiles\leetcode.dir\503.Next-Greater-Element-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\503.Next-Greater-Element-II.cpp" > CMakeFiles\leetcode.dir\503.Next-Greater-Element-II.cpp.i
 
 CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/503.Next-Greater-Element-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\503.Next-Greater-Element-II.cpp" -o CMakeFiles\leetcode.dir\503.Next-Greater-Element-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\503.Next-Greater-Element-II.cpp" -o CMakeFiles\leetcode.dir\503.Next-Greater-Element-II.cpp.s
 
 CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.obj: ../856.Score-of-Parentheses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\856.Score-of-Parentheses.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\856.Score-of-Parentheses.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\856.Score-of-Parentheses.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\856.Score-of-Parentheses.cpp"
 
 CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\856.Score-of-Parentheses.cpp" > CMakeFiles\leetcode.dir\856.Score-of-Parentheses.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\856.Score-of-Parentheses.cpp" > CMakeFiles\leetcode.dir\856.Score-of-Parentheses.cpp.i
 
 CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/856.Score-of-Parentheses.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\856.Score-of-Parentheses.cpp" -o CMakeFiles\leetcode.dir\856.Score-of-Parentheses.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\856.Score-of-Parentheses.cpp" -o CMakeFiles\leetcode.dir\856.Score-of-Parentheses.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.obj: ../dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/1.Fibonacc-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\1.Fibonacc-Number.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.obj: ../dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/2.Staircase.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\2.Staircase.cpp.s
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.obj: ../dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors\ .cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors_.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors .cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors_.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors .cpp"
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors .cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors_.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors .cpp" > CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors_.cpp.i
 
 CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/dp动态规划/Pattern3-Fibonacci-Numbers/3.Number-divisors_.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors .cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors_.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors .cpp" -o CMakeFiles\leetcode.dir\dp动态规划\Pattern3-Fibonacci-Numbers\3.Number-divisors_.cpp.s
 
 CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.obj: ../303.Range-Sum-Query-\ Immutable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\303.Range-Sum-Query-_Immutable.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\303.Range-Sum-Query- Immutable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\303.Range-Sum-Query-_Immutable.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\303.Range-Sum-Query- Immutable.cpp"
 
 CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\303.Range-Sum-Query- Immutable.cpp" > CMakeFiles\leetcode.dir\303.Range-Sum-Query-_Immutable.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\303.Range-Sum-Query- Immutable.cpp" > CMakeFiles\leetcode.dir\303.Range-Sum-Query-_Immutable.cpp.i
 
 CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/303.Range-Sum-Query-_Immutable.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\303.Range-Sum-Query- Immutable.cpp" -o CMakeFiles\leetcode.dir\303.Range-Sum-Query-_Immutable.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\303.Range-Sum-Query- Immutable.cpp" -o CMakeFiles\leetcode.dir\303.Range-Sum-Query-_Immutable.cpp.s
 
 CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.obj: ../304.Range-Sum-Query-2D-Immutable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\304.Range-Sum-Query-2D-Immutable.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\304.Range-Sum-Query-2D-Immutable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\304.Range-Sum-Query-2D-Immutable.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\304.Range-Sum-Query-2D-Immutable.cpp"
 
 CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\304.Range-Sum-Query-2D-Immutable.cpp" > CMakeFiles\leetcode.dir\304.Range-Sum-Query-2D-Immutable.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\304.Range-Sum-Query-2D-Immutable.cpp" > CMakeFiles\leetcode.dir\304.Range-Sum-Query-2D-Immutable.cpp.i
 
 CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/304.Range-Sum-Query-2D-Immutable.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\304.Range-Sum-Query-2D-Immutable.cpp" -o CMakeFiles\leetcode.dir\304.Range-Sum-Query-2D-Immutable.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\304.Range-Sum-Query-2D-Immutable.cpp" -o CMakeFiles\leetcode.dir\304.Range-Sum-Query-2D-Immutable.cpp.s
 
 CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.obj: ../123.Best-Time-to-Buy-and-Sell-Stock-III.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_240) "Building CXX object CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp"
 
 CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp" > CMakeFiles\leetcode.dir\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp" > CMakeFiles\leetcode.dir\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.i
 
 CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp" -o CMakeFiles\leetcode.dir\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp" -o CMakeFiles\leetcode.dir\123.Best-Time-to-Buy-and-Sell-Stock-III.cpp.s
 
 CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.obj: ../137.Single-Number-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\137.Single-Number-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\137.Single-Number-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_241) "Building CXX object CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\137.Single-Number-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\137.Single-Number-II.cpp"
 
 CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\137.Single-Number-II.cpp" > CMakeFiles\leetcode.dir\137.Single-Number-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\137.Single-Number-II.cpp" > CMakeFiles\leetcode.dir\137.Single-Number-II.cpp.i
 
 CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/137.Single-Number-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\137.Single-Number-II.cpp" -o CMakeFiles\leetcode.dir\137.Single-Number-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\137.Single-Number-II.cpp" -o CMakeFiles\leetcode.dir\137.Single-Number-II.cpp.s
 
 CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.obj: ../1277.Count-Square-Submatrices-with-All-Ones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1277.Count-Square-Submatrices-with-All-Ones.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1277.Count-Square-Submatrices-with-All-Ones.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_242) "Building CXX object CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1277.Count-Square-Submatrices-with-All-Ones.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1277.Count-Square-Submatrices-with-All-Ones.cpp"
 
 CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1277.Count-Square-Submatrices-with-All-Ones.cpp" > CMakeFiles\leetcode.dir\1277.Count-Square-Submatrices-with-All-Ones.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1277.Count-Square-Submatrices-with-All-Ones.cpp" > CMakeFiles\leetcode.dir\1277.Count-Square-Submatrices-with-All-Ones.cpp.i
 
 CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1277.Count-Square-Submatrices-with-All-Ones.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1277.Count-Square-Submatrices-with-All-Ones.cpp" -o CMakeFiles\leetcode.dir\1277.Count-Square-Submatrices-with-All-Ones.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1277.Count-Square-Submatrices-with-All-Ones.cpp" -o CMakeFiles\leetcode.dir\1277.Count-Square-Submatrices-with-All-Ones.cpp.s
 
 CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.obj: ../312.Burst-Balloons.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\312.Burst-Balloons.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\312.Burst-Balloons.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_243) "Building CXX object CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\312.Burst-Balloons.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\312.Burst-Balloons.cpp"
 
 CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\312.Burst-Balloons.cpp" > CMakeFiles\leetcode.dir\312.Burst-Balloons.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\312.Burst-Balloons.cpp" > CMakeFiles\leetcode.dir\312.Burst-Balloons.cpp.i
 
 CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/312.Burst-Balloons.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\312.Burst-Balloons.cpp" -o CMakeFiles\leetcode.dir\312.Burst-Balloons.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\312.Burst-Balloons.cpp" -o CMakeFiles\leetcode.dir\312.Burst-Balloons.cpp.s
 
 CMakeFiles/leetcode.dir/394.Decode-String.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/394.Decode-String.cpp.obj: ../394.Decode-String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object CMakeFiles/leetcode.dir/394.Decode-String.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\394.Decode-String.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\394.Decode-String.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_244) "Building CXX object CMakeFiles/leetcode.dir/394.Decode-String.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\394.Decode-String.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\394.Decode-String.cpp"
 
 CMakeFiles/leetcode.dir/394.Decode-String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/394.Decode-String.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\394.Decode-String.cpp" > CMakeFiles\leetcode.dir\394.Decode-String.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\394.Decode-String.cpp" > CMakeFiles\leetcode.dir\394.Decode-String.cpp.i
 
 CMakeFiles/leetcode.dir/394.Decode-String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/394.Decode-String.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\394.Decode-String.cpp" -o CMakeFiles\leetcode.dir\394.Decode-String.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\394.Decode-String.cpp" -o CMakeFiles\leetcode.dir\394.Decode-String.cpp.s
 
 CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.obj: ../451.Sort-Characters-By-Frequency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\451.Sort-Characters-By-Frequency.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\451.Sort-Characters-By-Frequency.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_245) "Building CXX object CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\451.Sort-Characters-By-Frequency.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\451.Sort-Characters-By-Frequency.cpp"
 
 CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\451.Sort-Characters-By-Frequency.cpp" > CMakeFiles\leetcode.dir\451.Sort-Characters-By-Frequency.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\451.Sort-Characters-By-Frequency.cpp" > CMakeFiles\leetcode.dir\451.Sort-Characters-By-Frequency.cpp.i
 
 CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/451.Sort-Characters-By-Frequency.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\451.Sort-Characters-By-Frequency.cpp" -o CMakeFiles\leetcode.dir\451.Sort-Characters-By-Frequency.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\451.Sort-Characters-By-Frequency.cpp" -o CMakeFiles\leetcode.dir\451.Sort-Characters-By-Frequency.cpp.s
 
 CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.obj: ../897.Increasing-Order-Search-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\897.Increasing-Order-Search-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\897.Increasing-Order-Search-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_246) "Building CXX object CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\897.Increasing-Order-Search-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\897.Increasing-Order-Search-Tree.cpp"
 
 CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\897.Increasing-Order-Search-Tree.cpp" > CMakeFiles\leetcode.dir\897.Increasing-Order-Search-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\897.Increasing-Order-Search-Tree.cpp" > CMakeFiles\leetcode.dir\897.Increasing-Order-Search-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/897.Increasing-Order-Search-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\897.Increasing-Order-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\897.Increasing-Order-Search-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\897.Increasing-Order-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\897.Increasing-Order-Search-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.obj: ../559.Maximum-Depth-of-N-ary-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\559.Maximum-Depth-of-N-ary-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\559.Maximum-Depth-of-N-ary-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_247) "Building CXX object CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\559.Maximum-Depth-of-N-ary-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\559.Maximum-Depth-of-N-ary-Tree.cpp"
 
 CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\559.Maximum-Depth-of-N-ary-Tree.cpp" > CMakeFiles\leetcode.dir\559.Maximum-Depth-of-N-ary-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\559.Maximum-Depth-of-N-ary-Tree.cpp" > CMakeFiles\leetcode.dir\559.Maximum-Depth-of-N-ary-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/559.Maximum-Depth-of-N-ary-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\559.Maximum-Depth-of-N-ary-Tree.cpp" -o CMakeFiles\leetcode.dir\559.Maximum-Depth-of-N-ary-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\559.Maximum-Depth-of-N-ary-Tree.cpp" -o CMakeFiles\leetcode.dir\559.Maximum-Depth-of-N-ary-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/258.Add-Digits.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/258.Add-Digits.cpp.obj: ../258.Add-Digits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object CMakeFiles/leetcode.dir/258.Add-Digits.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\258.Add-Digits.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\258.Add-Digits.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_248) "Building CXX object CMakeFiles/leetcode.dir/258.Add-Digits.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\258.Add-Digits.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\258.Add-Digits.cpp"
 
 CMakeFiles/leetcode.dir/258.Add-Digits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/258.Add-Digits.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\258.Add-Digits.cpp" > CMakeFiles\leetcode.dir\258.Add-Digits.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\258.Add-Digits.cpp" > CMakeFiles\leetcode.dir\258.Add-Digits.cpp.i
 
 CMakeFiles/leetcode.dir/258.Add-Digits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/258.Add-Digits.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\258.Add-Digits.cpp" -o CMakeFiles\leetcode.dir\258.Add-Digits.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\258.Add-Digits.cpp" -o CMakeFiles\leetcode.dir\258.Add-Digits.cpp.s
 
 CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.obj: ../284.Peeking-Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\284.Peeking-Iterator.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\284.Peeking-Iterator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_249) "Building CXX object CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\284.Peeking-Iterator.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\284.Peeking-Iterator.cpp"
 
 CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\284.Peeking-Iterator.cpp" > CMakeFiles\leetcode.dir\284.Peeking-Iterator.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\284.Peeking-Iterator.cpp" > CMakeFiles\leetcode.dir\284.Peeking-Iterator.cpp.i
 
 CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/284.Peeking-Iterator.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\284.Peeking-Iterator.cpp" -o CMakeFiles\leetcode.dir\284.Peeking-Iterator.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\284.Peeking-Iterator.cpp" -o CMakeFiles\leetcode.dir\284.Peeking-Iterator.cpp.s
 
 CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.obj: ../986.Interval-List-Intersections.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\986.Interval-List-Intersections.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\986.Interval-List-Intersections.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_250) "Building CXX object CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\986.Interval-List-Intersections.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\986.Interval-List-Intersections.cpp"
 
 CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\986.Interval-List-Intersections.cpp" > CMakeFiles\leetcode.dir\986.Interval-List-Intersections.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\986.Interval-List-Intersections.cpp" > CMakeFiles\leetcode.dir\986.Interval-List-Intersections.cpp.i
 
 CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/986.Interval-List-Intersections.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\986.Interval-List-Intersections.cpp" -o CMakeFiles\leetcode.dir\986.Interval-List-Intersections.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\986.Interval-List-Intersections.cpp" -o CMakeFiles\leetcode.dir\986.Interval-List-Intersections.cpp.s
 
 CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.obj: ../690.Employee-Importance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\690.Employee-Importance.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\690.Employee-Importance.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_251) "Building CXX object CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\690.Employee-Importance.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\690.Employee-Importance.cpp"
 
 CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\690.Employee-Importance.cpp" > CMakeFiles\leetcode.dir\690.Employee-Importance.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\690.Employee-Importance.cpp" > CMakeFiles\leetcode.dir\690.Employee-Importance.cpp.i
 
 CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/690.Employee-Importance.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\690.Employee-Importance.cpp" -o CMakeFiles\leetcode.dir\690.Employee-Importance.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\690.Employee-Importance.cpp" -o CMakeFiles\leetcode.dir\690.Employee-Importance.cpp.s
 
 CMakeFiles/leetcode.dir/542.01-Matrix.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/542.01-Matrix.cpp.obj: ../542.01-Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object CMakeFiles/leetcode.dir/542.01-Matrix.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\542.01-Matrix.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\542.01-Matrix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_252) "Building CXX object CMakeFiles/leetcode.dir/542.01-Matrix.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\542.01-Matrix.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\542.01-Matrix.cpp"
 
 CMakeFiles/leetcode.dir/542.01-Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/542.01-Matrix.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\542.01-Matrix.cpp" > CMakeFiles\leetcode.dir\542.01-Matrix.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\542.01-Matrix.cpp" > CMakeFiles\leetcode.dir\542.01-Matrix.cpp.i
 
 CMakeFiles/leetcode.dir/542.01-Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/542.01-Matrix.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\542.01-Matrix.cpp" -o CMakeFiles\leetcode.dir\542.01-Matrix.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\542.01-Matrix.cpp" -o CMakeFiles\leetcode.dir\542.01-Matrix.cpp.s
 
 CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.obj: ../429.N-ary-Tree-Level-Order-Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_253) "Building CXX object CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\429.N-ary-Tree-Level-Order-Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\429.N-ary-Tree-Level-Order-Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_253) "Building CXX object CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\429.N-ary-Tree-Level-Order-Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\429.N-ary-Tree-Level-Order-Traversal.cpp"
 
 CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\429.N-ary-Tree-Level-Order-Traversal.cpp" > CMakeFiles\leetcode.dir\429.N-ary-Tree-Level-Order-Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\429.N-ary-Tree-Level-Order-Traversal.cpp" > CMakeFiles\leetcode.dir\429.N-ary-Tree-Level-Order-Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/429.N-ary-Tree-Level-Order-Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\429.N-ary-Tree-Level-Order-Traversal.cpp" -o CMakeFiles\leetcode.dir\429.N-ary-Tree-Level-Order-Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\429.N-ary-Tree-Level-Order-Traversal.cpp" -o CMakeFiles\leetcode.dir\429.N-ary-Tree-Level-Order-Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.obj: ../513.Find-Bottom-Left-Tree-Value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_254) "Building CXX object CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\513.Find-Bottom-Left-Tree-Value.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\513.Find-Bottom-Left-Tree-Value.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_254) "Building CXX object CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\513.Find-Bottom-Left-Tree-Value.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\513.Find-Bottom-Left-Tree-Value.cpp"
 
 CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\513.Find-Bottom-Left-Tree-Value.cpp" > CMakeFiles\leetcode.dir\513.Find-Bottom-Left-Tree-Value.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\513.Find-Bottom-Left-Tree-Value.cpp" > CMakeFiles\leetcode.dir\513.Find-Bottom-Left-Tree-Value.cpp.i
 
 CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/513.Find-Bottom-Left-Tree-Value.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\513.Find-Bottom-Left-Tree-Value.cpp" -o CMakeFiles\leetcode.dir\513.Find-Bottom-Left-Tree-Value.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\513.Find-Bottom-Left-Tree-Value.cpp" -o CMakeFiles\leetcode.dir\513.Find-Bottom-Left-Tree-Value.cpp.s
 
 CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.obj: ../515.Find-Largest-Value-in-Each-Tree-Row.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\515.Find-Largest-Value-in-Each-Tree-Row.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\515.Find-Largest-Value-in-Each-Tree-Row.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_255) "Building CXX object CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\515.Find-Largest-Value-in-Each-Tree-Row.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\515.Find-Largest-Value-in-Each-Tree-Row.cpp"
 
 CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\515.Find-Largest-Value-in-Each-Tree-Row.cpp" > CMakeFiles\leetcode.dir\515.Find-Largest-Value-in-Each-Tree-Row.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\515.Find-Largest-Value-in-Each-Tree-Row.cpp" > CMakeFiles\leetcode.dir\515.Find-Largest-Value-in-Each-Tree-Row.cpp.i
 
 CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/515.Find-Largest-Value-in-Each-Tree-Row.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\515.Find-Largest-Value-in-Each-Tree-Row.cpp" -o CMakeFiles\leetcode.dir\515.Find-Largest-Value-in-Each-Tree-Row.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\515.Find-Largest-Value-in-Each-Tree-Row.cpp" -o CMakeFiles\leetcode.dir\515.Find-Largest-Value-in-Each-Tree-Row.cpp.s
 
 CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.obj: ../207.Course-Schedule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_256) "Building CXX object CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\207.Course-Schedule.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\207.Course-Schedule.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_256) "Building CXX object CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\207.Course-Schedule.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\207.Course-Schedule.cpp"
 
 CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\207.Course-Schedule.cpp" > CMakeFiles\leetcode.dir\207.Course-Schedule.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\207.Course-Schedule.cpp" > CMakeFiles\leetcode.dir\207.Course-Schedule.cpp.i
 
 CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/207.Course-Schedule.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\207.Course-Schedule.cpp" -o CMakeFiles\leetcode.dir\207.Course-Schedule.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\207.Course-Schedule.cpp" -o CMakeFiles\leetcode.dir\207.Course-Schedule.cpp.s
 
 CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.obj: ../210.Course-Schedule\ II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\210.Course-Schedule_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\210.Course-Schedule II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_257) "Building CXX object CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\210.Course-Schedule_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\210.Course-Schedule II.cpp"
 
 CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\210.Course-Schedule II.cpp" > CMakeFiles\leetcode.dir\210.Course-Schedule_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\210.Course-Schedule II.cpp" > CMakeFiles\leetcode.dir\210.Course-Schedule_II.cpp.i
 
 CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/210.Course-Schedule_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\210.Course-Schedule II.cpp" -o CMakeFiles\leetcode.dir\210.Course-Schedule_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\210.Course-Schedule II.cpp" -o CMakeFiles\leetcode.dir\210.Course-Schedule_II.cpp.s
 
 CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.obj: ../743.Network-Delay-Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_258) "Building CXX object CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\743.Network-Delay-Time.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\743.Network-Delay-Time.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_258) "Building CXX object CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\743.Network-Delay-Time.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\743.Network-Delay-Time.cpp"
 
 CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\743.Network-Delay-Time.cpp" > CMakeFiles\leetcode.dir\743.Network-Delay-Time.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\743.Network-Delay-Time.cpp" > CMakeFiles\leetcode.dir\743.Network-Delay-Time.cpp.i
 
 CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/743.Network-Delay-Time.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\743.Network-Delay-Time.cpp" -o CMakeFiles\leetcode.dir\743.Network-Delay-Time.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\743.Network-Delay-Time.cpp" -o CMakeFiles\leetcode.dir\743.Network-Delay-Time.cpp.s
 
 CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.obj: ../1035.Uncrossed-Lines.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_259) "Building CXX object CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1035.Uncrossed-Lines.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1035.Uncrossed-Lines.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_259) "Building CXX object CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1035.Uncrossed-Lines.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1035.Uncrossed-Lines.cpp"
 
 CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1035.Uncrossed-Lines.cpp" > CMakeFiles\leetcode.dir\1035.Uncrossed-Lines.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1035.Uncrossed-Lines.cpp" > CMakeFiles\leetcode.dir\1035.Uncrossed-Lines.cpp.i
 
 CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1035.Uncrossed-Lines.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1035.Uncrossed-Lines.cpp" -o CMakeFiles\leetcode.dir\1035.Uncrossed-Lines.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1035.Uncrossed-Lines.cpp" -o CMakeFiles\leetcode.dir\1035.Uncrossed-Lines.cpp.s
 
 CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.obj: ../841.Keys-and-Rooms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_260) "Building CXX object CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\841.Keys-and-Rooms.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\841.Keys-and-Rooms.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_260) "Building CXX object CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\841.Keys-and-Rooms.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\841.Keys-and-Rooms.cpp"
 
 CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\841.Keys-and-Rooms.cpp" > CMakeFiles\leetcode.dir\841.Keys-and-Rooms.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\841.Keys-and-Rooms.cpp" > CMakeFiles\leetcode.dir\841.Keys-and-Rooms.cpp.i
 
 CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/841.Keys-and-Rooms.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\841.Keys-and-Rooms.cpp" -o CMakeFiles\leetcode.dir\841.Keys-and-Rooms.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\841.Keys-and-Rooms.cpp" -o CMakeFiles\leetcode.dir\841.Keys-and-Rooms.cpp.s
 
 CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.obj: ../695.Max-Area-of-Island.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_261) "Building CXX object CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\695.Max-Area-of-Island.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\695.Max-Area-of-Island.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_261) "Building CXX object CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\695.Max-Area-of-Island.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\695.Max-Area-of-Island.cpp"
 
 CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\695.Max-Area-of-Island.cpp" > CMakeFiles\leetcode.dir\695.Max-Area-of-Island.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\695.Max-Area-of-Island.cpp" > CMakeFiles\leetcode.dir\695.Max-Area-of-Island.cpp.i
 
 CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/695.Max-Area-of-Island.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\695.Max-Area-of-Island.cpp" -o CMakeFiles\leetcode.dir\695.Max-Area-of-Island.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\695.Max-Area-of-Island.cpp" -o CMakeFiles\leetcode.dir\695.Max-Area-of-Island.cpp.s
 
 CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.obj: ../547.Friend-Circles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_262) "Building CXX object CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\547.Friend-Circles.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\547.Friend-Circles.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_262) "Building CXX object CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\547.Friend-Circles.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\547.Friend-Circles.cpp"
 
 CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\547.Friend-Circles.cpp" > CMakeFiles\leetcode.dir\547.Friend-Circles.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\547.Friend-Circles.cpp" > CMakeFiles\leetcode.dir\547.Friend-Circles.cpp.i
 
 CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/547.Friend-Circles.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\547.Friend-Circles.cpp" -o CMakeFiles\leetcode.dir\547.Friend-Circles.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\547.Friend-Circles.cpp" -o CMakeFiles\leetcode.dir\547.Friend-Circles.cpp.s
 
 CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.obj: ../832.Flipping-an-Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\832.Flipping-an-Image.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\832.Flipping-an-Image.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_263) "Building CXX object CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\832.Flipping-an-Image.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\832.Flipping-an-Image.cpp"
 
 CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\832.Flipping-an-Image.cpp" > CMakeFiles\leetcode.dir\832.Flipping-an-Image.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\832.Flipping-an-Image.cpp" > CMakeFiles\leetcode.dir\832.Flipping-an-Image.cpp.i
 
 CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/832.Flipping-an-Image.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\832.Flipping-an-Image.cpp" -o CMakeFiles\leetcode.dir\832.Flipping-an-Image.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\832.Flipping-an-Image.cpp" -o CMakeFiles\leetcode.dir\832.Flipping-an-Image.cpp.s
 
 CMakeFiles/leetcode.dir/77.Combinations.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/77.Combinations.cpp.obj: ../77.Combinations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object CMakeFiles/leetcode.dir/77.Combinations.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\77.Combinations.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\77.Combinations.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_264) "Building CXX object CMakeFiles/leetcode.dir/77.Combinations.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\77.Combinations.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\77.Combinations.cpp"
 
 CMakeFiles/leetcode.dir/77.Combinations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/77.Combinations.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\77.Combinations.cpp" > CMakeFiles\leetcode.dir\77.Combinations.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\77.Combinations.cpp" > CMakeFiles\leetcode.dir\77.Combinations.cpp.i
 
 CMakeFiles/leetcode.dir/77.Combinations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/77.Combinations.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\77.Combinations.cpp" -o CMakeFiles\leetcode.dir\77.Combinations.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\77.Combinations.cpp" -o CMakeFiles\leetcode.dir\77.Combinations.cpp.s
 
 CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.obj: ../216.Combination-Sum-III.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\216.Combination-Sum-III.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\216.Combination-Sum-III.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_265) "Building CXX object CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\216.Combination-Sum-III.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\216.Combination-Sum-III.cpp"
 
 CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\216.Combination-Sum-III.cpp" > CMakeFiles\leetcode.dir\216.Combination-Sum-III.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\216.Combination-Sum-III.cpp" > CMakeFiles\leetcode.dir\216.Combination-Sum-III.cpp.i
 
 CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/216.Combination-Sum-III.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\216.Combination-Sum-III.cpp" -o CMakeFiles\leetcode.dir\216.Combination-Sum-III.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\216.Combination-Sum-III.cpp" -o CMakeFiles\leetcode.dir\216.Combination-Sum-III.cpp.s
 
 CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.obj: ../589.N-ary-Tree-Preorder-Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\589.N-ary-Tree-Preorder-Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\589.N-ary-Tree-Preorder-Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_266) "Building CXX object CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\589.N-ary-Tree-Preorder-Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\589.N-ary-Tree-Preorder-Traversal.cpp"
 
 CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\589.N-ary-Tree-Preorder-Traversal.cpp" > CMakeFiles\leetcode.dir\589.N-ary-Tree-Preorder-Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\589.N-ary-Tree-Preorder-Traversal.cpp" > CMakeFiles\leetcode.dir\589.N-ary-Tree-Preorder-Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/589.N-ary-Tree-Preorder-Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\589.N-ary-Tree-Preorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\589.N-ary-Tree-Preorder-Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\589.N-ary-Tree-Preorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\589.N-ary-Tree-Preorder-Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.obj: ../590.N-ary-Tree-Postorder-Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\590.N-ary-Tree-Postorder-Traversal.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\590.N-ary-Tree-Postorder-Traversal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_267) "Building CXX object CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\590.N-ary-Tree-Postorder-Traversal.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\590.N-ary-Tree-Postorder-Traversal.cpp"
 
 CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\590.N-ary-Tree-Postorder-Traversal.cpp" > CMakeFiles\leetcode.dir\590.N-ary-Tree-Postorder-Traversal.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\590.N-ary-Tree-Postorder-Traversal.cpp" > CMakeFiles\leetcode.dir\590.N-ary-Tree-Postorder-Traversal.cpp.i
 
 CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/590.N-ary-Tree-Postorder-Traversal.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\590.N-ary-Tree-Postorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\590.N-ary-Tree-Postorder-Traversal.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\590.N-ary-Tree-Postorder-Traversal.cpp" -o CMakeFiles\leetcode.dir\590.N-ary-Tree-Postorder-Traversal.cpp.s
 
 CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.obj: ../784.Letter-Case-Permutation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\784.Letter-Case-Permutation.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\784.Letter-Case-Permutation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_268) "Building CXX object CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\784.Letter-Case-Permutation.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\784.Letter-Case-Permutation.cpp"
 
 CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\784.Letter-Case-Permutation.cpp" > CMakeFiles\leetcode.dir\784.Letter-Case-Permutation.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\784.Letter-Case-Permutation.cpp" > CMakeFiles\leetcode.dir\784.Letter-Case-Permutation.cpp.i
 
 CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/784.Letter-Case-Permutation.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\784.Letter-Case-Permutation.cpp" -o CMakeFiles\leetcode.dir\784.Letter-Case-Permutation.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\784.Letter-Case-Permutation.cpp" -o CMakeFiles\leetcode.dir\784.Letter-Case-Permutation.cpp.s
 
 CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.obj: ../389.Find-the-Difference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\389.Find-the-Difference.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\389.Find-the-Difference.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_269) "Building CXX object CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\389.Find-the-Difference.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\389.Find-the-Difference.cpp"
 
 CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\389.Find-the-Difference.cpp" > CMakeFiles\leetcode.dir\389.Find-the-Difference.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\389.Find-the-Difference.cpp" > CMakeFiles\leetcode.dir\389.Find-the-Difference.cpp.i
 
 CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/389.Find-the-Difference.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\389.Find-the-Difference.cpp" -o CMakeFiles\leetcode.dir\389.Find-the-Difference.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\389.Find-the-Difference.cpp" -o CMakeFiles\leetcode.dir\389.Find-the-Difference.cpp.s
 
 CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.obj: ../886.Possible-Bipartition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_270) "Building CXX object CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\886.Possible-Bipartition.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\886.Possible-Bipartition.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_270) "Building CXX object CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\886.Possible-Bipartition.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\886.Possible-Bipartition.cpp"
 
 CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\886.Possible-Bipartition.cpp" > CMakeFiles\leetcode.dir\886.Possible-Bipartition.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\886.Possible-Bipartition.cpp" > CMakeFiles\leetcode.dir\886.Possible-Bipartition.cpp.i
 
 CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/886.Possible-Bipartition.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\886.Possible-Bipartition.cpp" -o CMakeFiles\leetcode.dir\886.Possible-Bipartition.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\886.Possible-Bipartition.cpp" -o CMakeFiles\leetcode.dir\886.Possible-Bipartition.cpp.s
 
 CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.obj: ../785.Is-Graph-Bipartite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_271) "Building CXX object CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\785.Is-Graph-Bipartite.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\785.Is-Graph-Bipartite.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_271) "Building CXX object CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\785.Is-Graph-Bipartite.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\785.Is-Graph-Bipartite.cpp"
 
 CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\785.Is-Graph-Bipartite.cpp" > CMakeFiles\leetcode.dir\785.Is-Graph-Bipartite.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\785.Is-Graph-Bipartite.cpp" > CMakeFiles\leetcode.dir\785.Is-Graph-Bipartite.cpp.i
 
 CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/785.Is-Graph-Bipartite.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\785.Is-Graph-Bipartite.cpp" -o CMakeFiles\leetcode.dir\785.Is-Graph-Bipartite.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\785.Is-Graph-Bipartite.cpp" -o CMakeFiles\leetcode.dir\785.Is-Graph-Bipartite.cpp.s
 
 CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.obj: ../301.Remove-Invalid-Parentheses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_272) "Building CXX object CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\301.Remove-Invalid-Parentheses.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\301.Remove-Invalid-Parentheses.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_272) "Building CXX object CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\301.Remove-Invalid-Parentheses.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\301.Remove-Invalid-Parentheses.cpp"
 
 CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\301.Remove-Invalid-Parentheses.cpp" > CMakeFiles\leetcode.dir\301.Remove-Invalid-Parentheses.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\301.Remove-Invalid-Parentheses.cpp" > CMakeFiles\leetcode.dir\301.Remove-Invalid-Parentheses.cpp.i
 
 CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/301.Remove-Invalid-Parentheses.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\301.Remove-Invalid-Parentheses.cpp" -o CMakeFiles\leetcode.dir\301.Remove-Invalid-Parentheses.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\301.Remove-Invalid-Parentheses.cpp" -o CMakeFiles\leetcode.dir\301.Remove-Invalid-Parentheses.cpp.s
 
 CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.obj: ../407.Trapping-Rain-Water\ II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_273) "Building CXX object CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\407.Trapping-Rain-Water_II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\407.Trapping-Rain-Water II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_273) "Building CXX object CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\407.Trapping-Rain-Water_II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\407.Trapping-Rain-Water II.cpp"
 
 CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\407.Trapping-Rain-Water II.cpp" > CMakeFiles\leetcode.dir\407.Trapping-Rain-Water_II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\407.Trapping-Rain-Water II.cpp" > CMakeFiles\leetcode.dir\407.Trapping-Rain-Water_II.cpp.i
 
 CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/407.Trapping-Rain-Water_II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\407.Trapping-Rain-Water II.cpp" -o CMakeFiles\leetcode.dir\407.Trapping-Rain-Water_II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\407.Trapping-Rain-Water II.cpp" -o CMakeFiles\leetcode.dir\407.Trapping-Rain-Water_II.cpp.s
 
 CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.obj: ../814.Binary-Tree-Pruning.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_274) "Building CXX object CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\814.Binary-Tree-Pruning.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\814.Binary-Tree-Pruning.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_274) "Building CXX object CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\814.Binary-Tree-Pruning.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\814.Binary-Tree-Pruning.cpp"
 
 CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\814.Binary-Tree-Pruning.cpp" > CMakeFiles\leetcode.dir\814.Binary-Tree-Pruning.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\814.Binary-Tree-Pruning.cpp" > CMakeFiles\leetcode.dir\814.Binary-Tree-Pruning.cpp.i
 
 CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/814.Binary-Tree-Pruning.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\814.Binary-Tree-Pruning.cpp" -o CMakeFiles\leetcode.dir\814.Binary-Tree-Pruning.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\814.Binary-Tree-Pruning.cpp" -o CMakeFiles\leetcode.dir\814.Binary-Tree-Pruning.cpp.s
 
 CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.obj: ../669.Trim-a-Binary-Search-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_275) "Building CXX object CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\669.Trim-a-Binary-Search-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\669.Trim-a-Binary-Search-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_275) "Building CXX object CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\669.Trim-a-Binary-Search-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\669.Trim-a-Binary-Search-Tree.cpp"
 
 CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\669.Trim-a-Binary-Search-Tree.cpp" > CMakeFiles\leetcode.dir\669.Trim-a-Binary-Search-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\669.Trim-a-Binary-Search-Tree.cpp" > CMakeFiles\leetcode.dir\669.Trim-a-Binary-Search-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/669.Trim-a-Binary-Search-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\669.Trim-a-Binary-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\669.Trim-a-Binary-Search-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\669.Trim-a-Binary-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\669.Trim-a-Binary-Search-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.obj: ../1325.Delete-Leaves-With-a-Given-Value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_276) "Building CXX object CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1325.Delete-Leaves-With-a-Given-Value.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1325.Delete-Leaves-With-a-Given-Value.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_276) "Building CXX object CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1325.Delete-Leaves-With-a-Given-Value.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1325.Delete-Leaves-With-a-Given-Value.cpp"
 
 CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1325.Delete-Leaves-With-a-Given-Value.cpp" > CMakeFiles\leetcode.dir\1325.Delete-Leaves-With-a-Given-Value.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1325.Delete-Leaves-With-a-Given-Value.cpp" > CMakeFiles\leetcode.dir\1325.Delete-Leaves-With-a-Given-Value.cpp.i
 
 CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1325.Delete-Leaves-With-a-Given-Value.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1325.Delete-Leaves-With-a-Given-Value.cpp" -o CMakeFiles\leetcode.dir\1325.Delete-Leaves-With-a-Given-Value.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1325.Delete-Leaves-With-a-Given-Value.cpp" -o CMakeFiles\leetcode.dir\1325.Delete-Leaves-With-a-Given-Value.cpp.s
 
 CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.obj: ../154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_277) "Building CXX object CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_277) "Building CXX object CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp"
 
 CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp" > CMakeFiles\leetcode.dir\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp" > CMakeFiles\leetcode.dir\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.i
 
 CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp" -o CMakeFiles\leetcode.dir\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp" -o CMakeFiles\leetcode.dir\154.Find-Minimum-in-Rotated-Sorted-Array-II.cpp.s
 
 CMakeFiles/leetcode.dir/343.Integer-Break.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/343.Integer-Break.cpp.obj: ../343.Integer-Break.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_278) "Building CXX object CMakeFiles/leetcode.dir/343.Integer-Break.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\343.Integer-Break.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\343.Integer-Break.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_278) "Building CXX object CMakeFiles/leetcode.dir/343.Integer-Break.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\343.Integer-Break.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\343.Integer-Break.cpp"
 
 CMakeFiles/leetcode.dir/343.Integer-Break.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/343.Integer-Break.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\343.Integer-Break.cpp" > CMakeFiles\leetcode.dir\343.Integer-Break.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\343.Integer-Break.cpp" > CMakeFiles\leetcode.dir\343.Integer-Break.cpp.i
 
 CMakeFiles/leetcode.dir/343.Integer-Break.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/343.Integer-Break.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\343.Integer-Break.cpp" -o CMakeFiles\leetcode.dir\343.Integer-Break.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\343.Integer-Break.cpp" -o CMakeFiles\leetcode.dir\343.Integer-Break.cpp.s
 
 CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.obj: ../bs二分查找/查找一个数.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_279) "Building CXX object CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bs二分查找\查找一个数.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\查找一个数.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_279) "Building CXX object CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bs二分查找\查找一个数.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\bs二分查找\查找一个数.cpp"
 
 CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\查找一个数.cpp" > CMakeFiles\leetcode.dir\bs二分查找\查找一个数.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\bs二分查找\查找一个数.cpp" > CMakeFiles\leetcode.dir\bs二分查找\查找一个数.cpp.i
 
 CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/bs二分查找/查找一个数.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\查找一个数.cpp" -o CMakeFiles\leetcode.dir\bs二分查找\查找一个数.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\bs二分查找\查找一个数.cpp" -o CMakeFiles\leetcode.dir\bs二分查找\查找一个数.cpp.s
 
 CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.obj: ../bs二分查找/左侧边界.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_280) "Building CXX object CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bs二分查找\左侧边界.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\左侧边界.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_280) "Building CXX object CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bs二分查找\左侧边界.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\bs二分查找\左侧边界.cpp"
 
 CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\左侧边界.cpp" > CMakeFiles\leetcode.dir\bs二分查找\左侧边界.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\bs二分查找\左侧边界.cpp" > CMakeFiles\leetcode.dir\bs二分查找\左侧边界.cpp.i
 
 CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/bs二分查找/左侧边界.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\左侧边界.cpp" -o CMakeFiles\leetcode.dir\bs二分查找\左侧边界.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\bs二分查找\左侧边界.cpp" -o CMakeFiles\leetcode.dir\bs二分查找\左侧边界.cpp.s
 
 CMakeFiles/leetcode.dir/65.Valid-Number.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/65.Valid-Number.cpp.obj: ../65.Valid-Number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_281) "Building CXX object CMakeFiles/leetcode.dir/65.Valid-Number.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\65.Valid-Number.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\65.Valid-Number.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_281) "Building CXX object CMakeFiles/leetcode.dir/65.Valid-Number.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\65.Valid-Number.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\65.Valid-Number.cpp"
 
 CMakeFiles/leetcode.dir/65.Valid-Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/65.Valid-Number.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\65.Valid-Number.cpp" > CMakeFiles\leetcode.dir\65.Valid-Number.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\65.Valid-Number.cpp" > CMakeFiles\leetcode.dir\65.Valid-Number.cpp.i
 
 CMakeFiles/leetcode.dir/65.Valid-Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/65.Valid-Number.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\65.Valid-Number.cpp" -o CMakeFiles\leetcode.dir\65.Valid-Number.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\65.Valid-Number.cpp" -o CMakeFiles\leetcode.dir\65.Valid-Number.cpp.s
 
 CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.obj: ../bs二分查找/右侧边界.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_282) "Building CXX object CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bs二分查找\右侧边界.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\右侧边界.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_282) "Building CXX object CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bs二分查找\右侧边界.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\bs二分查找\右侧边界.cpp"
 
 CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\右侧边界.cpp" > CMakeFiles\leetcode.dir\bs二分查找\右侧边界.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\bs二分查找\右侧边界.cpp" > CMakeFiles\leetcode.dir\bs二分查找\右侧边界.cpp.i
 
 CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/bs二分查找/右侧边界.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\bs二分查找\右侧边界.cpp" -o CMakeFiles\leetcode.dir\bs二分查找\右侧边界.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\bs二分查找\右侧边界.cpp" -o CMakeFiles\leetcode.dir\bs二分查找\右侧边界.cpp.s
 
 CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.obj: ../76.Minimum-Window-Substring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_283) "Building CXX object CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\76.Minimum-Window-Substring.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\76.Minimum-Window-Substring.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_283) "Building CXX object CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\76.Minimum-Window-Substring.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\76.Minimum-Window-Substring.cpp"
 
 CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\76.Minimum-Window-Substring.cpp" > CMakeFiles\leetcode.dir\76.Minimum-Window-Substring.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\76.Minimum-Window-Substring.cpp" > CMakeFiles\leetcode.dir\76.Minimum-Window-Substring.cpp.i
 
 CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/76.Minimum-Window-Substring.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\76.Minimum-Window-Substring.cpp" -o CMakeFiles\leetcode.dir\76.Minimum-Window-Substring.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\76.Minimum-Window-Substring.cpp" -o CMakeFiles\leetcode.dir\76.Minimum-Window-Substring.cpp.s
 
 CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.obj: ../567.Permutation-in-String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_284) "Building CXX object CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\567.Permutation-in-String.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\567.Permutation-in-String.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_284) "Building CXX object CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\567.Permutation-in-String.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\567.Permutation-in-String.cpp"
 
 CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\567.Permutation-in-String.cpp" > CMakeFiles\leetcode.dir\567.Permutation-in-String.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\567.Permutation-in-String.cpp" > CMakeFiles\leetcode.dir\567.Permutation-in-String.cpp.i
 
 CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/567.Permutation-in-String.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\567.Permutation-in-String.cpp" -o CMakeFiles\leetcode.dir\567.Permutation-in-String.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\567.Permutation-in-String.cpp" -o CMakeFiles\leetcode.dir\567.Permutation-in-String.cpp.s
 
 CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.obj: ../239.Sliding-Window-Maximum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_285) "Building CXX object CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\239.Sliding-Window-Maximum.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\239.Sliding-Window-Maximum.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_285) "Building CXX object CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\239.Sliding-Window-Maximum.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\239.Sliding-Window-Maximum.cpp"
 
 CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\239.Sliding-Window-Maximum.cpp" > CMakeFiles\leetcode.dir\239.Sliding-Window-Maximum.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\239.Sliding-Window-Maximum.cpp" > CMakeFiles\leetcode.dir\239.Sliding-Window-Maximum.cpp.i
 
 CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/239.Sliding-Window-Maximum.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\239.Sliding-Window-Maximum.cpp" -o CMakeFiles\leetcode.dir\239.Sliding-Window-Maximum.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\239.Sliding-Window-Maximum.cpp" -o CMakeFiles\leetcode.dir\239.Sliding-Window-Maximum.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.obj: ../sort排序算法/1.冒泡排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_286) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\1.冒泡排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\1.冒泡排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_286) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\1.冒泡排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\1.冒泡排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\1.冒泡排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\1.冒泡排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\1.冒泡排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\1.冒泡排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/1.冒泡排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\1.冒泡排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\1.冒泡排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\1.冒泡排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\1.冒泡排序.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.obj: ../sort排序算法/2.希尔排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_287) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\2.希尔排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\2.希尔排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_287) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\2.希尔排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\2.希尔排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\2.希尔排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\2.希尔排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\2.希尔排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\2.希尔排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/2.希尔排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\2.希尔排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\2.希尔排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\2.希尔排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\2.希尔排序.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.obj: ../sort排序算法/3.归并排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_288) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\3.归并排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\3.归并排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_288) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\3.归并排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\3.归并排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\3.归并排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\3.归并排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\3.归并排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\3.归并排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/3.归并排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\3.归并排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\3.归并排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\3.归并排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\3.归并排序.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.obj: ../sort排序算法/4.插入排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_289) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\4.插入排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\4.插入排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_289) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\4.插入排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\4.插入排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\4.插入排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\4.插入排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\4.插入排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\4.插入排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/4.插入排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\4.插入排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\4.插入排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\4.插入排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\4.插入排序.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.obj: ../sort排序算法/5.选择排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_290) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\5.选择排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\5.选择排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_290) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\5.选择排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\5.选择排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\5.选择排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\5.选择排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\5.选择排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\5.选择排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/5.选择排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\5.选择排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\5.选择排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\5.选择排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\5.选择排序.cpp.s
 
 CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.obj: ../235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_291) "Building CXX object CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_291) "Building CXX object CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp"
 
 CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp" > CMakeFiles\leetcode.dir\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp" > CMakeFiles\leetcode.dir\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp" -o CMakeFiles\leetcode.dir\235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.obj: ../236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_292) "Building CXX object CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_292) "Building CXX object CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp"
 
 CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp" > CMakeFiles\leetcode.dir\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.i
 
 CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp" -o CMakeFiles\leetcode.dir\236.Lowest-Common-Ancestor-of-a-Binary-Tree.cpp.s
 
 CMakeFiles/leetcode.dir/51.N-Queens.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/51.N-Queens.cpp.obj: ../51.N-Queens.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_293) "Building CXX object CMakeFiles/leetcode.dir/51.N-Queens.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\51.N-Queens.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\51.N-Queens.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_293) "Building CXX object CMakeFiles/leetcode.dir/51.N-Queens.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\51.N-Queens.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\51.N-Queens.cpp"
 
 CMakeFiles/leetcode.dir/51.N-Queens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/51.N-Queens.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\51.N-Queens.cpp" > CMakeFiles\leetcode.dir\51.N-Queens.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\51.N-Queens.cpp" > CMakeFiles\leetcode.dir\51.N-Queens.cpp.i
 
 CMakeFiles/leetcode.dir/51.N-Queens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/51.N-Queens.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\51.N-Queens.cpp" -o CMakeFiles\leetcode.dir\51.N-Queens.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\51.N-Queens.cpp" -o CMakeFiles\leetcode.dir\51.N-Queens.cpp.s
 
 CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.obj: ../224.Basic-Calculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_294) "Building CXX object CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\224.Basic-Calculator.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\224.Basic-Calculator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_294) "Building CXX object CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\224.Basic-Calculator.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\224.Basic-Calculator.cpp"
 
 CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\224.Basic-Calculator.cpp" > CMakeFiles\leetcode.dir\224.Basic-Calculator.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\224.Basic-Calculator.cpp" > CMakeFiles\leetcode.dir\224.Basic-Calculator.cpp.i
 
 CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/224.Basic-Calculator.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\224.Basic-Calculator.cpp" -o CMakeFiles\leetcode.dir\224.Basic-Calculator.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\224.Basic-Calculator.cpp" -o CMakeFiles\leetcode.dir\224.Basic-Calculator.cpp.s
 
 CMakeFiles/leetcode.dir/demo.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/demo.c.obj: ../demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/leetcode.dir/demo.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\demo.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\demo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/leetcode.dir/demo.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\demo.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\demo.c"
 
 CMakeFiles/leetcode.dir/demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/demo.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\demo.c" > CMakeFiles\leetcode.dir\demo.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\demo.c" > CMakeFiles\leetcode.dir\demo.c.i
 
 CMakeFiles/leetcode.dir/demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/demo.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\demo.c" -o CMakeFiles\leetcode.dir\demo.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\demo.c" -o CMakeFiles\leetcode.dir\demo.c.s
 
 CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.obj: ../493.Reverse-Pairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_296) "Building CXX object CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\493.Reverse-Pairs.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\493.Reverse-Pairs.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_296) "Building CXX object CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\493.Reverse-Pairs.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\493.Reverse-Pairs.cpp"
 
 CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\493.Reverse-Pairs.cpp" > CMakeFiles\leetcode.dir\493.Reverse-Pairs.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\493.Reverse-Pairs.cpp" > CMakeFiles\leetcode.dir\493.Reverse-Pairs.cpp.i
 
 CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/493.Reverse-Pairs.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\493.Reverse-Pairs.cpp" -o CMakeFiles\leetcode.dir\493.Reverse-Pairs.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\493.Reverse-Pairs.cpp" -o CMakeFiles\leetcode.dir\493.Reverse-Pairs.cpp.s
 
 CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.obj: ../1024.Video-Stitching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_297) "Building CXX object CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1024.Video-Stitching.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\1024.Video-Stitching.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_297) "Building CXX object CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\1024.Video-Stitching.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\1024.Video-Stitching.cpp"
 
 CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\1024.Video-Stitching.cpp" > CMakeFiles\leetcode.dir\1024.Video-Stitching.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\1024.Video-Stitching.cpp" > CMakeFiles\leetcode.dir\1024.Video-Stitching.cpp.i
 
 CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/1024.Video-Stitching.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\1024.Video-Stitching.cpp" -o CMakeFiles\leetcode.dir\1024.Video-Stitching.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\1024.Video-Stitching.cpp" -o CMakeFiles\leetcode.dir\1024.Video-Stitching.cpp.s
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.obj: ../tg腾讯笔试题/1.视野争夺.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_298) "Building CXX object CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\tg腾讯笔试题\1.视野争夺.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\1.视野争夺.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_298) "Building CXX object CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\tg腾讯笔试题\1.视野争夺.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\1.视野争夺.cpp"
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\1.视野争夺.cpp" > CMakeFiles\leetcode.dir\tg腾讯笔试题\1.视野争夺.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\1.视野争夺.cpp" > CMakeFiles\leetcode.dir\tg腾讯笔试题\1.视野争夺.cpp.i
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/tg腾讯笔试题/1.视野争夺.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\1.视野争夺.cpp" -o CMakeFiles\leetcode.dir\tg腾讯笔试题\1.视野争夺.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\1.视野争夺.cpp" -o CMakeFiles\leetcode.dir\tg腾讯笔试题\1.视野争夺.cpp.s
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.obj: ../tg腾讯笔试题/2.逛街.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_299) "Building CXX object CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\tg腾讯笔试题\2.逛街.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\2.逛街.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_299) "Building CXX object CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\tg腾讯笔试题\2.逛街.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\2.逛街.cpp"
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\2.逛街.cpp" > CMakeFiles\leetcode.dir\tg腾讯笔试题\2.逛街.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\2.逛街.cpp" > CMakeFiles\leetcode.dir\tg腾讯笔试题\2.逛街.cpp.i
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/tg腾讯笔试题/2.逛街.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\2.逛街.cpp" -o CMakeFiles\leetcode.dir\tg腾讯笔试题\2.逛街.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\2.逛街.cpp" -o CMakeFiles\leetcode.dir\tg腾讯笔试题\2.逛街.cpp.s
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.obj: ../tg腾讯笔试题/3.压缩算法.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_300) "Building CXX object CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\tg腾讯笔试题\3.压缩算法.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\3.压缩算法.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_300) "Building CXX object CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\tg腾讯笔试题\3.压缩算法.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\3.压缩算法.cpp"
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\3.压缩算法.cpp" > CMakeFiles\leetcode.dir\tg腾讯笔试题\3.压缩算法.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\3.压缩算法.cpp" > CMakeFiles\leetcode.dir\tg腾讯笔试题\3.压缩算法.cpp.i
 
 CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/tg腾讯笔试题/3.压缩算法.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\tg腾讯笔试题\3.压缩算法.cpp" -o CMakeFiles\leetcode.dir\tg腾讯笔试题\3.压缩算法.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\tg腾讯笔试题\3.压缩算法.cpp" -o CMakeFiles\leetcode.dir\tg腾讯笔试题\3.压缩算法.cpp.s
 
 CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.obj: ../215.Kth-Largest-Element-in-an-Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_301) "Building CXX object CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\215.Kth-Largest-Element-in-an-Array.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\215.Kth-Largest-Element-in-an-Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_301) "Building CXX object CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\215.Kth-Largest-Element-in-an-Array.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\215.Kth-Largest-Element-in-an-Array.cpp"
 
 CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\215.Kth-Largest-Element-in-an-Array.cpp" > CMakeFiles\leetcode.dir\215.Kth-Largest-Element-in-an-Array.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\215.Kth-Largest-Element-in-an-Array.cpp" > CMakeFiles\leetcode.dir\215.Kth-Largest-Element-in-an-Array.cpp.i
 
 CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/215.Kth-Largest-Element-in-an-Array.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\215.Kth-Largest-Element-in-an-Array.cpp" -o CMakeFiles\leetcode.dir\215.Kth-Largest-Element-in-an-Array.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\215.Kth-Largest-Element-in-an-Array.cpp" -o CMakeFiles\leetcode.dir\215.Kth-Largest-Element-in-an-Array.cpp.s
 
 CMakeFiles/leetcode.dir/67.Add-Binary.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/67.Add-Binary.cpp.obj: ../67.Add-Binary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_302) "Building CXX object CMakeFiles/leetcode.dir/67.Add-Binary.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\67.Add-Binary.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\67.Add-Binary.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_302) "Building CXX object CMakeFiles/leetcode.dir/67.Add-Binary.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\67.Add-Binary.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\67.Add-Binary.cpp"
 
 CMakeFiles/leetcode.dir/67.Add-Binary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/67.Add-Binary.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\67.Add-Binary.cpp" > CMakeFiles\leetcode.dir\67.Add-Binary.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\67.Add-Binary.cpp" > CMakeFiles\leetcode.dir\67.Add-Binary.cpp.i
 
 CMakeFiles/leetcode.dir/67.Add-Binary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/67.Add-Binary.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\67.Add-Binary.cpp" -o CMakeFiles\leetcode.dir\67.Add-Binary.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\67.Add-Binary.cpp" -o CMakeFiles\leetcode.dir\67.Add-Binary.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.obj: ../sort排序算法/6.快速排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_303) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\6.快速排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\6.快速排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_303) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\6.快速排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\6.快速排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\6.快速排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\6.快速排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\6.快速排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\6.快速排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/6.快速排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\6.快速排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\6.快速排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\6.快速排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\6.快速排序.cpp.s
 
 CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.obj: ../single单例模式/1.懒汉模式_双重检测.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_304) "Building CXX object CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\single单例模式\1.懒汉模式_双重检测.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\1.懒汉模式_双重检测.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_304) "Building CXX object CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\single单例模式\1.懒汉模式_双重检测.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\single单例模式\1.懒汉模式_双重检测.cpp"
 
 CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\1.懒汉模式_双重检测.cpp" > CMakeFiles\leetcode.dir\single单例模式\1.懒汉模式_双重检测.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\single单例模式\1.懒汉模式_双重检测.cpp" > CMakeFiles\leetcode.dir\single单例模式\1.懒汉模式_双重检测.cpp.i
 
 CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/single单例模式/1.懒汉模式_双重检测.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\1.懒汉模式_双重检测.cpp" -o CMakeFiles\leetcode.dir\single单例模式\1.懒汉模式_双重检测.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\single单例模式\1.懒汉模式_双重检测.cpp" -o CMakeFiles\leetcode.dir\single单例模式\1.懒汉模式_双重检测.cpp.s
 
 CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.obj: ../single单例模式/2.懒汉模式_局部静态变量.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_305) "Building CXX object CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\single单例模式\2.懒汉模式_局部静态变量.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\2.懒汉模式_局部静态变量.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_305) "Building CXX object CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\single单例模式\2.懒汉模式_局部静态变量.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\single单例模式\2.懒汉模式_局部静态变量.cpp"
 
 CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\2.懒汉模式_局部静态变量.cpp" > CMakeFiles\leetcode.dir\single单例模式\2.懒汉模式_局部静态变量.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\single单例模式\2.懒汉模式_局部静态变量.cpp" > CMakeFiles\leetcode.dir\single单例模式\2.懒汉模式_局部静态变量.cpp.i
 
 CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/single单例模式/2.懒汉模式_局部静态变量.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\2.懒汉模式_局部静态变量.cpp" -o CMakeFiles\leetcode.dir\single单例模式\2.懒汉模式_局部静态变量.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\single单例模式\2.懒汉模式_局部静态变量.cpp" -o CMakeFiles\leetcode.dir\single单例模式\2.懒汉模式_局部静态变量.cpp.s
 
 CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.obj: ../single单例模式/3.饿汉模式.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_306) "Building CXX object CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\single单例模式\3.饿汉模式.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\3.饿汉模式.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_306) "Building CXX object CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\single单例模式\3.饿汉模式.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\single单例模式\3.饿汉模式.cpp"
 
 CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\3.饿汉模式.cpp" > CMakeFiles\leetcode.dir\single单例模式\3.饿汉模式.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\single单例模式\3.饿汉模式.cpp" > CMakeFiles\leetcode.dir\single单例模式\3.饿汉模式.cpp.i
 
 CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/single单例模式/3.饿汉模式.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\single单例模式\3.饿汉模式.cpp" -o CMakeFiles\leetcode.dir\single单例模式\3.饿汉模式.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\single单例模式\3.饿汉模式.cpp" -o CMakeFiles\leetcode.dir\single单例模式\3.饿汉模式.cpp.s
 
 CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.obj: ../houjieC++/OOP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_307) "Building CXX object CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\houjieC++\OOP.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\OOP.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_307) "Building CXX object CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\houjieC++\OOP.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\houjieC++\OOP.cpp"
 
 CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\OOP.cpp" > CMakeFiles\leetcode.dir\houjieC++\OOP.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\houjieC++\OOP.cpp" > CMakeFiles\leetcode.dir\houjieC++\OOP.cpp.i
 
 CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\OOP.cpp" -o CMakeFiles\leetcode.dir\houjieC++\OOP.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\houjieC++\OOP.cpp" -o CMakeFiles\leetcode.dir\houjieC++\OOP.cpp.s
 
 CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.obj: ../houjieC++/complex_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_308) "Building CXX object CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\houjieC++\complex_test.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\complex_test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_308) "Building CXX object CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\houjieC++\complex_test.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\houjieC++\complex_test.cpp"
 
 CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\complex_test.cpp" > CMakeFiles\leetcode.dir\houjieC++\complex_test.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\houjieC++\complex_test.cpp" > CMakeFiles\leetcode.dir\houjieC++\complex_test.cpp.i
 
 CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\complex_test.cpp" -o CMakeFiles\leetcode.dir\houjieC++\complex_test.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\houjieC++\complex_test.cpp" -o CMakeFiles\leetcode.dir\houjieC++\complex_test.cpp.s
 
 CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.obj: ../houjieC++/string_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_309) "Building CXX object CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\houjieC++\string_test.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\string_test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_309) "Building CXX object CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\houjieC++\string_test.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\houjieC++\string_test.cpp"
 
 CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\string_test.cpp" > CMakeFiles\leetcode.dir\houjieC++\string_test.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\houjieC++\string_test.cpp" > CMakeFiles\leetcode.dir\houjieC++\string_test.cpp.i
 
 CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\houjieC++\string_test.cpp" -o CMakeFiles\leetcode.dir\houjieC++\string_test.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\houjieC++\string_test.cpp" -o CMakeFiles\leetcode.dir\houjieC++\string_test.cpp.s
 
 CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.obj: ../smart-pointer智能指针/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_310) "Building CXX object CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\smart-pointer智能指针\test.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\smart-pointer智能指针\test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_310) "Building CXX object CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\smart-pointer智能指针\test.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\smart-pointer智能指针\test.cpp"
 
 CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\smart-pointer智能指针\test.cpp" > CMakeFiles\leetcode.dir\smart-pointer智能指针\test.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\smart-pointer智能指针\test.cpp" > CMakeFiles\leetcode.dir\smart-pointer智能指针\test.cpp.i
 
 CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\smart-pointer智能指针\test.cpp" -o CMakeFiles\leetcode.dir\smart-pointer智能指针\test.cpp.s
-
-CMakeFiles/leetcode.dir/test/1.cpp.obj: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/test/1.cpp.obj: ../test/1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_311) "Building CXX object CMakeFiles/leetcode.dir/test/1.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\test\1.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\test\1.cpp"
-
-CMakeFiles/leetcode.dir/test/1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/test/1.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\test\1.cpp" > CMakeFiles\leetcode.dir\test\1.cpp.i
-
-CMakeFiles/leetcode.dir/test/1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/test/1.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\test\1.cpp" -o CMakeFiles\leetcode.dir\test\1.cpp.s
-
-CMakeFiles/leetcode.dir/test/2.cpp.obj: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/test/2.cpp.obj: ../test/2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_312) "Building CXX object CMakeFiles/leetcode.dir/test/2.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\test\2.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\test\2.cpp"
-
-CMakeFiles/leetcode.dir/test/2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/test/2.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\test\2.cpp" > CMakeFiles\leetcode.dir\test\2.cpp.i
-
-CMakeFiles/leetcode.dir/test/2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/test/2.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\test\2.cpp" -o CMakeFiles\leetcode.dir\test\2.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\smart-pointer智能指针\test.cpp" -o CMakeFiles\leetcode.dir\smart-pointer智能指针\test.cpp.s
 
 CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.obj: ../sort排序算法/7.堆排序.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_313) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\7.堆排序.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\7.堆排序.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_311) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\7.堆排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\7.堆排序.cpp"
 
 CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\7.堆排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\7.堆排序.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\7.堆排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\7.堆排序.cpp.i
 
 CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\sort排序算法\7.堆排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\7.堆排序.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\7.堆排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\7.堆排序.cpp.s
 
 CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.obj: ../c-func函数实现/strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\c-func函数实现\strcpy.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\c-func函数实现\strcpy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\c-func函数实现\strcpy.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\strcpy.c"
 
 CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\c-func函数实现\strcpy.c" > CMakeFiles\leetcode.dir\c-func函数实现\strcpy.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\strcpy.c" > CMakeFiles\leetcode.dir\c-func函数实现\strcpy.c.i
 
 CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\c-func函数实现\strcpy.c" -o CMakeFiles\leetcode.dir\c-func函数实现\strcpy.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\strcpy.c" -o CMakeFiles\leetcode.dir\c-func函数实现\strcpy.c.s
 
 CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.obj: ../Union-find并查集/union-find.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_315) "Building CXX object CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\Union-find并查集\union-find.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\Union-find并查集\union-find.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_313) "Building CXX object CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\Union-find并查集\union-find.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\Union-find并查集\union-find.cpp"
 
 CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\Union-find并查集\union-find.cpp" > CMakeFiles\leetcode.dir\Union-find并查集\union-find.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\Union-find并查集\union-find.cpp" > CMakeFiles\leetcode.dir\Union-find并查集\union-find.cpp.i
 
 CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\Union-find并查集\union-find.cpp" -o CMakeFiles\leetcode.dir\Union-find并查集\union-find.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\Union-find并查集\union-find.cpp" -o CMakeFiles\leetcode.dir\Union-find并查集\union-find.cpp.s
 
 CMakeFiles/leetcode.dir/gdb学习/demo.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/gdb学习/demo.c.obj: ../gdb学习/demo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/leetcode.dir/gdb学习/demo.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\gdb学习\demo.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\demo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/leetcode.dir/gdb学习/demo.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\gdb学习\demo.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\gdb学习\demo.c"
 
 CMakeFiles/leetcode.dir/gdb学习/demo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/gdb学习/demo.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\demo.c" > CMakeFiles\leetcode.dir\gdb学习\demo.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\gdb学习\demo.c" > CMakeFiles\leetcode.dir\gdb学习\demo.c.i
 
 CMakeFiles/leetcode.dir/gdb学习/demo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/gdb学习/demo.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\demo.c" -o CMakeFiles\leetcode.dir\gdb学习\demo.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\gdb学习\demo.c" -o CMakeFiles\leetcode.dir\gdb学习\demo.c.s
 
 CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.obj: ../gdb学习/fibonacci.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\gdb学习\fibonacci.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\fibonacci.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\gdb学习\fibonacci.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\gdb学习\fibonacci.c"
 
 CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\fibonacci.c" > CMakeFiles\leetcode.dir\gdb学习\fibonacci.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\gdb学习\fibonacci.c" > CMakeFiles\leetcode.dir\gdb学习\fibonacci.c.i
 
 CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/gdb学习/fibonacci.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\fibonacci.c" -o CMakeFiles\leetcode.dir\gdb学习\fibonacci.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\gdb学习\fibonacci.c" -o CMakeFiles\leetcode.dir\gdb学习\fibonacci.c.s
 
 CMakeFiles/leetcode.dir/gdb学习/memory.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/gdb学习/memory.c.obj: ../gdb学习/memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/leetcode.dir/gdb学习/memory.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\gdb学习\memory.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\memory.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/leetcode.dir/gdb学习/memory.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\gdb学习\memory.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\gdb学习\memory.c"
 
 CMakeFiles/leetcode.dir/gdb学习/memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/gdb学习/memory.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\memory.c" > CMakeFiles\leetcode.dir\gdb学习\memory.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\gdb学习\memory.c" > CMakeFiles\leetcode.dir\gdb学习\memory.c.i
 
 CMakeFiles/leetcode.dir/gdb学习/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/gdb学习/memory.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\gdb学习\memory.c" -o CMakeFiles\leetcode.dir\gdb学习\memory.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\gdb学习\memory.c" -o CMakeFiles\leetcode.dir\gdb学习\memory.c.s
 
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.obj: ../BlockQueue阻塞队列/BlockQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_319) "Building CXX object CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\BlockQueue.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\BlockQueue阻塞队列\BlockQueue.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_317) "Building CXX object CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\BlockQueue.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\BlockQueue阻塞队列\BlockQueue.cpp"
 
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\BlockQueue阻塞队列\BlockQueue.cpp" > CMakeFiles\leetcode.dir\BlockQueue阻塞队列\BlockQueue.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\BlockQueue阻塞队列\BlockQueue.cpp" > CMakeFiles\leetcode.dir\BlockQueue阻塞队列\BlockQueue.cpp.i
 
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/BlockQueue阻塞队列/BlockQueue.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\BlockQueue阻塞队列\BlockQueue.cpp" -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\BlockQueue.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\BlockQueue阻塞队列\BlockQueue.cpp" -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\BlockQueue.cpp.s
 
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.obj: ../BlockQueue阻塞队列/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_320) "Building CXX object CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\test.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\BlockQueue阻塞队列\test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_318) "Building CXX object CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\test.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\BlockQueue阻塞队列\test.cpp"
 
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\BlockQueue阻塞队列\test.cpp" > CMakeFiles\leetcode.dir\BlockQueue阻塞队列\test.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\BlockQueue阻塞队列\test.cpp" > CMakeFiles\leetcode.dir\BlockQueue阻塞队列\test.cpp.i
 
 CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/BlockQueue阻塞队列/test.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\BlockQueue阻塞队列\test.cpp" -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\test.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\BlockQueue阻塞队列\test.cpp" -o CMakeFiles\leetcode.dir\BlockQueue阻塞队列\test.cpp.s
 
 CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.obj: ../interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_321) "Building CXX object CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_319) "Building CXX object CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp"
 
 CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp" > CMakeFiles\leetcode.dir\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp" > CMakeFiles\leetcode.dir\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp.i
 
 CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去掉m位后求最大值问题.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp" -o CMakeFiles\leetcode.dir\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp" -o CMakeFiles\leetcode.dir\interview面经算法题\1.n位整数去掉m位后求最大值问题.cpp.s
 
 CMakeFiles/leetcode.dir/compile程序编译/test.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/compile程序编译/test.c.obj: ../compile程序编译/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/leetcode.dir/compile程序编译/test.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\compile程序编译\test.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\compile程序编译\test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/leetcode.dir/compile程序编译/test.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\compile程序编译\test.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\compile程序编译\test.c"
 
 CMakeFiles/leetcode.dir/compile程序编译/test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/compile程序编译/test.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\compile程序编译\test.c" > CMakeFiles\leetcode.dir\compile程序编译\test.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\compile程序编译\test.c" > CMakeFiles\leetcode.dir\compile程序编译\test.c.i
 
 CMakeFiles/leetcode.dir/compile程序编译/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/compile程序编译/test.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\compile程序编译\test.c" -o CMakeFiles\leetcode.dir\compile程序编译\test.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\compile程序编译\test.c" -o CMakeFiles\leetcode.dir\compile程序编译\test.c.s
 
 CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.obj: ../compile程序编译/inc/math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.obj"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\compile程序编译\inc\math.c.obj   -c "D:\CLion 2020.1.2\workspace\leetcode\compile程序编译\inc\math.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\compile程序编译\inc\math.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\compile程序编译\inc\math.c"
 
 CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.i"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\compile程序编译\inc\math.c" > CMakeFiles\leetcode.dir\compile程序编译\inc\math.c.i
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\compile程序编译\inc\math.c" > CMakeFiles\leetcode.dir\compile程序编译\inc\math.c.i
 
 CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.s"
-	D:\PROGRA~1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\compile程序编译\inc\math.c" -o CMakeFiles\leetcode.dir\compile程序编译\inc\math.c.s
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\compile程序编译\inc\math.c" -o CMakeFiles\leetcode.dir\compile程序编译\inc\math.c.s
 
 CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.obj: ../random相关的算法/1.Shuffling-card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_324) "Building CXX object CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\random相关的算法\1.Shuffling-card.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\random相关的算法\1.Shuffling-card.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_322) "Building CXX object CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\random相关的算法\1.Shuffling-card.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\random相关的算法\1.Shuffling-card.cpp"
 
 CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\random相关的算法\1.Shuffling-card.cpp" > CMakeFiles\leetcode.dir\random相关的算法\1.Shuffling-card.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\random相关的算法\1.Shuffling-card.cpp" > CMakeFiles\leetcode.dir\random相关的算法\1.Shuffling-card.cpp.i
 
 CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\random相关的算法\1.Shuffling-card.cpp" -o CMakeFiles\leetcode.dir\random相关的算法\1.Shuffling-card.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\random相关的算法\1.Shuffling-card.cpp" -o CMakeFiles\leetcode.dir\random相关的算法\1.Shuffling-card.cpp.s
 
-CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.obj: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.obj: ../string类简单实现/myString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_325) "Building CXX object CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\string类简单实现\myString.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\string类简单实现\myString.cpp"
+CMakeFiles/leetcode.dir/string类简单实现/String.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/string类简单实现/String.cpp.obj: ../string类简单实现/String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_323) "Building CXX object CMakeFiles/leetcode.dir/string类简单实现/String.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\string类简单实现\String.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\string类简单实现\String.cpp"
 
-CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\string类简单实现\myString.cpp" > CMakeFiles\leetcode.dir\string类简单实现\myString.cpp.i
+CMakeFiles/leetcode.dir/string类简单实现/String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/string类简单实现/String.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\string类简单实现\String.cpp" > CMakeFiles\leetcode.dir\string类简单实现\String.cpp.i
 
-CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\string类简单实现\myString.cpp" -o CMakeFiles\leetcode.dir\string类简单实现\myString.cpp.s
+CMakeFiles/leetcode.dir/string类简单实现/String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/string类简单实现/String.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\string类简单实现\String.cpp" -o CMakeFiles\leetcode.dir\string类简单实现\String.cpp.s
 
 CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj: CMakeFiles/leetcode.dir/flags.make
 CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj: ../threadpool线程池/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_326) "Building CXX object CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\threadpool线程池\test.cpp.obj -c "D:\CLion 2020.1.2\workspace\leetcode\threadpool线程池\test.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_324) "Building CXX object CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\threadpool线程池\test.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\threadpool线程池\test.cpp"
 
 CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.i"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.1.2\workspace\leetcode\threadpool线程池\test.cpp" > CMakeFiles\leetcode.dir\threadpool线程池\test.cpp.i
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\threadpool线程池\test.cpp" > CMakeFiles\leetcode.dir\threadpool线程池\test.cpp.i
 
 CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.s"
-	D:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.1.2\workspace\leetcode\threadpool线程池\test.cpp" -o CMakeFiles\leetcode.dir\threadpool线程池\test.cpp.s
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\threadpool线程池\test.cpp" -o CMakeFiles\leetcode.dir\threadpool线程池\test.cpp.s
+
+CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.obj: ../sort排序算法/8.第K大的数.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_325) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\8.第K大的数.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\8.第K大的数.cpp"
+
+CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\8.第K大的数.cpp" > CMakeFiles\leetcode.dir\sort排序算法\8.第K大的数.cpp.i
+
+CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\8.第K大的数.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\8.第K大的数.cpp.s
+
+CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.obj: ../design系统设计/1.LRU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_326) "Building CXX object CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\design系统设计\1.LRU.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\design系统设计\1.LRU.cpp"
+
+CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\design系统设计\1.LRU.cpp" > CMakeFiles\leetcode.dir\design系统设计\1.LRU.cpp.i
+
+CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\design系统设计\1.LRU.cpp" -o CMakeFiles\leetcode.dir\design系统设计\1.LRU.cpp.s
+
+CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.obj: ../design系统设计/2.LFU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_327) "Building CXX object CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\design系统设计\2.LFU.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\design系统设计\2.LFU.cpp"
+
+CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\design系统设计\2.LFU.cpp" > CMakeFiles\leetcode.dir\design系统设计\2.LFU.cpp.i
+
+CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\design系统设计\2.LFU.cpp" -o CMakeFiles\leetcode.dir\design系统设计\2.LFU.cpp.s
+
+CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.obj: ../操作符重载/前置++和后置++.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_328) "Building CXX object CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\操作符重载\前置++和后置++.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\操作符重载\前置++和后置++.cpp"
+
+CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\操作符重载\前置++和后置++.cpp" > CMakeFiles\leetcode.dir\操作符重载\前置++和后置++.cpp.i
+
+CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\操作符重载\前置++和后置++.cpp" -o CMakeFiles\leetcode.dir\操作符重载\前置++和后置++.cpp.s
+
+CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.obj: ../smart-pointer智能指针/unique_ptr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_329) "Building CXX object CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\smart-pointer智能指针\unique_ptr.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\smart-pointer智能指针\unique_ptr.cpp"
+
+CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\smart-pointer智能指针\unique_ptr.cpp" > CMakeFiles\leetcode.dir\smart-pointer智能指针\unique_ptr.cpp.i
+
+CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\smart-pointer智能指针\unique_ptr.cpp" -o CMakeFiles\leetcode.dir\smart-pointer智能指针\unique_ptr.cpp.s
+
+CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.obj: ../graph图相关/1.图DFS遍历.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_330) "Building CXX object CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\graph图相关\1.图DFS遍历.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\graph图相关\1.图DFS遍历.cpp"
+
+CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\graph图相关\1.图DFS遍历.cpp" > CMakeFiles\leetcode.dir\graph图相关\1.图DFS遍历.cpp.i
+
+CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\graph图相关\1.图DFS遍历.cpp" -o CMakeFiles\leetcode.dir\graph图相关\1.图DFS遍历.cpp.s
+
+CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.obj: ../graph图相关/2.图BFS遍历.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_331) "Building CXX object CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\graph图相关\2.图BFS遍历.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\graph图相关\2.图BFS遍历.cpp"
+
+CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\graph图相关\2.图BFS遍历.cpp" > CMakeFiles\leetcode.dir\graph图相关\2.图BFS遍历.cpp.i
+
+CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\graph图相关\2.图BFS遍历.cpp" -o CMakeFiles\leetcode.dir\graph图相关\2.图BFS遍历.cpp.s
+
+CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.obj: ../graph图相关/3.判断图是否有环.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_332) "Building CXX object CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\graph图相关\3.判断图是否有环.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\graph图相关\3.判断图是否有环.cpp"
+
+CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\graph图相关\3.判断图是否有环.cpp" > CMakeFiles\leetcode.dir\graph图相关\3.判断图是否有环.cpp.i
+
+CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\graph图相关\3.判断图是否有环.cpp" -o CMakeFiles\leetcode.dir\graph图相关\3.判断图是否有环.cpp.s
+
+CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.obj: ../graph图相关/4.最短路径.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_333) "Building CXX object CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\graph图相关\4.最短路径.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\graph图相关\4.最短路径.cpp"
+
+CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\graph图相关\4.最短路径.cpp" > CMakeFiles\leetcode.dir\graph图相关\4.最短路径.cpp.i
+
+CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\graph图相关\4.最短路径.cpp" -o CMakeFiles\leetcode.dir\graph图相关\4.最短路径.cpp.s
+
+CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.obj: ../rwlock读写锁实现/RWLock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_334) "Building CXX object CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\rwlock读写锁实现\RWLock.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\rwlock读写锁实现\RWLock.cpp"
+
+CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\rwlock读写锁实现\RWLock.cpp" > CMakeFiles\leetcode.dir\rwlock读写锁实现\RWLock.cpp.i
+
+CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\rwlock读写锁实现\RWLock.cpp" -o CMakeFiles\leetcode.dir\rwlock读写锁实现\RWLock.cpp.s
+
+CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.obj: ../queue循环队列/RQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_335) "Building CXX object CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\queue循环队列\RQueue.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\queue循环队列\RQueue.cpp"
+
+CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\queue循环队列\RQueue.cpp" > CMakeFiles\leetcode.dir\queue循环队列\RQueue.cpp.i
+
+CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\queue循环队列\RQueue.cpp" -o CMakeFiles\leetcode.dir\queue循环队列\RQueue.cpp.s
+
+CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.obj: ../sort排序算法/9.基数排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_336) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\9.基数排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\9.基数排序.cpp"
+
+CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\9.基数排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\9.基数排序.cpp.i
+
+CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\9.基数排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\9.基数排序.cpp.s
+
+CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.obj: ../sort排序算法/10.计数排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_337) "Building CXX object CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\sort排序算法\10.计数排序.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\sort排序算法\10.计数排序.cpp"
+
+CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\sort排序算法\10.计数排序.cpp" > CMakeFiles\leetcode.dir\sort排序算法\10.计数排序.cpp.i
+
+CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\sort排序算法\10.计数排序.cpp" -o CMakeFiles\leetcode.dir\sort排序算法\10.计数排序.cpp.s
+
+CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.obj: ../c-func函数实现/memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\c-func函数实现\memcpy.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\memcpy.c"
+
+CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.i"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\memcpy.c" > CMakeFiles\leetcode.dir\c-func函数实现\memcpy.c.i
+
+CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.s"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\memcpy.c" -o CMakeFiles\leetcode.dir\c-func函数实现\memcpy.c.s
+
+CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.obj: ../c-func函数实现/memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\c-func函数实现\memmove.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\memmove.c"
+
+CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.i"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\memmove.c" > CMakeFiles\leetcode.dir\c-func函数实现\memmove.c.i
+
+CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.s"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\memmove.c" -o CMakeFiles\leetcode.dir\c-func函数实现\memmove.c.s
+
+CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.obj: ../c-func函数实现/1.可变长结构体.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.obj"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\leetcode.dir\c-func函数实现\1.可变长结构体.c.obj   -c "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\1.可变长结构体.c"
+
+CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.i"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\1.可变长结构体.c" > CMakeFiles\leetcode.dir\c-func函数实现\1.可变长结构体.c.i
+
+CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.s"
+	"D:\Program Files\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\c-func函数实现\1.可变长结构体.c" -o CMakeFiles\leetcode.dir\c-func函数实现\1.可变长结构体.c.s
+
+CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.obj: ../string类简单实现/old_string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_341) "Building CXX object CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\string类简单实现\old_string.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\string类简单实现\old_string.cpp"
+
+CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\string类简单实现\old_string.cpp" > CMakeFiles\leetcode.dir\string类简单实现\old_string.cpp.i
+
+CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\string类简单实现\old_string.cpp" -o CMakeFiles\leetcode.dir\string类简单实现\old_string.cpp.s
+
+CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.obj: ../rwlock读写锁实现/mutex实现.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_342) "Building CXX object CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\rwlock读写锁实现\mutex实现.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\rwlock读写锁实现\mutex实现.cpp"
+
+CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\rwlock读写锁实现\mutex实现.cpp" > CMakeFiles\leetcode.dir\rwlock读写锁实现\mutex实现.cpp.i
+
+CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\rwlock读写锁实现\mutex实现.cpp" -o CMakeFiles\leetcode.dir\rwlock读写锁实现\mutex实现.cpp.s
+
+CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.obj: ../bignumber大数相加/1.大整数相加.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_343) "Building CXX object CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\leetcode.dir\bignumber大数相加\1.大整数相加.cpp.obj -c "D:\CLion 2020.3\workspace\leetcode\bignumber大数相加\1.大整数相加.cpp"
+
+CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\CLion 2020.3\workspace\leetcode\bignumber大数相加\1.大整数相加.cpp" > CMakeFiles\leetcode.dir\bignumber大数相加\1.大整数相加.cpp.i
+
+CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\CLion 2020.3\workspace\leetcode\bignumber大数相加\1.大整数相加.cpp" -o CMakeFiles\leetcode.dir\bignumber大数相加\1.大整数相加.cpp.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
@@ -4626,8 +4847,6 @@ leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.obj" \
 "CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.obj" \
 "CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.obj" \
-"CMakeFiles/leetcode.dir/test/1.cpp.obj" \
-"CMakeFiles/leetcode.dir/test/2.cpp.obj" \
 "CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.obj" \
 "CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.obj" \
 "CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.obj" \
@@ -4640,8 +4859,27 @@ leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/compile程序编译/test.c.obj" \
 "CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.obj" \
 "CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.obj" \
-"CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.obj" \
-"CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj"
+"CMakeFiles/leetcode.dir/string类简单实现/String.cpp.obj" \
+"CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj" \
+"CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.obj" \
+"CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.obj" \
+"CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.obj" \
+"CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.obj" \
+"CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.obj" \
+"CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.obj" \
+"CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.obj" \
+"CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.obj" \
+"CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.obj" \
+"CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.obj" \
+"CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.obj" \
+"CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.obj" \
+"CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.obj" \
+"CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.obj" \
+"CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.obj" \
+"CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.obj" \
+"CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.obj" \
+"CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.obj" \
+"CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.obj"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
@@ -4956,8 +5194,6 @@ leetcode.exe: CMakeFiles/leetcode.dir/houjieC++/OOP.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/houjieC++/complex_test.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/houjieC++/string_test.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/smart-pointer智能指针/test.cpp.obj
-leetcode.exe: CMakeFiles/leetcode.dir/test/1.cpp.obj
-leetcode.exe: CMakeFiles/leetcode.dir/test/2.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/sort排序算法/7.堆排序.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/c-func函数实现/strcpy.c.obj
 leetcode.exe: CMakeFiles/leetcode.dir/Union-find并查集/union-find.cpp.obj
@@ -4970,13 +5206,32 @@ leetcode.exe: CMakeFiles/leetcode.dir/interview面经算法题/1.n位整数去�
 leetcode.exe: CMakeFiles/leetcode.dir/compile程序编译/test.c.obj
 leetcode.exe: CMakeFiles/leetcode.dir/compile程序编译/inc/math.c.obj
 leetcode.exe: CMakeFiles/leetcode.dir/random相关的算法/1.Shuffling-card.cpp.obj
-leetcode.exe: CMakeFiles/leetcode.dir/string类简单实现/myString.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/string类简单实现/String.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/threadpool线程池/test.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/sort排序算法/8.第K大的数.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/design系统设计/1.LRU.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/design系统设计/2.LFU.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/操作符重载/前置++和后置++.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/smart-pointer智能指针/unique_ptr.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/graph图相关/1.图DFS遍历.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/graph图相关/2.图BFS遍历.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/graph图相关/3.判断图是否有环.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/graph图相关/4.最短路径.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/rwlock读写锁实现/RWLock.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/queue循环队列/RQueue.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/sort排序算法/9.基数排序.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/sort排序算法/10.计数排序.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/c-func函数实现/memcpy.c.obj
+leetcode.exe: CMakeFiles/leetcode.dir/c-func函数实现/memmove.c.obj
+leetcode.exe: CMakeFiles/leetcode.dir/c-func函数实现/1.可变长结构体.c.obj
+leetcode.exe: CMakeFiles/leetcode.dir/string类简单实现/old_string.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/rwlock读写锁实现/mutex实现.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/bignumber大数相加/1.大整数相加.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/build.make
 leetcode.exe: CMakeFiles/leetcode.dir/linklibs.rsp
 leetcode.exe: CMakeFiles/leetcode.dir/objects1.rsp
 leetcode.exe: CMakeFiles/leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_327) "Linking CXX executable leetcode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_344) "Linking CXX executable leetcode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\leetcode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4989,6 +5244,6 @@ CMakeFiles/leetcode.dir/clean:
 .PHONY : CMakeFiles/leetcode.dir/clean
 
 CMakeFiles/leetcode.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\CLion 2020.1.2\workspace\leetcode" "D:\CLion 2020.1.2\workspace\leetcode" "D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug" "D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug" "D:\CLion 2020.1.2\workspace\leetcode\cmake-build-debug\CMakeFiles\leetcode.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\CLion 2020.3\workspace\leetcode" "D:\CLion 2020.3\workspace\leetcode" "D:\CLion 2020.3\workspace\leetcode\cmake-build-debug" "D:\CLion 2020.3\workspace\leetcode\cmake-build-debug" "D:\CLion 2020.3\workspace\leetcode\cmake-build-debug\CMakeFiles\leetcode.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/leetcode.dir/depend
 

@@ -12,7 +12,7 @@ public:
     int val;
     vector<Node *> children;
 
-    Node() {}
+    Node(Node *pNode) {}
 
     Node(int _val) {
         val = _val;

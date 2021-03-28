@@ -12,6 +12,8 @@
 #include <queue>
 #include <cstring>
 #include <thread>
+#include <sstream>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -31,23 +33,8 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
-// Definition for a Node.
-class Node {
-public:
-    int val;
-    Node *prev;
-    Node *next;
-    Node *child;
-};
-
-
-template<class ... Types>
-void f(Types... args){
-
-}
-
-int main(){
-    f();
-    f(1);
-    f
+int main() {
+    string s = "早餐太差，无论去多少人，那边也不加食品的。酒店应该重视一下这个问题了。房间本身很好";
+    cout<<s<<endl;
+    cout << s.find("早餐") << endl;
 }

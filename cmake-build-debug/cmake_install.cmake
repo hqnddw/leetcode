@@ -1,4 +1,4 @@
-# Install script for directory: D:/CLion 2020.1.2/workspace/leetcode
+# Install script for directory: D:/CLion 2020.3/workspace/leetcode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CLion 2020.1.2/workspace/leetcode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CLion 2020.3/workspace/leetcode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

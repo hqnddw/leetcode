@@ -7,20 +7,30 @@ using namespace std;
 
 class Solution {
 public:
-    int lengthOfLIS(vector<int> &nums) {
-        vector<int> dp(nums.size());
-        dp[0] = 1;
+    int maxAreaOfIsland(vector<vector<int>> &grid) {
+        int m = grid.size();
+        int n = grid[0].size();
         int res = 0;
-        for (int i = 1; i < nums.size(); ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (nums[j] > nums[i])
-                    dp[i] = max(dp[j] + 1, dp[i]);
-                else dp[i] = max(1, dp[i]);
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                int cur = 0;
+                if (grid[i][j] == 1) {
+                    dfs(grid, m, n, i, j, cur);
+                    res = max(res, cur);
+                }
             }
         }
-        for (int k = 0; k < dp.size(); ++k) {
-            res = max(res, dp[k]);
-        }
         return res;
+    }
+
+    void dfs(vector<vector<int>> &grid, int row, int col, int i, int j, int &cur) {
+        if (i < 0 || i == row || j < 0 || j == col || grid[i][j] != '1')
+            return;
+        grid[i][j] = 0;
+        cur++;
+        dfs(grid, row, col, i - 1, j, cur);
+        dfs(grid, row, col, i + 1, j, cur);
+        dfs(grid, row, col, i, j - 1, cur);
+        dfs(grid, row, col, i, j + 1, cur);
     }
 };

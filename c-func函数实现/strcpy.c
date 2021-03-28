@@ -13,7 +13,7 @@ char *myStrcpy(char *dst, char *src) {
         dst = dst + n - 1;
         src = src + n - 1;
         while (n--) {
-            *dst++ = *src++;
+            *dst-- = *src--;
         }
     } else {
         while (n--) {
